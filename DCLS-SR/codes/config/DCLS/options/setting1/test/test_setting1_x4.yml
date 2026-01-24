@@ -1,0 +1,67 @@
+name: DCLSx4_setting1
+suffix: ~  # add suffix to saved images
+model: blind
+distortion: sr
+scale: 4
+crop_border: ~  # crop border when evaluation. If None(~), crop the scale pixels
+gpu_ids: [0]
+pca_matrix_path: /root/quoc-huy/DCLS-SR/pca_matrix/DCLS/pca_matrix.pth
+
+datasets:
+
+  # test1:
+  #   name: Set5
+  #   mode: LQGT
+  #   dataroot_GT: /root/media/quoc-huy/Set5/blur-DAN/HR-x4.lmdb
+  #   dataroot_LQ: /root/media/quoc-huy/Set5/blur-DAN/LRblur-x4.lmdb
+  # test2:
+  #   name: Set14
+  #   mode: LQGT
+  #   dataroot_GT: /root/media/quoc-huy/Set14/blur-DAN/HR-x4.lmdb
+  #   dataroot_LQ: /root/media/quoc-huy/Set14/blur-DAN/LRblur-x4.lmdb
+  # test3:
+  #   name: B100
+  #   mode: LQGT
+  #   dataroot_GT: /root/media/quoc-huy/B100-blur-DAN/HR-x4.lmdb
+  #   dataroot_LQ: /root/media/quoc-huy/B100-blur-DAN/LRblur-x4.lmdb
+  # test4:
+  #   name: Urban100
+  #   mode: LQGT
+  #   dataroot_GT: /root/media/quoc-huy/Urban100-blur-DAN/HR-x4.lmdb
+  #   dataroot_LQ: /root/media/quoc-huy/Urban100-blur-DAN/LRbur-x4.lmdb
+  
+  # test1:
+  #   name: Set5
+  #   mode: LQGT
+  #   dataroot_GT: /root/media/quoc-huy/Set5/original
+  #   dataroot_LQ: /root/media/quoc-huy/eval/bicubic/Set5
+  # test2:
+  #   name: Set14
+  #   mode: LQGT
+  #   dataroot_GT: /root/media/quoc-huy/Set14/original
+  #   dataroot_LQ: /root/media/quoc-huy/eval/bicubic/Set14
+  # test3:
+  #   name: B100
+  #   mode: LQGT
+  #   dataroot_GT: /root/media/quoc-huy/B100
+  #   dataroot_LQ: /root/media/quoc-huy/eval/bicubic/BSD100
+  test4:
+    name: Set14
+    mode: LQGT
+    dataroot_GT: /root/media/quoc-huy/eval-wir/srbenchmarks/Set14/HR
+    dataroot_LQ: /root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab
+
+
+#### network structures
+network_G:
+  which_model_G: DCLS
+  setting:
+    nf: 64
+    nb: 10
+    ng: 5
+    input_para: 256
+    kernel_size: 21
+
+#### path
+path:
+  pretrain_model_G: /root/quoc-huy/DCLS-SR/codes/config/DCLS/pretrained/DCLSx4_setting1.pth

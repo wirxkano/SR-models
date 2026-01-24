@@ -1,0 +1,1832 @@
+25-11-11 15:45:35.693 :       Model Name : BSRNet_regiondependent
+25-11-11 15:45:52.067 :       Input Path : /root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR/
+25-11-11 15:45:52.067 :      Output Path : /root/quoc-huy/BSRGAN/testsets/experimental-results/Set5
+25-11-11 15:45:52.081 : ---1 --> BSRNet_regiondependent --> x4--> baby.png
+25-11-11 15:45:53.312 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR/, x4)---- : 28.4733dB / 0.8139
+25-11-11 15:45:53.313 : ---2 --> BSRNet_regiondependent --> x4--> bird.png
+25-11-11 15:45:53.434 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR/, x4)---- : 26.1871dB / 0.8586
+25-11-11 15:45:53.435 : ---3 --> BSRNet_regiondependent --> x4--> butterfly.png
+25-11-11 15:45:53.524 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR/, x4)---- : 19.8440dB / 0.8325
+25-11-11 15:45:53.524 : ---4 --> BSRNet_regiondependent --> x4--> head.png
+25-11-11 15:45:53.621 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR/, x4)---- : 26.2344dB / 0.5936
+25-11-11 15:45:53.621 : ---5 --> BSRNet_regiondependent --> x4--> woman.png
+25-11-11 15:45:53.718 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR/, x4)---- : 23.6469dB / 0.7533
+25-11-11 15:45:53.718 : ----Average PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR/, x4)---- : 24.8771dB / 0.7704
+25-11-11 15:45:53.718 :  
+25-11-11 15:46:37.210 :       Model Name : BSRNet_regiondependent
+25-11-11 15:46:50.667 :       Input Path : /root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/
+25-11-11 15:46:50.667 :      Output Path : /root/quoc-huy/BSRGAN/testsets/experimental-results/Set14
+25-11-11 15:46:50.675 : ---1 --> BSRNet_regiondependent --> x4--> baboon.png
+25-11-11 15:46:51.545 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 20.4970dB / 0.4303
+25-11-11 15:46:51.545 : ---2 --> BSRNet_regiondependent --> x4--> barbara.png
+25-11-11 15:46:51.990 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 23.0998dB / 0.6297
+25-11-11 15:46:51.990 : ---3 --> BSRNet_regiondependent --> x4--> bridge.png
+25-11-11 15:46:52.321 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 22.1227dB / 0.4937
+25-11-11 15:46:52.321 : ---4 --> BSRNet_regiondependent --> x4--> coastguard.png
+25-11-11 15:46:52.464 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 20.7989dB / 0.4569
+25-11-11 15:46:52.465 : ---5 --> BSRNet_regiondependent --> x4--> comic.png
+25-11-11 15:46:52.579 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 18.7759dB / 0.5661
+25-11-11 15:46:52.579 : ---6 --> BSRNet_regiondependent --> x4--> face.png
+25-11-11 15:46:52.692 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 30.1409dB / 0.7152
+25-11-11 15:46:52.693 : ---7 --> BSRNet_regiondependent --> x4--> flowers.png
+25-11-11 15:46:52.949 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 23.3282dB / 0.7352
+25-11-11 15:46:52.949 : ---8 --> BSRNet_regiondependent --> x4--> foreman.png
+25-11-11 15:46:53.069 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 27.7360dB / 0.8845
+25-11-11 15:46:53.070 : ---9 --> BSRNet_regiondependent --> x4--> lenna.png
+25-11-11 15:46:53.430 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 27.1731dB / 0.7511
+25-11-11 15:46:53.431 : --10 --> BSRNet_regiondependent --> x4--> man.png
+25-11-11 15:46:53.766 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 24.6766dB / 0.6513
+25-11-11 15:46:53.766 : --11 --> BSRNet_regiondependent --> x4--> monarch.png
+25-11-11 15:46:54.255 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 25.9976dB / 0.8797
+25-11-11 15:46:54.255 : --12 --> BSRNet_regiondependent --> x4--> pepper.png
+25-11-11 15:46:54.622 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 22.6462dB / 0.7788
+25-11-11 15:46:54.622 : --13 --> BSRNet_regiondependent --> x4--> ppt3.png
+25-11-11 15:46:55.120 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 23.4682dB / 0.8677
+25-11-11 15:46:55.121 : --14 --> BSRNet_regiondependent --> x4--> zebra.png
+25-11-11 15:46:55.428 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 22.5697dB / 0.6679
+25-11-11 15:46:55.428 : ----Average PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 23.7879dB / 0.6792
+25-11-11 15:46:55.428 :  
+25-11-11 15:47:49.324 :       Model Name : BSRNet_regiondependent
+25-11-11 15:48:03.042 :       Input Path : /root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/
+25-11-11 15:48:03.042 :      Output Path : /root/quoc-huy/BSRGAN/testsets/experimental-results/BSD100
+25-11-11 15:48:03.043 : ---1 --> BSRNet_regiondependent --> x4--> 101085.png
+25-11-11 15:48:03.845 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 21.7549dB / 0.5089
+25-11-11 15:48:03.845 : ---2 --> BSRNet_regiondependent --> x4--> 101087.png
+25-11-11 15:48:04.016 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 25.8835dB / 0.7719
+25-11-11 15:48:04.017 : ---3 --> BSRNet_regiondependent --> x4--> 102061.png
+25-11-11 15:48:04.165 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 23.4358dB / 0.7205
+25-11-11 15:48:04.165 : ---4 --> BSRNet_regiondependent --> x4--> 103070.png
+25-11-11 15:48:04.381 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 24.6932dB / 0.7226
+25-11-11 15:48:04.381 : ---5 --> BSRNet_regiondependent --> x4--> 105025.png
+25-11-11 15:48:04.556 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 21.2770dB / 0.5758
+25-11-11 15:48:04.556 : ---6 --> BSRNet_regiondependent --> x4--> 106024.png
+25-11-11 15:48:04.703 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 25.5409dB / 0.7935
+25-11-11 15:48:04.703 : ---7 --> BSRNet_regiondependent --> x4--> 108005.png
+25-11-11 15:48:04.914 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 21.4783dB / 0.5857
+25-11-11 15:48:04.914 : ---8 --> BSRNet_regiondependent --> x4--> 108070.png
+25-11-11 15:48:05.100 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.1655dB / 0.4049
+25-11-11 15:48:05.100 : ---9 --> BSRNet_regiondependent --> x4--> 108082.png
+25-11-11 15:48:05.256 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.0968dB / 0.5273
+25-11-11 15:48:05.257 : --10 --> BSRNet_regiondependent --> x4--> 109053.png
+25-11-11 15:48:05.447 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 26.5149dB / 0.7220
+25-11-11 15:48:05.447 : --11 --> BSRNet_regiondependent --> x4--> 119082.png
+25-11-11 15:48:05.633 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 21.6269dB / 0.5964
+25-11-11 15:48:05.633 : --12 --> BSRNet_regiondependent --> x4--> 12084.png
+25-11-11 15:48:05.802 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 22.9723dB / 0.6465
+25-11-11 15:48:05.802 : --13 --> BSRNet_regiondependent --> x4--> 123074.png
+25-11-11 15:48:05.960 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 23.4690dB / 0.7328
+25-11-11 15:48:05.961 : --14 --> BSRNet_regiondependent --> x4--> 126007.png
+25-11-11 15:48:06.098 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.7809dB / 0.6998
+25-11-11 15:48:06.098 : --15 --> BSRNet_regiondependent --> x4--> 130026.png
+25-11-11 15:48:06.237 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.8636dB / 0.5379
+25-11-11 15:48:06.237 : --16 --> BSRNet_regiondependent --> x4--> 134035.png
+25-11-11 15:48:06.458 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.6897dB / 0.5831
+25-11-11 15:48:06.458 : --17 --> BSRNet_regiondependent --> x4--> 14037.png
+25-11-11 15:48:06.637 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 29.7145dB / 0.7973
+25-11-11 15:48:06.638 : --18 --> BSRNet_regiondependent --> x4--> 143090.png
+25-11-11 15:48:06.813 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 26.7784dB / 0.8254
+25-11-11 15:48:06.813 : --19 --> BSRNet_regiondependent --> x4--> 145086.png
+25-11-11 15:48:06.988 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 22.9413dB / 0.6283
+25-11-11 15:48:06.988 : --20 --> BSRNet_regiondependent --> x4--> 147091.png
+25-11-11 15:48:07.219 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 23.7309dB / 0.7409
+25-11-11 15:48:07.219 : --21 --> BSRNet_regiondependent --> x4--> 148026.png
+25-11-11 15:48:07.439 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.9315dB / 0.6071
+25-11-11 15:48:07.439 : --22 --> BSRNet_regiondependent --> x4--> 148089.png
+25-11-11 15:48:07.621 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 21.9888dB / 0.5683
+25-11-11 15:48:07.621 : --23 --> BSRNet_regiondependent --> x4--> 156065.png
+25-11-11 15:48:07.784 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 22.1799dB / 0.4666
+25-11-11 15:48:07.784 : --24 --> BSRNet_regiondependent --> x4--> 157055.png
+25-11-11 15:48:08.008 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 21.2742dB / 0.6732
+25-11-11 15:48:08.008 : --25 --> BSRNet_regiondependent --> x4--> 159008.png
+25-11-11 15:48:08.196 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 23.9888dB / 0.7195
+25-11-11 15:48:08.196 : --26 --> BSRNet_regiondependent --> x4--> 160068.png
+25-11-11 15:48:08.415 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 23.9578dB / 0.7543
+25-11-11 15:48:08.415 : --27 --> BSRNet_regiondependent --> x4--> 16077.png
+25-11-11 15:48:08.575 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 23.5517dB / 0.6076
+25-11-11 15:48:08.576 : --28 --> BSRNet_regiondependent --> x4--> 163085.png
+25-11-11 15:48:08.723 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 21.0757dB / 0.6732
+25-11-11 15:48:08.723 : --29 --> BSRNet_regiondependent --> x4--> 167062.png
+25-11-11 15:48:08.923 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 25.9956dB / 0.7421
+25-11-11 15:48:08.923 : --30 --> BSRNet_regiondependent --> x4--> 167083.png
+25-11-11 15:48:09.076 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 17.6490dB / 0.3686
+25-11-11 15:48:09.076 : --31 --> BSRNet_regiondependent --> x4--> 170057.png
+25-11-11 15:48:09.268 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 26.7342dB / 0.7336
+25-11-11 15:48:09.269 : --32 --> BSRNet_regiondependent --> x4--> 175032.png
+25-11-11 15:48:09.448 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 18.4753dB / 0.2668
+25-11-11 15:48:09.448 : --33 --> BSRNet_regiondependent --> x4--> 175043.png
+25-11-11 15:48:09.649 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.5526dB / 0.5554
+25-11-11 15:48:09.650 : --34 --> BSRNet_regiondependent --> x4--> 182053.png
+25-11-11 15:48:09.802 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 21.1366dB / 0.6328
+25-11-11 15:48:09.803 : --35 --> BSRNet_regiondependent --> x4--> 189080.png
+25-11-11 15:48:09.978 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 29.2318dB / 0.8356
+25-11-11 15:48:09.978 : --36 --> BSRNet_regiondependent --> x4--> 19021.png
+25-11-11 15:48:10.156 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 21.5256dB / 0.5619
+25-11-11 15:48:10.157 : --37 --> BSRNet_regiondependent --> x4--> 196073.png
+25-11-11 15:48:10.336 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 18.1415dB / 0.3756
+25-11-11 15:48:10.337 : --38 --> BSRNet_regiondependent --> x4--> 197017.png
+25-11-11 15:48:10.514 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 24.5597dB / 0.6222
+25-11-11 15:48:10.515 : --39 --> BSRNet_regiondependent --> x4--> 208001.png
+25-11-11 15:48:10.749 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 21.1554dB / 0.5413
+25-11-11 15:48:10.750 : --40 --> BSRNet_regiondependent --> x4--> 210088.png
+25-11-11 15:48:10.935 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 26.7040dB / 0.8285
+25-11-11 15:48:10.936 : --41 --> BSRNet_regiondependent --> x4--> 21077.png
+25-11-11 15:48:11.144 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 23.2970dB / 0.6615
+25-11-11 15:48:11.145 : --42 --> BSRNet_regiondependent --> x4--> 216081.png
+25-11-11 15:48:11.334 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 22.5211dB / 0.5897
+25-11-11 15:48:11.334 : --43 --> BSRNet_regiondependent --> x4--> 219090.png
+25-11-11 15:48:11.507 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 23.8950dB / 0.6872
+25-11-11 15:48:11.507 : --44 --> BSRNet_regiondependent --> x4--> 220075.png
+25-11-11 15:48:11.679 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 22.2786dB / 0.6824
+25-11-11 15:48:11.679 : --45 --> BSRNet_regiondependent --> x4--> 223061.png
+25-11-11 15:48:11.858 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 22.3713dB / 0.6074
+25-11-11 15:48:11.858 : --46 --> BSRNet_regiondependent --> x4--> 227092.png
+25-11-11 15:48:12.035 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 28.0507dB / 0.8226
+25-11-11 15:48:12.036 : --47 --> BSRNet_regiondependent --> x4--> 229036.png
+25-11-11 15:48:12.205 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.6410dB / 0.5250
+25-11-11 15:48:12.205 : --48 --> BSRNet_regiondependent --> x4--> 236037.png
+25-11-11 15:48:12.391 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.5919dB / 0.4099
+25-11-11 15:48:12.392 : --49 --> BSRNet_regiondependent --> x4--> 24077.png
+25-11-11 15:48:12.516 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 24.4653dB / 0.8224
+25-11-11 15:48:12.516 : --50 --> BSRNet_regiondependent --> x4--> 241004.png
+25-11-11 15:48:12.694 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 26.7275dB / 0.7366
+25-11-11 15:48:12.694 : --51 --> BSRNet_regiondependent --> x4--> 241048.png
+25-11-11 15:48:12.866 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.0553dB / 0.5094
+25-11-11 15:48:12.866 : --52 --> BSRNet_regiondependent --> x4--> 253027.png
+25-11-11 15:48:13.046 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.6429dB / 0.6366
+25-11-11 15:48:13.046 : --53 --> BSRNet_regiondependent --> x4--> 253055.png
+25-11-11 15:48:13.241 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 24.8606dB / 0.7699
+25-11-11 15:48:13.241 : --54 --> BSRNet_regiondependent --> x4--> 260058.png
+25-11-11 15:48:13.394 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.6402dB / 0.6979
+25-11-11 15:48:13.395 : --55 --> BSRNet_regiondependent --> x4--> 271035.png
+25-11-11 15:48:13.591 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.1335dB / 0.5997
+25-11-11 15:48:13.591 : --56 --> BSRNet_regiondependent --> x4--> 285079.png
+25-11-11 15:48:13.776 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 17.9835dB / 0.4637
+25-11-11 15:48:13.776 : --57 --> BSRNet_regiondependent --> x4--> 291000.png
+25-11-11 15:48:13.962 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 18.0328dB / 0.2652
+25-11-11 15:48:13.963 : --58 --> BSRNet_regiondependent --> x4--> 295087.png
+25-11-11 15:48:14.140 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 24.7283dB / 0.6690
+25-11-11 15:48:14.140 : --59 --> BSRNet_regiondependent --> x4--> 296007.png
+25-11-11 15:48:14.335 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 22.4402dB / 0.6800
+25-11-11 15:48:14.335 : --60 --> BSRNet_regiondependent --> x4--> 296059.png
+25-11-11 15:48:14.488 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 24.5674dB / 0.7149
+25-11-11 15:48:14.488 : --61 --> BSRNet_regiondependent --> x4--> 299086.png
+25-11-11 15:48:14.678 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 27.5190dB / 0.6955
+25-11-11 15:48:14.678 : --62 --> BSRNet_regiondependent --> x4--> 300091.png
+25-11-11 15:48:14.897 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 26.1825dB / 0.7150
+25-11-11 15:48:14.897 : --63 --> BSRNet_regiondependent --> x4--> 302008.png
+25-11-11 15:48:15.033 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 23.6863dB / 0.8201
+25-11-11 15:48:15.033 : --64 --> BSRNet_regiondependent --> x4--> 304034.png
+25-11-11 15:48:15.232 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 22.0306dB / 0.6059
+25-11-11 15:48:15.232 : --65 --> BSRNet_regiondependent --> x4--> 304074.png
+25-11-11 15:48:15.409 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.5108dB / 0.4517
+25-11-11 15:48:15.409 : --66 --> BSRNet_regiondependent --> x4--> 306005.png
+25-11-11 15:48:15.679 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 24.6442dB / 0.6727
+25-11-11 15:48:15.679 : --67 --> BSRNet_regiondependent --> x4--> 3096.png
+25-11-11 15:48:15.836 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 18.6611dB / 0.9340
+25-11-11 15:48:15.836 : --68 --> BSRNet_regiondependent --> x4--> 33039.png
+25-11-11 15:48:16.056 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 18.4648dB / 0.4808
+25-11-11 15:48:16.056 : --69 --> BSRNet_regiondependent --> x4--> 351093.png
+25-11-11 15:48:16.224 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.3487dB / 0.5718
+25-11-11 15:48:16.225 : --70 --> BSRNet_regiondependent --> x4--> 361010.png
+25-11-11 15:48:16.394 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 24.7709dB / 0.6731
+25-11-11 15:48:16.395 : --71 --> BSRNet_regiondependent --> x4--> 37073.png
+25-11-11 15:48:16.579 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 25.3059dB / 0.6875
+25-11-11 15:48:16.579 : --72 --> BSRNet_regiondependent --> x4--> 376043.png
+25-11-11 15:48:16.760 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 22.9793dB / 0.4991
+25-11-11 15:48:16.760 : --73 --> BSRNet_regiondependent --> x4--> 38082.png
+25-11-11 15:48:16.945 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 24.7783dB / 0.5085
+25-11-11 15:48:16.945 : --74 --> BSRNet_regiondependent --> x4--> 38092.png
+25-11-11 15:48:17.113 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 23.0867dB / 0.5934
+25-11-11 15:48:17.114 : --75 --> BSRNet_regiondependent --> x4--> 385039.png
+25-11-11 15:48:17.284 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 21.7287dB / 0.6178
+25-11-11 15:48:17.285 : --76 --> BSRNet_regiondependent --> x4--> 41033.png
+25-11-11 15:48:17.459 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 26.8216dB / 0.6630
+25-11-11 15:48:17.459 : --77 --> BSRNet_regiondependent --> x4--> 41069.png
+25-11-11 15:48:17.592 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.0691dB / 0.3941
+25-11-11 15:48:17.592 : --78 --> BSRNet_regiondependent --> x4--> 42012.png
+25-11-11 15:48:17.755 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 25.0078dB / 0.6678
+25-11-11 15:48:17.755 : --79 --> BSRNet_regiondependent --> x4--> 42049.png
+25-11-11 15:48:17.924 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 24.8134dB / 0.8938
+25-11-11 15:48:17.924 : --80 --> BSRNet_regiondependent --> x4--> 43074.png
+25-11-11 15:48:18.122 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 25.8014dB / 0.7479
+25-11-11 15:48:18.122 : --81 --> BSRNet_regiondependent --> x4--> 45096.png
+25-11-11 15:48:18.315 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 30.0517dB / 0.8001
+25-11-11 15:48:18.315 : --82 --> BSRNet_regiondependent --> x4--> 54082.png
+25-11-11 15:48:18.498 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 25.0169dB / 0.5944
+25-11-11 15:48:18.499 : --83 --> BSRNet_regiondependent --> x4--> 55073.png
+25-11-11 15:48:18.696 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.7515dB / 0.3698
+25-11-11 15:48:18.696 : --84 --> BSRNet_regiondependent --> x4--> 58060.png
+25-11-11 15:48:18.897 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.1357dB / 0.4553
+25-11-11 15:48:18.897 : --85 --> BSRNet_regiondependent --> x4--> 62096.png
+25-11-11 15:48:19.107 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.0173dB / 0.6057
+25-11-11 15:48:19.108 : --86 --> BSRNet_regiondependent --> x4--> 65033.png
+25-11-11 15:48:19.314 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.2885dB / 0.3995
+25-11-11 15:48:19.315 : --87 --> BSRNet_regiondependent --> x4--> 66053.png
+25-11-11 15:48:19.473 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 23.3660dB / 0.5664
+25-11-11 15:48:19.473 : --88 --> BSRNet_regiondependent --> x4--> 69015.png
+25-11-11 15:48:19.693 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 23.9212dB / 0.7047
+25-11-11 15:48:19.694 : --89 --> BSRNet_regiondependent --> x4--> 69020.png
+25-11-11 15:48:19.816 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 23.6373dB / 0.3964
+25-11-11 15:48:19.817 : --90 --> BSRNet_regiondependent --> x4--> 69040.png
+25-11-11 15:48:19.974 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.0076dB / 0.5252
+25-11-11 15:48:19.974 : --91 --> BSRNet_regiondependent --> x4--> 76053.png
+25-11-11 15:48:20.184 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.2155dB / 0.5242
+25-11-11 15:48:20.184 : --92 --> BSRNet_regiondependent --> x4--> 78004.png
+25-11-11 15:48:20.328 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 23.8437dB / 0.6615
+25-11-11 15:48:20.328 : --93 --> BSRNet_regiondependent --> x4--> 8023.png
+25-11-11 15:48:20.585 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 22.6084dB / 0.7088
+25-11-11 15:48:20.585 : --94 --> BSRNet_regiondependent --> x4--> 85048.png
+25-11-11 15:48:20.727 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 17.3407dB / 0.5739
+25-11-11 15:48:20.727 : --95 --> BSRNet_regiondependent --> x4--> 86000.png
+25-11-11 15:48:20.912 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.4936dB / 0.6955
+25-11-11 15:48:20.912 : --96 --> BSRNet_regiondependent --> x4--> 86016.png
+25-11-11 15:48:21.061 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 18.1731dB / 0.1771
+25-11-11 15:48:21.061 : --97 --> BSRNet_regiondependent --> x4--> 86068.png
+25-11-11 15:48:21.221 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 21.9664dB / 0.4907
+25-11-11 15:48:21.221 : --98 --> BSRNet_regiondependent --> x4--> 87046.png
+25-11-11 15:48:21.451 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 21.0842dB / 0.6581
+25-11-11 15:48:21.451 : --99 --> BSRNet_regiondependent --> x4--> 89072.png
+25-11-11 15:48:21.619 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 22.6372dB / 0.5602
+25-11-11 15:48:21.619 : -100 --> BSRNet_regiondependent --> x4--> 97033.png
+25-11-11 15:48:21.825 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 22.6023dB / 0.6515
+25-11-11 15:48:21.825 : ----Average PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 22.5951dB / 0.6182
+25-11-11 15:48:21.825 :  
+25-11-11 15:49:50.638 :       Model Name : BSRNet_regiondependent
+25-11-11 15:50:08.595 :       Input Path : /root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/
+25-11-11 15:50:08.596 :      Output Path : /root/quoc-huy/BSRGAN/testsets/experimental-results/Urban100
+25-11-11 15:50:08.611 : ---1 --> BSRNet_regiondependent --> x4--> img_001.png
+25-11-11 15:50:10.161 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 24.4083dB / 0.6688
+25-11-11 15:50:10.161 : ---2 --> BSRNet_regiondependent --> x4--> img_002.png
+25-11-11 15:50:11.033 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.5024dB / 0.5914
+25-11-11 15:50:11.034 : ---3 --> BSRNet_regiondependent --> x4--> img_003.png
+25-11-11 15:50:11.787 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 20.9832dB / 0.5763
+25-11-11 15:50:11.788 : ---4 --> BSRNet_regiondependent --> x4--> img_004.png
+25-11-11 15:50:12.707 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 19.5266dB / 0.7402
+25-11-11 15:50:12.707 : ---5 --> BSRNet_regiondependent --> x4--> img_005.png
+25-11-11 15:50:14.050 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.4340dB / 0.8061
+25-11-11 15:50:14.050 : ---6 --> BSRNet_regiondependent --> x4--> img_006.png
+25-11-11 15:50:15.426 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 19.3970dB / 0.4826
+25-11-11 15:50:15.426 : ---7 --> BSRNet_regiondependent --> x4--> img_007.png
+25-11-11 15:50:16.329 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 23.8191dB / 0.7178
+25-11-11 15:50:16.329 : ---8 --> BSRNet_regiondependent --> x4--> img_008.png
+25-11-11 15:50:17.159 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.3836dB / 0.4854
+25-11-11 15:50:17.159 : ---9 --> BSRNet_regiondependent --> x4--> img_009.png
+25-11-11 15:50:18.004 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 24.2956dB / 0.8513
+25-11-11 15:50:18.004 : --10 --> BSRNet_regiondependent --> x4--> img_010.png
+25-11-11 15:50:18.860 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.8069dB / 0.7726
+25-11-11 15:50:18.861 : --11 --> BSRNet_regiondependent --> x4--> img_011.png
+25-11-11 15:50:19.639 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.1235dB / 0.6612
+25-11-11 15:50:19.639 : --12 --> BSRNet_regiondependent --> x4--> img_012.png
+25-11-11 15:50:20.473 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.0266dB / 0.6190
+25-11-11 15:50:20.473 : --13 --> BSRNet_regiondependent --> x4--> img_013.png
+25-11-11 15:50:21.285 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 23.9050dB / 0.6745
+25-11-11 15:50:21.285 : --14 --> BSRNet_regiondependent --> x4--> img_014.png
+25-11-11 15:50:22.360 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 19.2212dB / 0.5156
+25-11-11 15:50:22.360 : --15 --> BSRNet_regiondependent --> x4--> img_015.png
+25-11-11 15:50:23.193 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.6454dB / 0.5702
+25-11-11 15:50:23.193 : --16 --> BSRNet_regiondependent --> x4--> img_016.png
+25-11-11 15:50:24.239 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 23.7129dB / 0.5434
+25-11-11 15:50:24.239 : --17 --> BSRNet_regiondependent --> x4--> img_017.png
+25-11-11 15:50:25.277 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.3888dB / 0.6627
+25-11-11 15:50:25.278 : --18 --> BSRNet_regiondependent --> x4--> img_018.png
+25-11-11 15:50:26.823 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 23.0615dB / 0.5691
+25-11-11 15:50:26.823 : --19 --> BSRNet_regiondependent --> x4--> img_019.png
+25-11-11 15:50:27.650 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.3266dB / 0.5436
+25-11-11 15:50:27.650 : --20 --> BSRNet_regiondependent --> x4--> img_020.png
+25-11-11 15:50:29.212 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 19.0884dB / 0.5713
+25-11-11 15:50:29.212 : --21 --> BSRNet_regiondependent --> x4--> img_021.png
+25-11-11 15:50:30.257 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.6495dB / 0.6301
+25-11-11 15:50:30.258 : --22 --> BSRNet_regiondependent --> x4--> img_022.png
+25-11-11 15:50:31.052 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 23.8838dB / 0.6885
+25-11-11 15:50:31.052 : --23 --> BSRNet_regiondependent --> x4--> img_023.png
+25-11-11 15:50:32.239 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 19.0913dB / 0.5377
+25-11-11 15:50:32.239 : --24 --> BSRNet_regiondependent --> x4--> img_024.png
+25-11-11 15:50:33.047 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.2622dB / 0.4784
+25-11-11 15:50:33.047 : --25 --> BSRNet_regiondependent --> x4--> img_025.png
+25-11-11 15:50:33.865 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 26.0274dB / 0.8027
+25-11-11 15:50:33.865 : --26 --> BSRNet_regiondependent --> x4--> img_026.png
+25-11-11 15:50:34.722 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 22.5983dB / 0.5610
+25-11-11 15:50:34.722 : --27 --> BSRNet_regiondependent --> x4--> img_027.png
+25-11-11 15:50:35.634 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 25.6700dB / 0.7217
+25-11-11 15:50:35.634 : --28 --> BSRNet_regiondependent --> x4--> img_028.png
+25-11-11 15:50:36.495 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 23.5273dB / 0.7407
+25-11-11 15:50:36.496 : --29 --> BSRNet_regiondependent --> x4--> img_029.png
+25-11-11 15:50:37.471 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 22.6047dB / 0.7548
+25-11-11 15:50:37.471 : --30 --> BSRNet_regiondependent --> x4--> img_030.png
+25-11-11 15:50:38.649 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 20.1347dB / 0.6361
+25-11-11 15:50:38.649 : --31 --> BSRNet_regiondependent --> x4--> img_031.png
+25-11-11 15:50:39.474 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.3301dB / 0.5835
+25-11-11 15:50:39.474 : --32 --> BSRNet_regiondependent --> x4--> img_032.png
+25-11-11 15:50:40.629 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 24.8559dB / 0.7538
+25-11-11 15:50:40.629 : --33 --> BSRNet_regiondependent --> x4--> img_033.png
+25-11-11 15:50:41.416 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.1778dB / 0.5947
+25-11-11 15:50:41.416 : --34 --> BSRNet_regiondependent --> x4--> img_034.png
+25-11-11 15:50:42.160 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 19.7413dB / 0.4552
+25-11-11 15:50:42.161 : --35 --> BSRNet_regiondependent --> x4--> img_035.png
+25-11-11 15:50:43.148 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.6152dB / 0.7103
+25-11-11 15:50:43.148 : --36 --> BSRNet_regiondependent --> x4--> img_036.png
+25-11-11 15:50:44.073 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 23.3251dB / 0.7394
+25-11-11 15:50:44.073 : --37 --> BSRNet_regiondependent --> x4--> img_037.png
+25-11-11 15:50:44.972 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 22.8831dB / 0.7037
+25-11-11 15:50:44.973 : --38 --> BSRNet_regiondependent --> x4--> img_038.png
+25-11-11 15:50:45.789 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 23.2547dB / 0.5062
+25-11-11 15:50:45.789 : --39 --> BSRNet_regiondependent --> x4--> img_039.png
+25-11-11 15:50:46.771 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 19.6945dB / 0.6062
+25-11-11 15:50:46.771 : --40 --> BSRNet_regiondependent --> x4--> img_040.png
+25-11-11 15:50:47.416 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 20.2958dB / 0.7959
+25-11-11 15:50:47.416 : --41 --> BSRNet_regiondependent --> x4--> img_041.png
+25-11-11 15:50:48.300 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.1551dB / 0.7339
+25-11-11 15:50:48.300 : --42 --> BSRNet_regiondependent --> x4--> img_042.png
+25-11-11 15:50:49.217 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 22.1619dB / 0.7240
+25-11-11 15:50:49.217 : --43 --> BSRNet_regiondependent --> x4--> img_043.png
+25-11-11 15:50:50.001 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 24.6993dB / 0.8539
+25-11-11 15:50:50.001 : --44 --> BSRNet_regiondependent --> x4--> img_044.png
+25-11-11 15:50:51.221 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 25.4551dB / 0.7318
+25-11-11 15:50:51.221 : --45 --> BSRNet_regiondependent --> x4--> img_045.png
+25-11-11 15:50:52.240 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.3786dB / 0.5206
+25-11-11 15:50:52.240 : --46 --> BSRNet_regiondependent --> x4--> img_046.png
+25-11-11 15:50:53.040 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.4561dB / 0.7051
+25-11-11 15:50:53.041 : --47 --> BSRNet_regiondependent --> x4--> img_047.png
+25-11-11 15:50:53.768 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.8151dB / 0.5310
+25-11-11 15:50:53.768 : --48 --> BSRNet_regiondependent --> x4--> img_048.png
+25-11-11 15:50:54.552 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.5302dB / 0.6399
+25-11-11 15:50:54.552 : --49 --> BSRNet_regiondependent --> x4--> img_049.png
+25-11-11 15:50:55.358 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 20.5888dB / 0.6485
+25-11-11 15:50:55.358 : --50 --> BSRNet_regiondependent --> x4--> img_050.png
+25-11-11 15:50:56.113 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.7214dB / 0.6913
+25-11-11 15:50:56.113 : --51 --> BSRNet_regiondependent --> x4--> img_051.png
+25-11-11 15:50:56.847 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.0607dB / 0.6342
+25-11-11 15:50:56.847 : --52 --> BSRNet_regiondependent --> x4--> img_052.png
+25-11-11 15:50:57.658 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 22.2952dB / 0.7465
+25-11-11 15:50:57.658 : --53 --> BSRNet_regiondependent --> x4--> img_053.png
+25-11-11 15:50:58.469 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 19.0360dB / 0.5984
+25-11-11 15:50:58.469 : --54 --> BSRNet_regiondependent --> x4--> img_054.png
+25-11-11 15:50:59.231 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 19.2457dB / 0.5806
+25-11-11 15:50:59.231 : --55 --> BSRNet_regiondependent --> x4--> img_055.png
+25-11-11 15:51:00.223 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 24.7279dB / 0.8879
+25-11-11 15:51:00.223 : --56 --> BSRNet_regiondependent --> x4--> img_056.png
+25-11-11 15:51:01.546 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 20.1004dB / 0.5631
+25-11-11 15:51:01.546 : --57 --> BSRNet_regiondependent --> x4--> img_057.png
+25-11-11 15:51:02.698 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 26.0417dB / 0.7903
+25-11-11 15:51:02.699 : --58 --> BSRNet_regiondependent --> x4--> img_058.png
+25-11-11 15:51:03.639 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 22.0618dB / 0.7277
+25-11-11 15:51:03.639 : --59 --> BSRNet_regiondependent --> x4--> img_059.png
+25-11-11 15:51:04.673 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 19.1498dB / 0.6476
+25-11-11 15:51:04.673 : --60 --> BSRNet_regiondependent --> x4--> img_060.png
+25-11-11 15:51:05.410 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 20.0997dB / 0.4479
+25-11-11 15:51:05.410 : --61 --> BSRNet_regiondependent --> x4--> img_061.png
+25-11-11 15:51:06.183 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 22.1357dB / 0.6617
+25-11-11 15:51:06.183 : --62 --> BSRNet_regiondependent --> x4--> img_062.png
+25-11-11 15:51:06.977 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.8335dB / 0.5982
+25-11-11 15:51:06.978 : --63 --> BSRNet_regiondependent --> x4--> img_063.png
+25-11-11 15:51:08.017 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.5910dB / 0.4778
+25-11-11 15:51:08.017 : --64 --> BSRNet_regiondependent --> x4--> img_064.png
+25-11-11 15:51:08.816 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 23.7346dB / 0.7068
+25-11-11 15:51:08.816 : --65 --> BSRNet_regiondependent --> x4--> img_065.png
+25-11-11 15:51:09.615 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 20.3258dB / 0.5128
+25-11-11 15:51:09.615 : --66 --> BSRNet_regiondependent --> x4--> img_066.png
+25-11-11 15:51:10.560 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.4309dB / 0.5171
+25-11-11 15:51:10.560 : --67 --> BSRNet_regiondependent --> x4--> img_067.png
+25-11-11 15:51:11.280 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.0784dB / 0.7240
+25-11-11 15:51:11.280 : --68 --> BSRNet_regiondependent --> x4--> img_068.png
+25-11-11 15:51:12.536 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.7726dB / 0.5246
+25-11-11 15:51:12.536 : --69 --> BSRNet_regiondependent --> x4--> img_069.png
+25-11-11 15:51:13.897 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.9614dB / 0.6611
+25-11-11 15:51:13.897 : --70 --> BSRNet_regiondependent --> x4--> img_070.png
+25-11-11 15:51:14.817 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 19.8929dB / 0.4838
+25-11-11 15:51:14.817 : --71 --> BSRNet_regiondependent --> x4--> img_071.png
+25-11-11 15:51:15.926 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 24.4540dB / 0.5508
+25-11-11 15:51:15.926 : --72 --> BSRNet_regiondependent --> x4--> img_072.png
+25-11-11 15:51:16.787 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.7200dB / 0.6875
+25-11-11 15:51:16.787 : --73 --> BSRNet_regiondependent --> x4--> img_073.png
+25-11-11 15:51:17.744 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.4419dB / 0.4542
+25-11-11 15:51:17.744 : --74 --> BSRNet_regiondependent --> x4--> img_074.png
+25-11-11 15:51:18.597 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.1684dB / 0.5725
+25-11-11 15:51:18.597 : --75 --> BSRNet_regiondependent --> x4--> img_075.png
+25-11-11 15:51:19.392 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 26.6146dB / 0.8182
+25-11-11 15:51:19.392 : --76 --> BSRNet_regiondependent --> x4--> img_076.png
+25-11-11 15:51:20.200 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 19.1346dB / 0.5245
+25-11-11 15:51:20.200 : --77 --> BSRNet_regiondependent --> x4--> img_077.png
+25-11-11 15:51:20.983 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 20.8061dB / 0.6121
+25-11-11 15:51:20.983 : --78 --> BSRNet_regiondependent --> x4--> img_078.png
+25-11-11 15:51:21.767 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 23.1665dB / 0.5963
+25-11-11 15:51:21.767 : --79 --> BSRNet_regiondependent --> x4--> img_079.png
+25-11-11 15:51:22.599 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.5133dB / 0.5271
+25-11-11 15:51:22.599 : --80 --> BSRNet_regiondependent --> x4--> img_080.png
+25-11-11 15:51:23.615 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.6856dB / 0.8979
+25-11-11 15:51:23.615 : --81 --> BSRNet_regiondependent --> x4--> img_081.png
+25-11-11 15:51:25.555 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 22.7956dB / 0.6830
+25-11-11 15:51:25.556 : --82 --> BSRNet_regiondependent --> x4--> img_082.png
+25-11-11 15:51:26.957 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 24.5502dB / 0.8149
+25-11-11 15:51:26.957 : --83 --> BSRNet_regiondependent --> x4--> img_083.png
+25-11-11 15:51:28.153 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 19.4830dB / 0.5606
+25-11-11 15:51:28.153 : --84 --> BSRNet_regiondependent --> x4--> img_084.png
+25-11-11 15:51:29.435 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 24.7390dB / 0.7099
+25-11-11 15:51:29.435 : --85 --> BSRNet_regiondependent --> x4--> img_085.png
+25-11-11 15:51:30.317 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 23.5989dB / 0.7383
+25-11-11 15:51:30.317 : --86 --> BSRNet_regiondependent --> x4--> img_086.png
+25-11-11 15:51:31.179 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 22.3797dB / 0.7811
+25-11-11 15:51:31.179 : --87 --> BSRNet_regiondependent --> x4--> img_087.png
+25-11-11 15:51:32.269 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 22.8881dB / 0.7582
+25-11-11 15:51:32.269 : --88 --> BSRNet_regiondependent --> x4--> img_088.png
+25-11-11 15:51:33.053 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.0257dB / 0.4805
+25-11-11 15:51:33.053 : --89 --> BSRNet_regiondependent --> x4--> img_089.png
+25-11-11 15:51:33.925 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 23.5801dB / 0.6129
+25-11-11 15:51:33.925 : --90 --> BSRNet_regiondependent --> x4--> img_090.png
+25-11-11 15:51:34.649 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 25.8179dB / 0.8629
+25-11-11 15:51:34.649 : --91 --> BSRNet_regiondependent --> x4--> img_091.png
+25-11-11 15:51:35.464 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 19.8908dB / 0.4757
+25-11-11 15:51:35.464 : --92 --> BSRNet_regiondependent --> x4--> img_092.png
+25-11-11 15:51:36.489 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.7916dB / 0.4946
+25-11-11 15:51:36.489 : --93 --> BSRNet_regiondependent --> x4--> img_093.png
+25-11-11 15:51:37.445 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.5957dB / 0.6623
+25-11-11 15:51:37.445 : --94 --> BSRNet_regiondependent --> x4--> img_094.png
+25-11-11 15:51:38.511 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 23.4471dB / 0.6291
+25-11-11 15:51:38.512 : --95 --> BSRNet_regiondependent --> x4--> img_095.png
+25-11-11 15:51:39.531 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.5313dB / 0.2433
+25-11-11 15:51:39.531 : --96 --> BSRNet_regiondependent --> x4--> img_096.png
+25-11-11 15:51:40.424 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.2393dB / 0.6060
+25-11-11 15:51:40.425 : --97 --> BSRNet_regiondependent --> x4--> img_097.png
+25-11-11 15:51:41.290 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.7350dB / 0.6829
+25-11-11 15:51:41.291 : --98 --> BSRNet_regiondependent --> x4--> img_098.png
+25-11-11 15:51:42.113 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.6748dB / 0.2858
+25-11-11 15:51:42.113 : --99 --> BSRNet_regiondependent --> x4--> img_099.png
+25-11-11 15:51:42.957 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.5408dB / 0.5294
+25-11-11 15:51:42.958 : -100 --> BSRNet_regiondependent --> x4--> img_100.png
+25-11-11 15:51:44.063 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 22.4828dB / 0.6285
+25-11-11 15:51:44.063 : ----Average PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.1071dB / 0.6338
+25-11-11 15:51:44.063 :  
+25-11-11 15:54:45.689 :       Model Name : BSRNet
+25-11-11 15:55:03.477 :       Input Path : /root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/
+25-11-11 15:55:03.477 :      Output Path : /root/quoc-huy/BSRGAN/testsets/experimental-results/Urban100
+25-11-11 15:55:03.478 : ---1 --> BSRNet --> x4--> img_001.png
+25-11-11 15:55:04.993 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 24.5080dB / 0.6738
+25-11-11 15:55:04.994 : ---2 --> BSRNet --> x4--> img_002.png
+25-11-11 15:55:05.852 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 14.9676dB / 0.5387
+25-11-11 15:55:05.852 : ---3 --> BSRNet --> x4--> img_003.png
+25-11-11 15:55:06.650 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.1474dB / 0.5722
+25-11-11 15:55:06.650 : ---4 --> BSRNet --> x4--> img_004.png
+25-11-11 15:55:07.383 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 14.5151dB / 0.5923
+25-11-11 15:55:07.383 : ---5 --> BSRNet --> x4--> img_005.png
+25-11-11 15:55:08.216 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 14.7414dB / 0.5599
+25-11-11 15:55:08.216 : ---6 --> BSRNet --> x4--> img_006.png
+25-11-11 15:55:09.362 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.7042dB / 0.3814
+25-11-11 15:55:09.362 : ---7 --> BSRNet --> x4--> img_007.png
+25-11-11 15:55:10.685 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 24.1090dB / 0.6899
+25-11-11 15:55:10.685 : ---8 --> BSRNet --> x4--> img_008.png
+25-11-11 15:55:11.855 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.7704dB / 0.4968
+25-11-11 15:55:11.855 : ---9 --> BSRNet --> x4--> img_009.png
+25-11-11 15:55:12.787 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.0747dB / 0.8167
+25-11-11 15:55:12.787 : --10 --> BSRNet --> x4--> img_010.png
+25-11-11 15:55:13.838 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 14.2744dB / 0.7320
+25-11-11 15:55:13.838 : --11 --> BSRNet --> x4--> img_011.png
+25-11-11 15:55:14.468 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 14.8864dB / 0.6312
+25-11-11 15:55:14.468 : --12 --> BSRNet --> x4--> img_012.png
+25-11-11 15:55:15.376 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.4784dB / 0.5461
+25-11-11 15:55:15.376 : --13 --> BSRNet --> x4--> img_013.png
+25-11-11 15:55:16.272 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.9137dB / 0.6248
+25-11-11 15:55:16.273 : --14 --> BSRNet --> x4--> img_014.png
+25-11-11 15:55:17.406 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 12.8078dB / 0.4542
+25-11-11 15:55:17.406 : --15 --> BSRNet --> x4--> img_015.png
+25-11-11 15:55:18.230 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 13.4041dB / 0.4375
+25-11-11 15:55:18.231 : --16 --> BSRNet --> x4--> img_016.png
+25-11-11 15:55:19.328 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.4612dB / 0.7066
+25-11-11 15:55:19.328 : --17 --> BSRNet --> x4--> img_017.png
+25-11-11 15:55:20.039 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.5744dB / 0.6335
+25-11-11 15:55:20.040 : --18 --> BSRNet --> x4--> img_018.png
+25-11-11 15:55:20.840 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 13.7251dB / 0.4519
+25-11-11 15:55:20.840 : --19 --> BSRNet --> x4--> img_019.png
+25-11-11 15:55:21.600 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.4129dB / 0.4966
+25-11-11 15:55:21.601 : --20 --> BSRNet --> x4--> img_020.png
+25-11-11 15:55:23.413 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 14.3131dB / 0.5038
+25-11-11 15:55:23.413 : --21 --> BSRNet --> x4--> img_021.png
+25-11-11 15:55:24.596 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 24.5492dB / 0.6362
+25-11-11 15:55:24.596 : --22 --> BSRNet --> x4--> img_022.png
+25-11-11 15:55:25.734 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 19.3958dB / 0.6459
+25-11-11 15:55:25.734 : --23 --> BSRNet --> x4--> img_023.png
+25-11-11 15:55:26.824 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 24.3464dB / 0.6498
+25-11-11 15:55:26.824 : --24 --> BSRNet --> x4--> img_024.png
+25-11-11 15:55:27.631 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.0751dB / 0.4613
+25-11-11 15:55:27.632 : --25 --> BSRNet --> x4--> img_025.png
+25-11-11 15:55:28.479 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.2458dB / 0.7073
+25-11-11 15:55:28.479 : --26 --> BSRNet --> x4--> img_026.png
+25-11-11 15:55:29.359 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.4456dB / 0.5155
+25-11-11 15:55:29.359 : --27 --> BSRNet --> x4--> img_027.png
+25-11-11 15:55:30.433 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.1845dB / 0.6486
+25-11-11 15:55:30.433 : --28 --> BSRNet --> x4--> img_028.png
+25-11-11 15:55:31.197 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 19.1728dB / 0.5776
+25-11-11 15:55:31.197 : --29 --> BSRNet --> x4--> img_029.png
+25-11-11 15:55:31.958 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 19.9553dB / 0.7131
+25-11-11 15:55:31.958 : --30 --> BSRNet --> x4--> img_030.png
+25-11-11 15:55:32.743 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.9419dB / 0.5427
+25-11-11 15:55:32.743 : --31 --> BSRNet --> x4--> img_031.png
+25-11-11 15:55:33.755 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.7914dB / 0.5316
+25-11-11 15:55:33.755 : --32 --> BSRNet --> x4--> img_032.png
+25-11-11 15:55:34.625 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 14.9467dB / 0.6404
+25-11-11 15:55:34.625 : --33 --> BSRNet --> x4--> img_033.png
+25-11-11 15:55:35.488 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 12.8420dB / 0.4913
+25-11-11 15:55:35.489 : --34 --> BSRNet --> x4--> img_034.png
+25-11-11 15:55:36.363 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.6459dB / 0.4264
+25-11-11 15:55:36.364 : --35 --> BSRNet --> x4--> img_035.png
+25-11-11 15:55:37.432 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.9364dB / 0.6841
+25-11-11 15:55:37.433 : --36 --> BSRNet --> x4--> img_036.png
+25-11-11 15:55:38.185 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.5990dB / 0.6603
+25-11-11 15:55:38.186 : --37 --> BSRNet --> x4--> img_037.png
+25-11-11 15:55:38.966 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 22.7469dB / 0.6567
+25-11-11 15:55:38.967 : --38 --> BSRNet --> x4--> img_038.png
+25-11-11 15:55:39.777 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.7579dB / 0.4576
+25-11-11 15:55:39.777 : --39 --> BSRNet --> x4--> img_039.png
+25-11-11 15:55:40.581 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 20.0916dB / 0.6028
+25-11-11 15:55:40.581 : --40 --> BSRNet --> x4--> img_040.png
+25-11-11 15:55:41.325 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 14.7088dB / 0.6444
+25-11-11 15:55:41.325 : --41 --> BSRNet --> x4--> img_041.png
+25-11-11 15:55:42.136 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.2679dB / 0.6278
+25-11-11 15:55:42.136 : --42 --> BSRNet --> x4--> img_042.png
+25-11-11 15:55:42.881 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.9853dB / 0.6705
+25-11-11 15:55:42.881 : --43 --> BSRNet --> x4--> img_043.png
+25-11-11 15:55:43.617 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 23.6793dB / 0.7849
+25-11-11 15:55:43.617 : --44 --> BSRNet --> x4--> img_044.png
+25-11-11 15:55:44.366 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.0504dB / 0.5958
+25-11-11 15:55:44.366 : --45 --> BSRNet --> x4--> img_045.png
+25-11-11 15:55:45.370 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.8550dB / 0.3882
+25-11-11 15:55:45.370 : --46 --> BSRNet --> x4--> img_046.png
+25-11-11 15:55:46.563 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.0356dB / 0.6570
+25-11-11 15:55:46.563 : --47 --> BSRNet --> x4--> img_047.png
+25-11-11 15:55:47.544 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 11.0408dB / 0.4643
+25-11-11 15:55:47.545 : --48 --> BSRNet --> x4--> img_048.png
+25-11-11 15:55:48.287 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.4913dB / 0.6490
+25-11-11 15:55:48.287 : --49 --> BSRNet --> x4--> img_049.png
+25-11-11 15:55:49.157 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 14.6191dB / 0.5221
+25-11-11 15:55:49.158 : --50 --> BSRNet --> x4--> img_050.png
+25-11-11 15:55:49.886 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.0439dB / 0.6311
+25-11-11 15:55:49.886 : --51 --> BSRNet --> x4--> img_051.png
+25-11-11 15:55:50.738 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.3312dB / 0.6383
+25-11-11 15:55:50.739 : --52 --> BSRNet --> x4--> img_052.png
+25-11-11 15:55:51.614 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.3430dB / 0.7081
+25-11-11 15:55:51.614 : --53 --> BSRNet --> x4--> img_053.png
+25-11-11 15:55:52.437 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.8863dB / 0.5625
+25-11-11 15:55:52.437 : --54 --> BSRNet --> x4--> img_054.png
+25-11-11 15:55:53.279 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.2284dB / 0.5416
+25-11-11 15:55:53.279 : --55 --> BSRNet --> x4--> img_055.png
+25-11-11 15:55:54.158 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.2545dB / 0.7356
+25-11-11 15:55:54.158 : --56 --> BSRNet --> x4--> img_056.png
+25-11-11 15:55:55.048 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.6820dB / 0.5037
+25-11-11 15:55:55.048 : --57 --> BSRNet --> x4--> img_057.png
+25-11-11 15:55:55.784 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 20.3974dB / 0.6156
+25-11-11 15:55:55.784 : --58 --> BSRNet --> x4--> img_058.png
+25-11-11 15:55:56.552 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.8891dB / 0.7403
+25-11-11 15:55:56.552 : --59 --> BSRNet --> x4--> img_059.png
+25-11-11 15:55:57.340 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.5027dB / 0.6005
+25-11-11 15:55:57.340 : --60 --> BSRNet --> x4--> img_060.png
+25-11-11 15:55:58.387 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.9811dB / 0.4277
+25-11-11 15:55:58.388 : --61 --> BSRNet --> x4--> img_061.png
+25-11-11 15:55:59.735 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 20.4561dB / 0.6219
+25-11-11 15:55:59.736 : --62 --> BSRNet --> x4--> img_062.png
+25-11-11 15:56:00.618 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.6711dB / 0.5496
+25-11-11 15:56:00.619 : --63 --> BSRNet --> x4--> img_063.png
+25-11-11 15:56:01.674 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.8038dB / 0.3448
+25-11-11 15:56:01.674 : --64 --> BSRNet --> x4--> img_064.png
+25-11-11 15:56:02.531 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.6897dB / 0.6370
+25-11-11 15:56:02.531 : --65 --> BSRNet --> x4--> img_065.png
+25-11-11 15:56:03.397 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 12.6648dB / 0.3909
+25-11-11 15:56:03.402 : --66 --> BSRNet --> x4--> img_066.png
+25-11-11 15:56:04.352 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 19.9825dB / 0.5178
+25-11-11 15:56:04.352 : --67 --> BSRNet --> x4--> img_067.png
+25-11-11 15:56:05.143 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.1317dB / 0.7206
+25-11-11 15:56:05.143 : --68 --> BSRNet --> x4--> img_068.png
+25-11-11 15:56:06.231 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.4385dB / 0.5214
+25-11-11 15:56:06.231 : --69 --> BSRNet --> x4--> img_069.png
+25-11-11 15:56:07.212 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.3546dB / 0.6229
+25-11-11 15:56:07.212 : --70 --> BSRNet --> x4--> img_070.png
+25-11-11 15:56:08.056 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 19.7836dB / 0.4709
+25-11-11 15:56:08.056 : --71 --> BSRNet --> x4--> img_071.png
+25-11-11 15:56:08.956 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.6430dB / 0.5355
+25-11-11 15:56:08.956 : --72 --> BSRNet --> x4--> img_072.png
+25-11-11 15:56:10.287 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 13.4726dB / 0.5975
+25-11-11 15:56:10.287 : --73 --> BSRNet --> x4--> img_073.png
+25-11-11 15:56:11.469 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 14.8429dB / 0.3251
+25-11-11 15:56:11.470 : --74 --> BSRNet --> x4--> img_074.png
+25-11-11 15:56:12.419 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.3265dB / 0.5107
+25-11-11 15:56:12.419 : --75 --> BSRNet --> x4--> img_075.png
+25-11-11 15:56:13.284 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 25.7086dB / 0.8098
+25-11-11 15:56:13.285 : --76 --> BSRNet --> x4--> img_076.png
+25-11-11 15:56:14.084 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.3060dB / 0.4947
+25-11-11 15:56:14.084 : --77 --> BSRNet --> x4--> img_077.png
+25-11-11 15:56:14.813 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.2466dB / 0.5318
+25-11-11 15:56:14.813 : --78 --> BSRNet --> x4--> img_078.png
+25-11-11 15:56:15.624 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.3029dB / 0.5283
+25-11-11 15:56:15.624 : --79 --> BSRNet --> x4--> img_079.png
+25-11-11 15:56:16.459 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.9959dB / 0.5319
+25-11-11 15:56:16.459 : --80 --> BSRNet --> x4--> img_080.png
+25-11-11 15:56:17.287 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.4067dB / 0.8171
+25-11-11 15:56:17.287 : --81 --> BSRNet --> x4--> img_081.png
+25-11-11 15:56:18.356 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.7963dB / 0.5372
+25-11-11 15:56:18.356 : --82 --> BSRNet --> x4--> img_082.png
+25-11-11 15:56:19.405 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.3033dB / 0.6646
+25-11-11 15:56:19.405 : --83 --> BSRNet --> x4--> img_083.png
+25-11-11 15:56:20.526 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.4876dB / 0.4598
+25-11-11 15:56:20.526 : --84 --> BSRNet --> x4--> img_084.png
+25-11-11 15:56:21.848 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 20.6311dB / 0.5930
+25-11-11 15:56:21.848 : --85 --> BSRNet --> x4--> img_085.png
+25-11-11 15:56:22.684 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.4662dB / 0.3154
+25-11-11 15:56:22.684 : --86 --> BSRNet --> x4--> img_086.png
+25-11-11 15:56:23.613 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.3481dB / 0.7225
+25-11-11 15:56:23.613 : --87 --> BSRNet --> x4--> img_087.png
+25-11-11 15:56:25.084 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.9749dB / 0.5965
+25-11-11 15:56:25.084 : --88 --> BSRNet --> x4--> img_088.png
+25-11-11 15:56:25.838 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.1522dB / 0.4466
+25-11-11 15:56:25.838 : --89 --> BSRNet --> x4--> img_089.png
+25-11-11 15:56:26.624 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.2011dB / 0.5524
+25-11-11 15:56:26.624 : --90 --> BSRNet --> x4--> img_090.png
+25-11-11 15:56:27.416 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.8035dB / 0.7005
+25-11-11 15:56:27.417 : --91 --> BSRNet --> x4--> img_091.png
+25-11-11 15:56:28.226 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.2695dB / 0.4204
+25-11-11 15:56:28.226 : --92 --> BSRNet --> x4--> img_092.png
+25-11-11 15:56:29.013 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.1038dB / 0.4190
+25-11-11 15:56:29.013 : --93 --> BSRNet --> x4--> img_093.png
+25-11-11 15:56:29.885 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 19.3140dB / 0.6741
+25-11-11 15:56:29.885 : --94 --> BSRNet --> x4--> img_094.png
+25-11-11 15:56:30.753 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.0330dB / 0.4383
+25-11-11 15:56:30.754 : --95 --> BSRNet --> x4--> img_095.png
+25-11-11 15:56:31.553 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 13.2715dB / 0.1659
+25-11-11 15:56:31.553 : --96 --> BSRNet --> x4--> img_096.png
+25-11-11 15:56:32.450 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.1436dB / 0.5853
+25-11-11 15:56:32.450 : --97 --> BSRNet --> x4--> img_097.png
+25-11-11 15:56:33.531 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.6160dB / 0.6214
+25-11-11 15:56:33.532 : --98 --> BSRNet --> x4--> img_098.png
+25-11-11 15:56:34.421 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 14.0636dB / 0.1729
+25-11-11 15:56:34.421 : --99 --> BSRNet --> x4--> img_099.png
+25-11-11 15:56:35.627 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 20.7391dB / 0.4457
+25-11-11 15:56:35.628 : -100 --> BSRNet --> x4--> img_100.png
+25-11-11 15:56:37.013 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.7970dB / 0.5991
+25-11-11 15:56:37.013 : ----Average PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.6348dB / 0.5671
+25-11-11 15:56:37.013 :  
+25-11-11 15:57:15.396 :       Model Name : BSRNet
+25-11-11 15:57:29.417 :       Input Path : /root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/
+25-11-11 15:57:29.418 :      Output Path : /root/quoc-huy/BSRGAN/testsets/experimental-results/BSD100
+25-11-11 15:57:29.419 : ---1 --> BSRNet --> x4--> 101085.png
+25-11-11 15:57:30.189 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.5757dB / 0.4532
+25-11-11 15:57:30.189 : ---2 --> BSRNet --> x4--> 101087.png
+25-11-11 15:57:30.340 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.3226dB / 0.7390
+25-11-11 15:57:30.341 : ---3 --> BSRNet --> x4--> 102061.png
+25-11-11 15:57:30.502 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 15.5339dB / 0.6527
+25-11-11 15:57:30.502 : ---4 --> BSRNet --> x4--> 103070.png
+25-11-11 15:57:30.655 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 21.7174dB / 0.6912
+25-11-11 15:57:30.655 : ---5 --> BSRNet --> x4--> 105025.png
+25-11-11 15:57:30.816 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.1316dB / 0.5518
+25-11-11 15:57:30.817 : ---6 --> BSRNet --> x4--> 106024.png
+25-11-11 15:57:30.969 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 14.1757dB / 0.7255
+25-11-11 15:57:30.969 : ---7 --> BSRNet --> x4--> 108005.png
+25-11-11 15:57:31.115 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 15.0968dB / 0.3807
+25-11-11 15:57:31.115 : ---8 --> BSRNet --> x4--> 108070.png
+25-11-11 15:57:31.281 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.4093dB / 0.3988
+25-11-11 15:57:31.281 : ---9 --> BSRNet --> x4--> 108082.png
+25-11-11 15:57:31.448 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.4490dB / 0.5574
+25-11-11 15:57:31.448 : --10 --> BSRNet --> x4--> 109053.png
+25-11-11 15:57:31.607 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 14.5588dB / 0.6159
+25-11-11 15:57:31.608 : --11 --> BSRNet --> x4--> 119082.png
+25-11-11 15:57:31.771 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 21.5778dB / 0.5984
+25-11-11 15:57:31.771 : --12 --> BSRNet --> x4--> 12084.png
+25-11-11 15:57:31.942 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 23.4496dB / 0.5732
+25-11-11 15:57:31.942 : --13 --> BSRNet --> x4--> 123074.png
+25-11-11 15:57:32.097 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 25.2394dB / 0.6571
+25-11-11 15:57:32.098 : --14 --> BSRNet --> x4--> 126007.png
+25-11-11 15:57:32.242 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 24.6070dB / 0.7223
+25-11-11 15:57:32.242 : --15 --> BSRNet --> x4--> 130026.png
+25-11-11 15:57:32.397 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.8609dB / 0.5316
+25-11-11 15:57:32.398 : --16 --> BSRNet --> x4--> 134035.png
+25-11-11 15:57:32.558 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 17.2676dB / 0.5610
+25-11-11 15:57:32.558 : --17 --> BSRNet --> x4--> 14037.png
+25-11-11 15:57:32.701 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 28.8669dB / 0.8077
+25-11-11 15:57:32.701 : --18 --> BSRNet --> x4--> 143090.png
+25-11-11 15:57:32.882 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 14.8147dB / 0.5594
+25-11-11 15:57:32.882 : --19 --> BSRNet --> x4--> 145086.png
+25-11-11 15:57:33.026 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 17.9440dB / 0.5376
+25-11-11 15:57:33.026 : --20 --> BSRNet --> x4--> 147091.png
+25-11-11 15:57:33.178 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 18.2109dB / 0.6096
+25-11-11 15:57:33.178 : --21 --> BSRNet --> x4--> 148026.png
+25-11-11 15:57:33.375 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 17.2075dB / 0.4269
+25-11-11 15:57:33.375 : --22 --> BSRNet --> x4--> 148089.png
+25-11-11 15:57:33.515 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.6377dB / 0.4811
+25-11-11 15:57:33.516 : --23 --> BSRNet --> x4--> 156065.png
+25-11-11 15:57:33.686 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 16.1010dB / 0.2321
+25-11-11 15:57:33.687 : --24 --> BSRNet --> x4--> 157055.png
+25-11-11 15:57:33.847 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 12.7985dB / 0.5340
+25-11-11 15:57:33.847 : --25 --> BSRNet --> x4--> 159008.png
+25-11-11 15:57:33.981 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.1921dB / 0.4723
+25-11-11 15:57:33.981 : --26 --> BSRNet --> x4--> 160068.png
+25-11-11 15:57:34.180 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 14.8860dB / 0.6429
+25-11-11 15:57:34.181 : --27 --> BSRNet --> x4--> 16077.png
+25-11-11 15:57:34.333 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 14.4349dB / 0.5292
+25-11-11 15:57:34.334 : --28 --> BSRNet --> x4--> 163085.png
+25-11-11 15:57:34.473 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 18.2861dB / 0.5843
+25-11-11 15:57:34.473 : --29 --> BSRNet --> x4--> 167062.png
+25-11-11 15:57:34.636 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 22.3034dB / 0.6630
+25-11-11 15:57:34.636 : --30 --> BSRNet --> x4--> 167083.png
+25-11-11 15:57:34.807 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 17.4070dB / 0.3570
+25-11-11 15:57:34.807 : --31 --> BSRNet --> x4--> 170057.png
+25-11-11 15:57:34.956 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.2493dB / 0.6826
+25-11-11 15:57:34.956 : --32 --> BSRNet --> x4--> 175032.png
+25-11-11 15:57:35.161 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 15.9577dB / 0.2014
+25-11-11 15:57:35.161 : --33 --> BSRNet --> x4--> 175043.png
+25-11-11 15:57:35.335 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 22.2393dB / 0.5348
+25-11-11 15:57:35.335 : --34 --> BSRNet --> x4--> 182053.png
+25-11-11 15:57:35.496 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 16.0586dB / 0.5401
+25-11-11 15:57:35.496 : --35 --> BSRNet --> x4--> 189080.png
+25-11-11 15:57:35.678 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 29.3434dB / 0.8300
+25-11-11 15:57:35.679 : --36 --> BSRNet --> x4--> 19021.png
+25-11-11 15:57:35.849 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 21.7755dB / 0.5594
+25-11-11 15:57:35.849 : --37 --> BSRNet --> x4--> 196073.png
+25-11-11 15:57:36.009 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 13.9829dB / 0.3647
+25-11-11 15:57:36.009 : --38 --> BSRNet --> x4--> 197017.png
+25-11-11 15:57:36.177 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.5043dB / 0.5905
+25-11-11 15:57:36.177 : --39 --> BSRNet --> x4--> 208001.png
+25-11-11 15:57:36.338 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.7972dB / 0.4823
+25-11-11 15:57:36.338 : --40 --> BSRNet --> x4--> 210088.png
+25-11-11 15:57:36.499 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 13.0380dB / 0.7317
+25-11-11 15:57:36.500 : --41 --> BSRNet --> x4--> 21077.png
+25-11-11 15:57:36.668 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 15.0499dB / 0.5345
+25-11-11 15:57:36.668 : --42 --> BSRNet --> x4--> 216081.png
+25-11-11 15:57:36.876 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 17.8639dB / 0.4339
+25-11-11 15:57:36.876 : --43 --> BSRNet --> x4--> 219090.png
+25-11-11 15:57:37.008 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 16.5529dB / 0.5508
+25-11-11 15:57:37.008 : --44 --> BSRNet --> x4--> 220075.png
+25-11-11 15:57:37.207 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 12.7434dB / 0.5143
+25-11-11 15:57:37.207 : --45 --> BSRNet --> x4--> 223061.png
+25-11-11 15:57:37.374 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 13.6379dB / 0.4840
+25-11-11 15:57:37.375 : --46 --> BSRNet --> x4--> 227092.png
+25-11-11 15:57:37.563 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 17.3476dB / 0.7809
+25-11-11 15:57:37.564 : --47 --> BSRNet --> x4--> 229036.png
+25-11-11 15:57:37.736 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 17.2242dB / 0.3910
+25-11-11 15:57:37.736 : --48 --> BSRNet --> x4--> 236037.png
+25-11-11 15:57:37.865 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 16.5349dB / 0.3890
+25-11-11 15:57:37.865 : --49 --> BSRNet --> x4--> 24077.png
+25-11-11 15:57:38.039 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.5479dB / 0.7468
+25-11-11 15:57:38.039 : --50 --> BSRNet --> x4--> 241004.png
+25-11-11 15:57:38.208 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 27.9452dB / 0.7342
+25-11-11 15:57:38.209 : --51 --> BSRNet --> x4--> 241048.png
+25-11-11 15:57:38.397 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 21.6741dB / 0.4885
+25-11-11 15:57:38.398 : --52 --> BSRNet --> x4--> 253027.png
+25-11-11 15:57:38.564 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 14.0181dB / 0.5034
+25-11-11 15:57:38.564 : --53 --> BSRNet --> x4--> 253055.png
+25-11-11 15:57:38.715 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 14.6333dB / 0.7227
+25-11-11 15:57:38.716 : --54 --> BSRNet --> x4--> 260058.png
+25-11-11 15:57:38.856 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 15.5723dB / 0.6658
+25-11-11 15:57:38.856 : --55 --> BSRNet --> x4--> 271035.png
+25-11-11 15:57:39.028 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 16.5144dB / 0.5604
+25-11-11 15:57:39.028 : --56 --> BSRNet --> x4--> 285079.png
+25-11-11 15:57:39.239 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 13.6943dB / 0.2818
+25-11-11 15:57:39.240 : --57 --> BSRNet --> x4--> 291000.png
+25-11-11 15:57:39.350 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 14.8504dB / 0.2257
+25-11-11 15:57:39.351 : --58 --> BSRNet --> x4--> 295087.png
+25-11-11 15:57:39.491 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 14.1289dB / 0.5534
+25-11-11 15:57:39.491 : --59 --> BSRNet --> x4--> 296007.png
+25-11-11 15:57:39.661 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.1351dB / 0.6741
+25-11-11 15:57:39.661 : --60 --> BSRNet --> x4--> 296059.png
+25-11-11 15:57:39.829 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 16.1777dB / 0.5458
+25-11-11 15:57:39.829 : --61 --> BSRNet --> x4--> 299086.png
+25-11-11 15:57:40.025 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 24.4033dB / 0.6843
+25-11-11 15:57:40.026 : --62 --> BSRNet --> x4--> 300091.png
+25-11-11 15:57:40.183 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 17.9537dB / 0.6522
+25-11-11 15:57:40.183 : --63 --> BSRNet --> x4--> 302008.png
+25-11-11 15:57:40.305 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 15.3620dB / 0.3425
+25-11-11 15:57:40.305 : --64 --> BSRNet --> x4--> 304034.png
+25-11-11 15:57:40.497 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 17.0994dB / 0.4794
+25-11-11 15:57:40.497 : --65 --> BSRNet --> x4--> 304074.png
+25-11-11 15:57:40.660 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 18.0627dB / 0.3961
+25-11-11 15:57:40.661 : --66 --> BSRNet --> x4--> 306005.png
+25-11-11 15:57:40.813 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 25.3209dB / 0.6700
+25-11-11 15:57:40.814 : --67 --> BSRNet --> x4--> 3096.png
+25-11-11 15:57:40.991 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 16.5064dB / 0.9184
+25-11-11 15:57:40.991 : --68 --> BSRNet --> x4--> 33039.png
+25-11-11 15:57:41.157 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 17.2982dB / 0.3678
+25-11-11 15:57:41.158 : --69 --> BSRNet --> x4--> 351093.png
+25-11-11 15:57:41.314 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.4041dB / 0.5094
+25-11-11 15:57:41.314 : --70 --> BSRNet --> x4--> 361010.png
+25-11-11 15:57:41.481 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 15.1018dB / 0.4025
+25-11-11 15:57:41.481 : --71 --> BSRNet --> x4--> 37073.png
+25-11-11 15:57:41.638 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 21.1978dB / 0.6617
+25-11-11 15:57:41.638 : --72 --> BSRNet --> x4--> 376043.png
+25-11-11 15:57:41.782 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 15.2591dB / 0.4182
+25-11-11 15:57:41.782 : --73 --> BSRNet --> x4--> 38082.png
+25-11-11 15:57:41.947 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 24.5023dB / 0.4535
+25-11-11 15:57:41.947 : --74 --> BSRNet --> x4--> 38092.png
+25-11-11 15:57:42.104 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 18.2882dB / 0.5450
+25-11-11 15:57:42.104 : --75 --> BSRNet --> x4--> 385039.png
+25-11-11 15:57:42.243 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.2748dB / 0.5651
+25-11-11 15:57:42.243 : --76 --> BSRNet --> x4--> 41033.png
+25-11-11 15:57:42.408 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 17.8750dB / 0.5950
+25-11-11 15:57:42.408 : --77 --> BSRNet --> x4--> 41069.png
+25-11-11 15:57:42.574 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 15.0154dB / 0.3091
+25-11-11 15:57:42.575 : --78 --> BSRNet --> x4--> 42012.png
+25-11-11 15:57:42.734 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 24.2314dB / 0.6684
+25-11-11 15:57:42.734 : --79 --> BSRNet --> x4--> 42049.png
+25-11-11 15:57:42.896 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 16.7218dB / 0.8259
+25-11-11 15:57:42.896 : --80 --> BSRNet --> x4--> 43074.png
+25-11-11 15:57:43.058 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 14.4286dB / 0.6201
+25-11-11 15:57:43.059 : --81 --> BSRNet --> x4--> 45096.png
+25-11-11 15:57:43.215 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 31.1254dB / 0.8831
+25-11-11 15:57:43.216 : --82 --> BSRNet --> x4--> 54082.png
+25-11-11 15:57:43.393 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 14.6206dB / 0.4826
+25-11-11 15:57:43.393 : --83 --> BSRNet --> x4--> 55073.png
+25-11-11 15:57:43.575 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 17.5129dB / 0.2858
+25-11-11 15:57:43.576 : --84 --> BSRNet --> x4--> 58060.png
+25-11-11 15:57:43.731 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 18.6926dB / 0.4413
+25-11-11 15:57:43.732 : --85 --> BSRNet --> x4--> 62096.png
+25-11-11 15:57:43.896 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 17.6262dB / 0.5707
+25-11-11 15:57:43.896 : --86 --> BSRNet --> x4--> 65033.png
+25-11-11 15:57:44.037 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 22.1628dB / 0.4224
+25-11-11 15:57:44.037 : --87 --> BSRNet --> x4--> 66053.png
+25-11-11 15:57:44.194 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 18.3556dB / 0.3798
+25-11-11 15:57:44.194 : --88 --> BSRNet --> x4--> 69015.png
+25-11-11 15:57:44.363 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 26.7616dB / 0.6619
+25-11-11 15:57:44.363 : --89 --> BSRNet --> x4--> 69020.png
+25-11-11 15:57:44.509 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 18.2144dB / 0.3720
+25-11-11 15:57:44.509 : --90 --> BSRNet --> x4--> 69040.png
+25-11-11 15:57:44.687 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 13.1824dB / 0.3920
+25-11-11 15:57:44.688 : --91 --> BSRNet --> x4--> 76053.png
+25-11-11 15:57:44.829 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 18.9402dB / 0.5088
+25-11-11 15:57:44.830 : --92 --> BSRNet --> x4--> 78004.png
+25-11-11 15:57:45.093 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.9794dB / 0.5995
+25-11-11 15:57:45.093 : --93 --> BSRNet --> x4--> 8023.png
+25-11-11 15:57:45.235 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 15.6022dB / 0.6343
+25-11-11 15:57:45.235 : --94 --> BSRNet --> x4--> 85048.png
+25-11-11 15:57:45.427 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 21.4131dB / 0.5733
+25-11-11 15:57:45.427 : --95 --> BSRNet --> x4--> 86000.png
+25-11-11 15:57:45.581 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 15.1194dB / 0.5273
+25-11-11 15:57:45.581 : --96 --> BSRNet --> x4--> 86016.png
+25-11-11 15:57:45.724 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.6733dB / 0.1707
+25-11-11 15:57:45.724 : --97 --> BSRNet --> x4--> 86068.png
+25-11-11 15:57:45.917 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.3577dB / 0.4471
+25-11-11 15:57:45.918 : --98 --> BSRNet --> x4--> 87046.png
+25-11-11 15:57:46.063 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 21.8875dB / 0.6472
+25-11-11 15:57:46.063 : --99 --> BSRNet --> x4--> 89072.png
+25-11-11 15:57:46.219 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 22.5407dB / 0.5534
+25-11-11 15:57:46.219 : -100 --> BSRNet --> x4--> 97033.png
+25-11-11 15:57:46.382 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 15.7566dB / 0.5105
+25-11-11 15:57:46.383 : ----Average PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 18.5769dB / 0.5429
+25-11-11 15:57:46.383 :  
+25-11-11 15:58:16.141 :       Model Name : BSRNet
+25-11-11 15:58:33.338 :       Input Path : /root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/
+25-11-11 15:58:33.338 :      Output Path : /root/quoc-huy/BSRGAN/testsets/experimental-results/Set14
+25-11-11 15:58:33.338 : ---1 --> BSRNet --> x4--> baboon.png
+25-11-11 15:58:34.140 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 13.2338dB / 0.2732
+25-11-11 15:58:34.140 : ---2 --> BSRNet --> x4--> barbara.png
+25-11-11 15:58:34.600 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 19.0471dB / 0.5662
+25-11-11 15:58:34.601 : ---3 --> BSRNet --> x4--> bridge.png
+25-11-11 15:58:34.908 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 14.3782dB / 0.3718
+25-11-11 15:58:34.908 : ---4 --> BSRNet --> x4--> coastguard.png
+25-11-11 15:58:35.065 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 13.5661dB / 0.4025
+25-11-11 15:58:35.066 : ---5 --> BSRNet --> x4--> comic.png
+25-11-11 15:58:35.182 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 18.3993dB / 0.5508
+25-11-11 15:58:35.182 : ---6 --> BSRNet --> x4--> face.png
+25-11-11 15:58:35.255 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 23.3092dB / 0.4576
+25-11-11 15:58:35.255 : ---7 --> BSRNet --> x4--> flowers.png
+25-11-11 15:58:35.523 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 21.0077dB / 0.6695
+25-11-11 15:58:35.523 : ---8 --> BSRNet --> x4--> foreman.png
+25-11-11 15:58:35.639 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 15.8791dB / 0.8137
+25-11-11 15:58:35.639 : ---9 --> BSRNet --> x4--> lenna.png
+25-11-11 15:58:35.973 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 17.6898dB / 0.7177
+25-11-11 15:58:35.973 : --10 --> BSRNet --> x4--> man.png
+25-11-11 15:58:36.257 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 13.9125dB / 0.4876
+25-11-11 15:58:36.257 : --11 --> BSRNet --> x4--> monarch.png
+25-11-11 15:58:36.644 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 15.9612dB / 0.8088
+25-11-11 15:58:36.645 : --12 --> BSRNet --> x4--> pepper.png
+25-11-11 15:58:36.948 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 25.7601dB / 0.7834
+25-11-11 15:58:36.949 : --13 --> BSRNet --> x4--> ppt3.png
+25-11-11 15:58:37.338 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 18.9108dB / 0.7731
+25-11-11 15:58:37.338 : --14 --> BSRNet --> x4--> zebra.png
+25-11-11 15:58:37.631 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 21.6219dB / 0.6441
+25-11-11 15:58:37.632 : ----Average PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 18.0483dB / 0.5943
+25-11-11 15:58:37.632 :  
+25-11-11 15:58:56.777 :       Model Name : BSRNet
+25-11-11 15:59:12.870 :       Input Path : /root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR/
+25-11-11 15:59:12.870 :      Output Path : /root/quoc-huy/BSRGAN/testsets/experimental-results/Set5
+25-11-11 15:59:12.871 : ---1 --> BSRNet --> x4--> baby.png
+25-11-11 15:59:13.741 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR/, x4)---- : 18.8126dB / 0.7269
+25-11-11 15:59:13.741 : ---2 --> BSRNet --> x4--> bird.png
+25-11-11 15:59:13.849 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR/, x4)---- : 18.7688dB / 0.6365
+25-11-11 15:59:13.850 : ---3 --> BSRNet --> x4--> butterfly.png
+25-11-11 15:59:13.940 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR/, x4)---- : 22.2582dB / 0.8288
+25-11-11 15:59:13.941 : ---4 --> BSRNet --> x4--> head.png
+25-11-11 15:59:14.045 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR/, x4)---- : 16.0019dB / 0.3021
+25-11-11 15:59:14.045 : ---5 --> BSRNet --> x4--> woman.png
+25-11-11 15:59:14.143 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR/, x4)---- : 17.2616dB / 0.6427
+25-11-11 15:59:14.144 : ----Average PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR/, x4)---- : 18.6206dB / 0.6274
+25-11-11 15:59:14.144 :  
+25-11-11 16:00:19.370 :       Model Name : BSRGAN
+25-11-11 16:00:34.637 :       Input Path : /root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR/
+25-11-11 16:00:34.637 :      Output Path : /root/quoc-huy/BSRGAN/testsets/experimental-results/Set5
+25-11-11 16:00:34.638 : ---1 --> BSRGAN --> x4--> baby.png
+25-11-11 16:00:35.652 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR/, x4)---- : 18.6209dB / 0.6847
+25-11-11 16:00:35.652 : ---2 --> BSRGAN --> x4--> bird.png
+25-11-11 16:00:35.750 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR/, x4)---- : 18.5332dB / 0.6085
+25-11-11 16:00:35.750 : ---3 --> BSRGAN --> x4--> butterfly.png
+25-11-11 16:00:35.829 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR/, x4)---- : 21.3331dB / 0.7840
+25-11-11 16:00:35.829 : ---4 --> BSRGAN --> x4--> head.png
+25-11-11 16:00:35.939 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR/, x4)---- : 16.0156dB / 0.2932
+25-11-11 16:00:35.940 : ---5 --> BSRGAN --> x4--> woman.png
+25-11-11 16:00:36.051 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR/, x4)---- : 17.0475dB / 0.6088
+25-11-11 16:00:36.052 : ----Average PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR/, x4)---- : 18.3101dB / 0.5959
+25-11-11 16:00:36.053 :  
+25-11-11 16:01:22.675 :       Model Name : BSRGAN
+25-11-11 16:01:38.606 :       Input Path : /root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/
+25-11-11 16:01:38.606 :      Output Path : /root/quoc-huy/BSRGAN/testsets/experimental-results/Set14
+25-11-11 16:01:38.607 : ---1 --> BSRGAN --> x4--> baboon.png
+25-11-11 16:01:39.497 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 12.9965dB / 0.2521
+25-11-11 16:01:39.497 : ---2 --> BSRGAN --> x4--> barbara.png
+25-11-11 16:01:39.963 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 18.8703dB / 0.5359
+25-11-11 16:01:39.964 : ---3 --> BSRGAN --> x4--> bridge.png
+25-11-11 16:01:40.224 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 14.0823dB / 0.3129
+25-11-11 16:01:40.224 : ---4 --> BSRGAN --> x4--> coastguard.png
+25-11-11 16:01:40.358 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 13.5147dB / 0.3814
+25-11-11 16:01:40.359 : ---5 --> BSRGAN --> x4--> comic.png
+25-11-11 16:01:40.467 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 17.8183dB / 0.4784
+25-11-11 16:01:40.467 : ---6 --> BSRGAN --> x4--> face.png
+25-11-11 16:01:40.548 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 23.1788dB / 0.4444
+25-11-11 16:01:40.548 : ---7 --> BSRGAN --> x4--> flowers.png
+25-11-11 16:01:40.765 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 20.6436dB / 0.6269
+25-11-11 16:01:40.765 : ---8 --> BSRGAN --> x4--> foreman.png
+25-11-11 16:01:40.887 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 15.7532dB / 0.7911
+25-11-11 16:01:40.887 : ---9 --> BSRGAN --> x4--> lenna.png
+25-11-11 16:01:41.208 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 17.5254dB / 0.6989
+25-11-11 16:01:41.209 : --10 --> BSRGAN --> x4--> man.png
+25-11-11 16:01:41.562 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 13.9329dB / 0.4560
+25-11-11 16:01:41.562 : --11 --> BSRGAN --> x4--> monarch.png
+25-11-11 16:01:42.064 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 15.8748dB / 0.7845
+25-11-11 16:01:42.065 : --12 --> BSRGAN --> x4--> pepper.png
+25-11-11 16:01:42.417 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 25.3814dB / 0.7520
+25-11-11 16:01:42.418 : --13 --> BSRGAN --> x4--> ppt3.png
+25-11-11 16:01:42.831 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 19.9575dB / 0.8087
+25-11-11 16:01:42.832 : --14 --> BSRGAN --> x4--> zebra.png
+25-11-11 16:01:43.156 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 20.9050dB / 0.5282
+25-11-11 16:01:43.156 : ----Average PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR/, x4)---- : 17.8882dB / 0.5608
+25-11-11 16:01:43.156 :  
+25-11-11 16:02:18.798 :       Model Name : BSRGAN
+25-11-11 16:02:34.636 :       Input Path : /root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/
+25-11-11 16:02:34.637 :      Output Path : /root/quoc-huy/BSRGAN/testsets/experimental-results/BSD100
+25-11-11 16:02:34.638 : ---1 --> BSRGAN --> x4--> 101085.png
+25-11-11 16:02:35.383 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.3734dB / 0.4340
+25-11-11 16:02:35.383 : ---2 --> BSRGAN --> x4--> 101087.png
+25-11-11 16:02:35.537 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.2853dB / 0.7114
+25-11-11 16:02:35.538 : ---3 --> BSRGAN --> x4--> 102061.png
+25-11-11 16:02:35.702 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 15.6160dB / 0.6367
+25-11-11 16:02:35.703 : ---4 --> BSRGAN --> x4--> 103070.png
+25-11-11 16:02:35.835 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.8960dB / 0.6056
+25-11-11 16:02:35.836 : ---5 --> BSRGAN --> x4--> 105025.png
+25-11-11 16:02:35.983 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 18.8625dB / 0.5219
+25-11-11 16:02:35.983 : ---6 --> BSRGAN --> x4--> 106024.png
+25-11-11 16:02:36.149 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 14.0875dB / 0.6724
+25-11-11 16:02:36.149 : ---7 --> BSRGAN --> x4--> 108005.png
+25-11-11 16:02:36.311 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 14.5807dB / 0.3242
+25-11-11 16:02:36.311 : ---8 --> BSRGAN --> x4--> 108070.png
+25-11-11 16:02:36.468 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 18.6706dB / 0.3363
+25-11-11 16:02:36.468 : ---9 --> BSRGAN --> x4--> 108082.png
+25-11-11 16:02:36.627 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.6843dB / 0.5555
+25-11-11 16:02:36.628 : --10 --> BSRGAN --> x4--> 109053.png
+25-11-11 16:02:36.781 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 14.8241dB / 0.6013
+25-11-11 16:02:36.782 : --11 --> BSRGAN --> x4--> 119082.png
+25-11-11 16:02:36.966 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.8890dB / 0.5521
+25-11-11 16:02:36.966 : --12 --> BSRGAN --> x4--> 12084.png
+25-11-11 16:02:37.131 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 22.6099dB / 0.4875
+25-11-11 16:02:37.132 : --13 --> BSRGAN --> x4--> 123074.png
+25-11-11 16:02:37.269 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 24.4604dB / 0.6201
+25-11-11 16:02:37.269 : --14 --> BSRGAN --> x4--> 126007.png
+25-11-11 16:02:37.442 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 24.6427dB / 0.6849
+25-11-11 16:02:37.442 : --15 --> BSRGAN --> x4--> 130026.png
+25-11-11 16:02:37.583 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.0521dB / 0.4772
+25-11-11 16:02:37.583 : --16 --> BSRGAN --> x4--> 134035.png
+25-11-11 16:02:37.759 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 17.0361dB / 0.4760
+25-11-11 16:02:37.760 : --17 --> BSRGAN --> x4--> 14037.png
+25-11-11 16:02:37.914 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 28.1800dB / 0.7524
+25-11-11 16:02:37.914 : --18 --> BSRGAN --> x4--> 143090.png
+25-11-11 16:02:38.057 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 14.8031dB / 0.5565
+25-11-11 16:02:38.057 : --19 --> BSRGAN --> x4--> 145086.png
+25-11-11 16:02:38.238 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 17.7076dB / 0.5243
+25-11-11 16:02:38.239 : --20 --> BSRGAN --> x4--> 147091.png
+25-11-11 16:02:38.388 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 17.8192dB / 0.5912
+25-11-11 16:02:38.388 : --21 --> BSRGAN --> x4--> 148026.png
+25-11-11 16:02:38.568 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 16.6203dB / 0.4059
+25-11-11 16:02:38.568 : --22 --> BSRGAN --> x4--> 148089.png
+25-11-11 16:02:38.702 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 18.8150dB / 0.4318
+25-11-11 16:02:38.702 : --23 --> BSRGAN --> x4--> 156065.png
+25-11-11 16:02:38.846 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 15.7763dB / 0.2025
+25-11-11 16:02:38.847 : --24 --> BSRGAN --> x4--> 157055.png
+25-11-11 16:02:39.040 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 12.6548dB / 0.5045
+25-11-11 16:02:39.040 : --25 --> BSRGAN --> x4--> 159008.png
+25-11-11 16:02:39.159 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.3143dB / 0.4204
+25-11-11 16:02:39.159 : --26 --> BSRGAN --> x4--> 160068.png
+25-11-11 16:02:39.304 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 15.0019dB / 0.6299
+25-11-11 16:02:39.304 : --27 --> BSRGAN --> x4--> 16077.png
+25-11-11 16:02:39.491 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 14.4431dB / 0.4913
+25-11-11 16:02:39.491 : --28 --> BSRGAN --> x4--> 163085.png
+25-11-11 16:02:39.625 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 18.0205dB / 0.5684
+25-11-11 16:02:39.625 : --29 --> BSRGAN --> x4--> 167062.png
+25-11-11 16:02:39.788 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 23.1526dB / 0.6745
+25-11-11 16:02:39.788 : --30 --> BSRGAN --> x4--> 167083.png
+25-11-11 16:02:39.947 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 17.0788dB / 0.3430
+25-11-11 16:02:39.948 : --31 --> BSRGAN --> x4--> 170057.png
+25-11-11 16:02:40.100 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.2172dB / 0.6026
+25-11-11 16:02:40.100 : --32 --> BSRGAN --> x4--> 175032.png
+25-11-11 16:02:40.266 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 15.7563dB / 0.1982
+25-11-11 16:02:40.266 : --33 --> BSRGAN --> x4--> 175043.png
+25-11-11 16:02:40.442 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.7141dB / 0.4244
+25-11-11 16:02:40.442 : --34 --> BSRGAN --> x4--> 182053.png
+25-11-11 16:02:40.616 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 15.3546dB / 0.5179
+25-11-11 16:02:40.617 : --35 --> BSRGAN --> x4--> 189080.png
+25-11-11 16:02:40.820 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 28.7571dB / 0.8084
+25-11-11 16:02:40.821 : --36 --> BSRGAN --> x4--> 19021.png
+25-11-11 16:02:40.984 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.4903dB / 0.4746
+25-11-11 16:02:40.984 : --37 --> BSRGAN --> x4--> 196073.png
+25-11-11 16:02:41.146 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 14.3855dB / 0.3620
+25-11-11 16:02:41.146 : --38 --> BSRGAN --> x4--> 197017.png
+25-11-11 16:02:41.306 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.1042dB / 0.5643
+25-11-11 16:02:41.307 : --39 --> BSRGAN --> x4--> 208001.png
+25-11-11 16:02:41.474 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.1367dB / 0.4542
+25-11-11 16:02:41.474 : --40 --> BSRGAN --> x4--> 210088.png
+25-11-11 16:02:41.637 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 13.0406dB / 0.7162
+25-11-11 16:02:41.637 : --41 --> BSRGAN --> x4--> 21077.png
+25-11-11 16:02:41.807 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 14.7662dB / 0.5051
+25-11-11 16:02:41.808 : --42 --> BSRGAN --> x4--> 216081.png
+25-11-11 16:02:41.973 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 17.4307dB / 0.4003
+25-11-11 16:02:41.973 : --43 --> BSRGAN --> x4--> 219090.png
+25-11-11 16:02:42.165 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 16.3369dB / 0.5473
+25-11-11 16:02:42.166 : --44 --> BSRGAN --> x4--> 220075.png
+25-11-11 16:02:42.311 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 12.7175dB / 0.5078
+25-11-11 16:02:42.311 : --45 --> BSRGAN --> x4--> 223061.png
+25-11-11 16:02:42.472 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 13.3855dB / 0.4497
+25-11-11 16:02:42.472 : --46 --> BSRGAN --> x4--> 227092.png
+25-11-11 16:02:42.639 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 17.5037dB / 0.7558
+25-11-11 16:02:42.639 : --47 --> BSRGAN --> x4--> 229036.png
+25-11-11 16:02:42.861 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 17.0572dB / 0.3841
+25-11-11 16:02:42.862 : --48 --> BSRGAN --> x4--> 236037.png
+25-11-11 16:02:42.990 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 16.5671dB / 0.3402
+25-11-11 16:02:42.990 : --49 --> BSRGAN --> x4--> 24077.png
+25-11-11 16:02:43.137 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.9626dB / 0.6973
+25-11-11 16:02:43.137 : --50 --> BSRGAN --> x4--> 241004.png
+25-11-11 16:02:43.289 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 26.8982dB / 0.7115
+25-11-11 16:02:43.289 : --51 --> BSRGAN --> x4--> 241048.png
+25-11-11 16:02:43.462 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 21.4155dB / 0.4583
+25-11-11 16:02:43.462 : --52 --> BSRGAN --> x4--> 253027.png
+25-11-11 16:02:43.674 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 13.8484dB / 0.4729
+25-11-11 16:02:43.675 : --53 --> BSRGAN --> x4--> 253055.png
+25-11-11 16:02:43.837 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 14.5330dB / 0.7018
+25-11-11 16:02:43.837 : --54 --> BSRGAN --> x4--> 260058.png
+25-11-11 16:02:43.962 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 15.3818dB / 0.6112
+25-11-11 16:02:43.962 : --55 --> BSRGAN --> x4--> 271035.png
+25-11-11 16:02:44.121 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 16.3358dB / 0.5368
+25-11-11 16:02:44.121 : --56 --> BSRGAN --> x4--> 285079.png
+25-11-11 16:02:44.290 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 13.3551dB / 0.2519
+25-11-11 16:02:44.291 : --57 --> BSRGAN --> x4--> 291000.png
+25-11-11 16:02:44.520 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 14.5040dB / 0.2038
+25-11-11 16:02:44.521 : --58 --> BSRGAN --> x4--> 295087.png
+25-11-11 16:02:44.685 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 14.1559dB / 0.5330
+25-11-11 16:02:44.686 : --59 --> BSRGAN --> x4--> 296007.png
+25-11-11 16:02:44.873 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.8765dB / 0.6418
+25-11-11 16:02:44.873 : --60 --> BSRGAN --> x4--> 296059.png
+25-11-11 16:02:45.008 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 16.0228dB / 0.5320
+25-11-11 16:02:45.008 : --61 --> BSRGAN --> x4--> 299086.png
+25-11-11 16:02:45.178 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 24.7093dB / 0.6719
+25-11-11 16:02:45.178 : --62 --> BSRGAN --> x4--> 300091.png
+25-11-11 16:02:45.395 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 18.1287dB / 0.6303
+25-11-11 16:02:45.396 : --63 --> BSRGAN --> x4--> 302008.png
+25-11-11 16:02:45.532 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 15.3111dB / 0.2615
+25-11-11 16:02:45.532 : --64 --> BSRGAN --> x4--> 304034.png
+25-11-11 16:02:45.716 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 16.0733dB / 0.3649
+25-11-11 16:02:45.716 : --65 --> BSRGAN --> x4--> 304074.png
+25-11-11 16:02:45.878 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 17.4972dB / 0.3437
+25-11-11 16:02:45.878 : --66 --> BSRGAN --> x4--> 306005.png
+25-11-11 16:02:46.054 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 24.1122dB / 0.6182
+25-11-11 16:02:46.054 : --67 --> BSRGAN --> x4--> 3096.png
+25-11-11 16:02:46.229 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 16.6758dB / 0.9036
+25-11-11 16:02:46.230 : --68 --> BSRGAN --> x4--> 33039.png
+25-11-11 16:02:46.370 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 16.9432dB / 0.3389
+25-11-11 16:02:46.371 : --69 --> BSRGAN --> x4--> 351093.png
+25-11-11 16:02:46.568 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.0171dB / 0.4789
+25-11-11 16:02:46.569 : --70 --> BSRGAN --> x4--> 361010.png
+25-11-11 16:02:46.722 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 14.8345dB / 0.3774
+25-11-11 16:02:46.722 : --71 --> BSRGAN --> x4--> 37073.png
+25-11-11 16:02:46.869 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.7771dB / 0.6247
+25-11-11 16:02:46.869 : --72 --> BSRGAN --> x4--> 376043.png
+25-11-11 16:02:47.029 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 15.1348dB / 0.3641
+25-11-11 16:02:47.029 : --73 --> BSRGAN --> x4--> 38082.png
+25-11-11 16:02:47.192 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 24.1059dB / 0.4275
+25-11-11 16:02:47.193 : --74 --> BSRGAN --> x4--> 38092.png
+25-11-11 16:02:47.326 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 17.7114dB / 0.4968
+25-11-11 16:02:47.326 : --75 --> BSRGAN --> x4--> 385039.png
+25-11-11 16:02:47.486 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.7641dB / 0.5347
+25-11-11 16:02:47.486 : --76 --> BSRGAN --> x4--> 41033.png
+25-11-11 16:02:47.655 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 18.1257dB / 0.5649
+25-11-11 16:02:47.655 : --77 --> BSRGAN --> x4--> 41069.png
+25-11-11 16:02:47.805 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 14.8200dB / 0.2691
+25-11-11 16:02:47.805 : --78 --> BSRGAN --> x4--> 42012.png
+25-11-11 16:02:47.983 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 22.9619dB / 0.5648
+25-11-11 16:02:47.984 : --79 --> BSRGAN --> x4--> 42049.png
+25-11-11 16:02:48.137 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 16.8517dB / 0.8230
+25-11-11 16:02:48.137 : --80 --> BSRGAN --> x4--> 43074.png
+25-11-11 16:02:48.298 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 14.5475dB / 0.5789
+25-11-11 16:02:48.298 : --81 --> BSRGAN --> x4--> 45096.png
+25-11-11 16:02:48.484 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 30.5981dB / 0.8683
+25-11-11 16:02:48.484 : --82 --> BSRGAN --> x4--> 54082.png
+25-11-11 16:02:48.652 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 14.3616dB / 0.4585
+25-11-11 16:02:48.652 : --83 --> BSRGAN --> x4--> 55073.png
+25-11-11 16:02:48.806 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 17.1870dB / 0.2809
+25-11-11 16:02:48.807 : --84 --> BSRGAN --> x4--> 58060.png
+25-11-11 16:02:48.989 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 18.4616dB / 0.4201
+25-11-11 16:02:48.990 : --85 --> BSRGAN --> x4--> 62096.png
+25-11-11 16:02:49.158 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 17.2997dB / 0.5318
+25-11-11 16:02:49.158 : --86 --> BSRGAN --> x4--> 65033.png
+25-11-11 16:02:49.286 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 21.3569dB / 0.3629
+25-11-11 16:02:49.287 : --87 --> BSRGAN --> x4--> 66053.png
+25-11-11 16:02:49.484 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 17.8242dB / 0.3393
+25-11-11 16:02:49.484 : --88 --> BSRGAN --> x4--> 69015.png
+25-11-11 16:02:49.632 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 26.1357dB / 0.6499
+25-11-11 16:02:49.632 : --89 --> BSRGAN --> x4--> 69020.png
+25-11-11 16:02:49.763 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 18.1126dB / 0.3259
+25-11-11 16:02:49.763 : --90 --> BSRGAN --> x4--> 69040.png
+25-11-11 16:02:49.941 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 13.2884dB / 0.3755
+25-11-11 16:02:49.942 : --91 --> BSRGAN --> x4--> 76053.png
+25-11-11 16:02:50.091 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.1225dB / 0.4785
+25-11-11 16:02:50.091 : --92 --> BSRGAN --> x4--> 78004.png
+25-11-11 16:02:50.271 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.5894dB / 0.5795
+25-11-11 16:02:50.272 : --93 --> BSRGAN --> x4--> 8023.png
+25-11-11 16:02:50.429 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 15.2576dB / 0.5448
+25-11-11 16:02:50.430 : --94 --> BSRGAN --> x4--> 85048.png
+25-11-11 16:02:50.573 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.9053dB / 0.5225
+25-11-11 16:02:50.573 : --95 --> BSRGAN --> x4--> 86000.png
+25-11-11 16:02:50.755 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 14.9045dB / 0.5034
+25-11-11 16:02:50.755 : --96 --> BSRGAN --> x4--> 86016.png
+25-11-11 16:02:50.907 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.4202dB / 0.1576
+25-11-11 16:02:50.907 : --97 --> BSRGAN --> x4--> 86068.png
+25-11-11 16:02:51.071 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 19.6205dB / 0.4163
+25-11-11 16:02:51.071 : --98 --> BSRGAN --> x4--> 87046.png
+25-11-11 16:02:51.219 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 20.9387dB / 0.5703
+25-11-11 16:02:51.219 : --99 --> BSRGAN --> x4--> 89072.png
+25-11-11 16:02:51.379 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 22.0111dB / 0.5083
+25-11-11 16:02:51.379 : -100 --> BSRGAN --> x4--> 97033.png
+25-11-11 16:02:51.532 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 15.5279dB / 0.4745
+25-11-11 16:02:51.532 : ----Average PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR/, x4)---- : 18.2599dB / 0.5077
+25-11-11 16:02:51.532 :  
+25-11-11 16:04:50.290 :       Model Name : BSRGAN
+25-11-11 16:05:06.040 :       Input Path : /root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/
+25-11-11 16:05:06.041 :      Output Path : /root/quoc-huy/BSRGAN/testsets/experimental-results/Urban100
+25-11-11 16:05:06.042 : ---1 --> BSRGAN --> x4--> img_001.png
+25-11-11 16:05:07.536 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 23.8803dB / 0.6298
+25-11-11 16:05:07.536 : ---2 --> BSRGAN --> x4--> img_002.png
+25-11-11 16:05:08.582 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 14.9544dB / 0.5072
+25-11-11 16:05:08.582 : ---3 --> BSRGAN --> x4--> img_003.png
+25-11-11 16:05:09.295 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 20.4674dB / 0.5260
+25-11-11 16:05:09.296 : ---4 --> BSRGAN --> x4--> img_004.png
+25-11-11 16:05:10.150 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 14.2563dB / 0.5346
+25-11-11 16:05:10.151 : ---5 --> BSRGAN --> x4--> img_005.png
+25-11-11 16:05:11.031 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 14.6988dB / 0.5459
+25-11-11 16:05:11.031 : ---6 --> BSRGAN --> x4--> img_006.png
+25-11-11 16:05:12.112 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.5630dB / 0.3678
+25-11-11 16:05:12.112 : ---7 --> BSRGAN --> x4--> img_007.png
+25-11-11 16:05:12.880 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 22.6317dB / 0.6210
+25-11-11 16:05:12.880 : ---8 --> BSRGAN --> x4--> img_008.png
+25-11-11 16:05:13.489 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.8113dB / 0.4360
+25-11-11 16:05:13.489 : ---9 --> BSRGAN --> x4--> img_009.png
+25-11-11 16:05:14.779 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.2452dB / 0.8160
+25-11-11 16:05:14.780 : --10 --> BSRGAN --> x4--> img_010.png
+25-11-11 16:05:15.643 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 14.3006dB / 0.7258
+25-11-11 16:05:15.643 : --11 --> BSRGAN --> x4--> img_011.png
+25-11-11 16:05:16.629 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 14.6441dB / 0.6089
+25-11-11 16:05:16.629 : --12 --> BSRGAN --> x4--> img_012.png
+25-11-11 16:05:18.062 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.8684dB / 0.5127
+25-11-11 16:05:18.062 : --13 --> BSRGAN --> x4--> img_013.png
+25-11-11 16:05:19.127 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.4311dB / 0.5907
+25-11-11 16:05:19.127 : --14 --> BSRGAN --> x4--> img_014.png
+25-11-11 16:05:20.487 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 12.7442dB / 0.4413
+25-11-11 16:05:20.487 : --15 --> BSRGAN --> x4--> img_015.png
+25-11-11 16:05:21.342 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 13.4006dB / 0.4244
+25-11-11 16:05:21.342 : --16 --> BSRGAN --> x4--> img_016.png
+25-11-11 16:05:22.760 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.0430dB / 0.6870
+25-11-11 16:05:22.760 : --17 --> BSRGAN --> x4--> img_017.png
+25-11-11 16:05:23.687 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.1648dB / 0.5977
+25-11-11 16:05:23.687 : --18 --> BSRGAN --> x4--> img_018.png
+25-11-11 16:05:24.622 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 13.7396dB / 0.4180
+25-11-11 16:05:24.622 : --19 --> BSRGAN --> x4--> img_019.png
+25-11-11 16:05:25.456 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.0655dB / 0.4807
+25-11-11 16:05:25.456 : --20 --> BSRGAN --> x4--> img_020.png
+25-11-11 16:05:26.752 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 14.0496dB / 0.4803
+25-11-11 16:05:26.752 : --21 --> BSRGAN --> x4--> img_021.png
+25-11-11 16:05:27.946 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 23.4762dB / 0.6036
+25-11-11 16:05:27.946 : --22 --> BSRGAN --> x4--> img_022.png
+25-11-11 16:05:28.877 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 19.3843dB / 0.6165
+25-11-11 16:05:28.877 : --23 --> BSRGAN --> x4--> img_023.png
+25-11-11 16:05:30.522 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 22.4879dB / 0.6387
+25-11-11 16:05:30.522 : --24 --> BSRGAN --> x4--> img_024.png
+25-11-11 16:05:31.389 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.6810dB / 0.4417
+25-11-11 16:05:31.389 : --25 --> BSRGAN --> x4--> img_025.png
+25-11-11 16:05:32.309 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.5391dB / 0.6985
+25-11-11 16:05:32.310 : --26 --> BSRGAN --> x4--> img_026.png
+25-11-11 16:05:33.142 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.0186dB / 0.5025
+25-11-11 16:05:33.142 : --27 --> BSRGAN --> x4--> img_027.png
+25-11-11 16:05:33.951 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.3941dB / 0.6269
+25-11-11 16:05:33.951 : --28 --> BSRGAN --> x4--> img_028.png
+25-11-11 16:05:34.745 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.3263dB / 0.5495
+25-11-11 16:05:34.745 : --29 --> BSRGAN --> x4--> img_029.png
+25-11-11 16:05:35.549 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 19.9133dB / 0.6884
+25-11-11 16:05:35.549 : --30 --> BSRGAN --> x4--> img_030.png
+25-11-11 16:05:36.394 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.1339dB / 0.4810
+25-11-11 16:05:36.394 : --31 --> BSRGAN --> x4--> img_031.png
+25-11-11 16:05:37.220 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.4288dB / 0.5089
+25-11-11 16:05:37.220 : --32 --> BSRGAN --> x4--> img_032.png
+25-11-11 16:05:38.096 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.0775dB / 0.6235
+25-11-11 16:05:38.096 : --33 --> BSRGAN --> x4--> img_033.png
+25-11-11 16:05:38.813 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 13.1999dB / 0.4995
+25-11-11 16:05:38.813 : --34 --> BSRGAN --> x4--> img_034.png
+25-11-11 16:05:39.687 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.3392dB / 0.4056
+25-11-11 16:05:39.688 : --35 --> BSRGAN --> x4--> img_035.png
+25-11-11 16:05:41.113 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.7220dB / 0.6658
+25-11-11 16:05:41.113 : --36 --> BSRGAN --> x4--> img_036.png
+25-11-11 16:05:42.240 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.0151dB / 0.6267
+25-11-11 16:05:42.240 : --37 --> BSRGAN --> x4--> img_037.png
+25-11-11 16:05:43.278 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.1963dB / 0.5756
+25-11-11 16:05:43.279 : --38 --> BSRGAN --> x4--> img_038.png
+25-11-11 16:05:44.560 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.5922dB / 0.4172
+25-11-11 16:05:44.561 : --39 --> BSRGAN --> x4--> img_039.png
+25-11-11 16:05:45.433 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 19.3625dB / 0.5754
+25-11-11 16:05:45.433 : --40 --> BSRGAN --> x4--> img_040.png
+25-11-11 16:05:46.067 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 14.7815dB / 0.6640
+25-11-11 16:05:46.067 : --41 --> BSRGAN --> x4--> img_041.png
+25-11-11 16:05:46.835 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.9682dB / 0.6015
+25-11-11 16:05:46.836 : --42 --> BSRGAN --> x4--> img_042.png
+25-11-11 16:05:47.517 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.9951dB / 0.6586
+25-11-11 16:05:47.517 : --43 --> BSRGAN --> x4--> img_043.png
+25-11-11 16:05:48.306 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 24.0191dB / 0.7745
+25-11-11 16:05:48.306 : --44 --> BSRGAN --> x4--> img_044.png
+25-11-11 16:05:49.109 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.1057dB / 0.5598
+25-11-11 16:05:49.109 : --45 --> BSRGAN --> x4--> img_045.png
+25-11-11 16:05:49.960 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.3566dB / 0.3543
+25-11-11 16:05:49.960 : --46 --> BSRGAN --> x4--> img_046.png
+25-11-11 16:05:50.708 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.5940dB / 0.6363
+25-11-11 16:05:50.708 : --47 --> BSRGAN --> x4--> img_047.png
+25-11-11 16:05:51.536 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 10.8472dB / 0.4522
+25-11-11 16:05:51.536 : --48 --> BSRGAN --> x4--> img_048.png
+25-11-11 16:05:52.392 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.8904dB / 0.6162
+25-11-11 16:05:52.393 : --49 --> BSRGAN --> x4--> img_049.png
+25-11-11 16:05:54.240 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 14.2975dB / 0.4892
+25-11-11 16:05:54.240 : --50 --> BSRGAN --> x4--> img_050.png
+25-11-11 16:05:55.117 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 20.1926dB / 0.5930
+25-11-11 16:05:55.117 : --51 --> BSRGAN --> x4--> img_051.png
+25-11-11 16:05:56.090 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 20.7599dB / 0.6007
+25-11-11 16:05:56.091 : --52 --> BSRGAN --> x4--> img_052.png
+25-11-11 16:05:56.829 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.2402dB / 0.6970
+25-11-11 16:05:56.829 : --53 --> BSRGAN --> x4--> img_053.png
+25-11-11 16:05:57.692 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.0106dB / 0.4966
+25-11-11 16:05:57.692 : --54 --> BSRGAN --> x4--> img_054.png
+25-11-11 16:05:58.535 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.8335dB / 0.5046
+25-11-11 16:05:58.536 : --55 --> BSRGAN --> x4--> img_055.png
+25-11-11 16:05:59.420 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 22.9478dB / 0.8015
+25-11-11 16:05:59.421 : --56 --> BSRGAN --> x4--> img_056.png
+25-11-11 16:06:00.272 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.8991dB / 0.4398
+25-11-11 16:06:00.272 : --57 --> BSRGAN --> x4--> img_057.png
+25-11-11 16:06:01.079 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 20.1859dB / 0.5765
+25-11-11 16:06:01.079 : --58 --> BSRGAN --> x4--> img_058.png
+25-11-11 16:06:01.904 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 19.5974dB / 0.6401
+25-11-11 16:06:01.904 : --59 --> BSRGAN --> x4--> img_059.png
+25-11-11 16:06:02.649 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.6361dB / 0.6053
+25-11-11 16:06:02.649 : --60 --> BSRGAN --> x4--> img_060.png
+25-11-11 16:06:03.531 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.5020dB / 0.3931
+25-11-11 16:06:03.532 : --61 --> BSRGAN --> x4--> img_061.png
+25-11-11 16:06:04.574 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 19.5008dB / 0.5491
+25-11-11 16:06:04.575 : --62 --> BSRGAN --> x4--> img_062.png
+25-11-11 16:06:06.375 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.3235dB / 0.5219
+25-11-11 16:06:06.376 : --63 --> BSRGAN --> x4--> img_063.png
+25-11-11 16:06:07.645 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.7401dB / 0.3987
+25-11-11 16:06:07.646 : --64 --> BSRGAN --> x4--> img_064.png
+25-11-11 16:06:08.745 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.1204dB / 0.5518
+25-11-11 16:06:08.746 : --65 --> BSRGAN --> x4--> img_065.png
+25-11-11 16:06:09.469 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 12.4787dB / 0.3626
+25-11-11 16:06:09.469 : --66 --> BSRGAN --> x4--> img_066.png
+25-11-11 16:06:10.521 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 19.4741dB / 0.4798
+25-11-11 16:06:10.521 : --67 --> BSRGAN --> x4--> img_067.png
+25-11-11 16:06:11.427 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.5652dB / 0.6964
+25-11-11 16:06:11.428 : --68 --> BSRGAN --> x4--> img_068.png
+25-11-11 16:06:12.542 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.4617dB / 0.5080
+25-11-11 16:06:12.543 : --69 --> BSRGAN --> x4--> img_069.png
+25-11-11 16:06:13.589 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.2571dB / 0.5898
+25-11-11 16:06:13.589 : --70 --> BSRGAN --> x4--> img_070.png
+25-11-11 16:06:14.425 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 19.4575dB / 0.4553
+25-11-11 16:06:14.425 : --71 --> BSRGAN --> x4--> img_071.png
+25-11-11 16:06:15.264 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.7597dB / 0.5009
+25-11-11 16:06:15.265 : --72 --> BSRGAN --> x4--> img_072.png
+25-11-11 16:06:16.180 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 13.1884dB / 0.5744
+25-11-11 16:06:16.181 : --73 --> BSRGAN --> x4--> img_073.png
+25-11-11 16:06:17.880 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 14.2925dB / 0.2765
+25-11-11 16:06:17.881 : --74 --> BSRGAN --> x4--> img_074.png
+25-11-11 16:06:18.929 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.2703dB / 0.4968
+25-11-11 16:06:18.929 : --75 --> BSRGAN --> x4--> img_075.png
+25-11-11 16:06:19.833 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 25.1575dB / 0.7830
+25-11-11 16:06:19.834 : --76 --> BSRGAN --> x4--> img_076.png
+25-11-11 16:06:20.570 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.2619dB / 0.4800
+25-11-11 16:06:20.570 : --77 --> BSRGAN --> x4--> img_077.png
+25-11-11 16:06:21.304 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.7217dB / 0.5080
+25-11-11 16:06:21.304 : --78 --> BSRGAN --> x4--> img_078.png
+25-11-11 16:06:22.099 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.3656dB / 0.5032
+25-11-11 16:06:22.099 : --79 --> BSRGAN --> x4--> img_079.png
+25-11-11 16:06:22.995 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.2244dB / 0.4799
+25-11-11 16:06:22.996 : --80 --> BSRGAN --> x4--> img_080.png
+25-11-11 16:06:24.003 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.4966dB / 0.7868
+25-11-11 16:06:24.003 : --81 --> BSRGAN --> x4--> img_081.png
+25-11-11 16:06:25.105 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.7571dB / 0.5194
+25-11-11 16:06:25.106 : --82 --> BSRGAN --> x4--> img_082.png
+25-11-11 16:06:26.159 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.9179dB / 0.6400
+25-11-11 16:06:26.160 : --83 --> BSRGAN --> x4--> img_083.png
+25-11-11 16:06:27.280 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.4063dB / 0.4423
+25-11-11 16:06:27.280 : --84 --> BSRGAN --> x4--> img_084.png
+25-11-11 16:06:29.305 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 20.5016dB / 0.5446
+25-11-11 16:06:29.305 : --85 --> BSRGAN --> x4--> img_085.png
+25-11-11 16:06:30.162 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.1111dB / 0.2959
+25-11-11 16:06:30.162 : --86 --> BSRGAN --> x4--> img_086.png
+25-11-11 16:06:31.087 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.1265dB / 0.6982
+25-11-11 16:06:31.087 : --87 --> BSRGAN --> x4--> img_087.png
+25-11-11 16:06:32.735 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.7545dB / 0.5798
+25-11-11 16:06:32.736 : --88 --> BSRGAN --> x4--> img_088.png
+25-11-11 16:06:33.576 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.5090dB / 0.4035
+25-11-11 16:06:33.576 : --89 --> BSRGAN --> x4--> img_089.png
+25-11-11 16:06:34.394 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.1513dB / 0.4992
+25-11-11 16:06:34.394 : --90 --> BSRGAN --> x4--> img_090.png
+25-11-11 16:06:35.167 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 21.1394dB / 0.6362
+25-11-11 16:06:35.167 : --91 --> BSRGAN --> x4--> img_091.png
+25-11-11 16:06:35.950 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.9871dB / 0.3965
+25-11-11 16:06:35.950 : --92 --> BSRGAN --> x4--> img_092.png
+25-11-11 16:06:36.768 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.0289dB / 0.4226
+25-11-11 16:06:36.768 : --93 --> BSRGAN --> x4--> img_093.png
+25-11-11 16:06:37.630 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.2326dB / 0.6253
+25-11-11 16:06:37.630 : --94 --> BSRGAN --> x4--> img_094.png
+25-11-11 16:06:38.473 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 15.5835dB / 0.4202
+25-11-11 16:06:38.473 : --95 --> BSRGAN --> x4--> img_095.png
+25-11-11 16:06:39.442 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 13.1696dB / 0.1661
+25-11-11 16:06:39.442 : --96 --> BSRGAN --> x4--> img_096.png
+25-11-11 16:06:40.525 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 16.1747dB / 0.5747
+25-11-11 16:06:40.526 : --97 --> BSRGAN --> x4--> img_097.png
+25-11-11 16:06:41.377 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.0997dB / 0.5747
+25-11-11 16:06:41.377 : --98 --> BSRGAN --> x4--> img_098.png
+25-11-11 16:06:42.238 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 13.7756dB / 0.1653
+25-11-11 16:06:42.238 : --99 --> BSRGAN --> x4--> img_099.png
+25-11-11 16:06:43.563 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 20.3979dB / 0.4374
+25-11-11 16:06:43.564 : -100 --> BSRGAN --> x4--> img_100.png
+25-11-11 16:06:44.989 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 18.9732dB / 0.5952
+25-11-11 16:06:44.989 : ----Average PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR/, x4)---- : 17.3082dB / 0.5399
+25-11-11 16:06:44.989 :  
+25-11-11 16:15:49.483 :       Model Name : BSRNet
+25-11-11 16:16:03.517 :       Input Path : /root/media/quoc-huy/bsrgan-dataset/Set5/
+25-11-11 16:16:03.518 :      Output Path : /root/quoc-huy/BSRGAN/testsets/experimental-results/Set5
+25-11-11 16:16:03.519 : ---1 --> BSRNet --> x4--> baby.png
+25-11-11 16:16:04.540 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Set5/, x4)---- : 25.2099dB / 0.6822
+25-11-11 16:16:04.540 : ---2 --> BSRNet --> x4--> bird.png
+25-11-11 16:16:04.628 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Set5/, x4)---- : 21.9310dB / 0.5464
+25-11-11 16:16:04.628 : ---3 --> BSRNet --> x4--> butterfly.png
+25-11-11 16:16:04.711 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Set5/, x4)---- : 15.4640dB / 0.4781
+25-11-11 16:16:04.711 : ---4 --> BSRNet --> x4--> head.png
+25-11-11 16:16:04.807 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Set5/, x4)---- : 23.7793dB / 0.5424
+25-11-11 16:16:04.807 : ---5 --> BSRNet --> x4--> woman.png
+25-11-11 16:16:04.898 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Set5/, x4)---- : 19.8861dB / 0.6159
+25-11-11 16:16:04.899 : ----Average PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Set5/, x4)---- : 21.2541dB / 0.5730
+25-11-11 16:16:04.899 :  
+25-11-11 16:17:23.747 :       Model Name : BSRNet
+25-11-11 16:17:40.009 :       Input Path : /root/media/quoc-huy/bsrgan-dataset/Set14/
+25-11-11 16:17:40.010 :      Output Path : /root/quoc-huy/BSRGAN/testsets/experimental-results/Set14
+25-11-11 16:17:40.011 : ---1 --> BSRNet --> x4--> baboon.png
+25-11-11 16:17:40.947 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Set14/, x4)---- : 18.3135dB / 0.2373
+25-11-11 16:17:40.947 : ---2 --> BSRNet --> x4--> barbara.png
+25-11-11 16:17:41.374 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Set14/, x4)---- : 21.2446dB / 0.5255
+25-11-11 16:17:41.374 : ---3 --> BSRNet --> x4--> bridge.png
+25-11-11 16:17:41.724 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Set14/, x4)---- : 19.7004dB / 0.3050
+25-11-11 16:17:41.726 : ---4 --> BSRNet --> x4--> coastguard.png
+25-11-11 16:17:41.862 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Set14/, x4)---- : 20.9365dB / 0.3427
+25-11-11 16:17:41.862 : ---5 --> BSRNet --> x4--> comic.png
+25-11-11 16:17:41.960 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Set14/, x4)---- : 17.8070dB / 0.3508
+25-11-11 16:17:41.961 : ---6 --> BSRNet --> x4--> face.png
+25-11-11 16:17:42.065 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Set14/, x4)---- : 25.8031dB / 0.5759
+25-11-11 16:17:42.066 : ---7 --> BSRNet --> x4--> flowers.png
+25-11-11 16:17:42.337 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Set14/, x4)---- : 19.0130dB / 0.4513
+25-11-11 16:17:42.337 : ---8 --> BSRNet --> x4--> foreman.png
+25-11-11 16:17:42.464 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Set14/, x4)---- : 21.9214dB / 0.7182
+25-11-11 16:17:42.464 : ---9 --> BSRNet --> x4--> lenna.png
+25-11-11 16:17:42.766 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Set14/, x4)---- : 26.6780dB / 0.7241
+25-11-11 16:17:42.766 : --10 --> BSRNet --> x4--> man.png
+25-11-11 16:17:43.061 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Set14/, x4)---- : 18.9161dB / 0.3733
+25-11-11 16:17:43.061 : --11 --> BSRNet --> x4--> monarch.png
+25-11-11 16:17:43.570 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Set14/, x4)---- : 19.6370dB / 0.6747
+25-11-11 16:17:43.570 : --12 --> BSRNet --> x4--> pepper.png
+25-11-11 16:17:43.869 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Set14/, x4)---- : 23.3224dB / 0.6838
+25-11-11 16:17:43.869 : --13 --> BSRNet --> x4--> ppt3.png
+25-11-11 16:17:44.346 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Set14/, x4)---- : 16.7269dB / 0.6618
+25-11-11 16:17:44.347 : --14 --> BSRNet --> x4--> zebra.png
+25-11-11 16:17:44.660 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Set14/, x4)---- : 16.4901dB / 0.3129
+25-11-11 16:17:44.660 : ----Average PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Set14/, x4)---- : 20.4650dB / 0.4955
+25-11-11 16:17:44.660 :  
+25-11-11 16:18:05.262 :       Model Name : BSRNet
+25-11-11 16:18:20.023 :       Input Path : /root/media/quoc-huy/bsrgan-dataset/BSD100/
+25-11-11 16:18:20.023 :      Output Path : /root/quoc-huy/BSRGAN/testsets/experimental-results/BSD100
+25-11-11 16:18:20.024 : ---1 --> BSRNet --> x4--> 101085.png
+25-11-11 16:18:20.851 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 19.6931dB / 0.3012
+25-11-11 16:18:20.851 : ---2 --> BSRNet --> x4--> 101087.png
+25-11-11 16:18:21.012 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 20.5959dB / 0.6133
+25-11-11 16:18:21.013 : ---3 --> BSRNet --> x4--> 102061.png
+25-11-11 16:18:21.175 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 20.5680dB / 0.6125
+25-11-11 16:18:21.176 : ---4 --> BSRNet --> x4--> 103070.png
+25-11-11 16:18:21.333 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 22.6513dB / 0.5521
+25-11-11 16:18:21.334 : ---5 --> BSRNet --> x4--> 105025.png
+25-11-11 16:18:21.502 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 21.0219dB / 0.4515
+25-11-11 16:18:21.502 : ---6 --> BSRNet --> x4--> 106024.png
+25-11-11 16:18:21.678 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 26.1932dB / 0.7670
+25-11-11 16:18:21.678 : ---7 --> BSRNet --> x4--> 108005.png
+25-11-11 16:18:21.823 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 21.3085dB / 0.4589
+25-11-11 16:18:21.823 : ---8 --> BSRNet --> x4--> 108070.png
+25-11-11 16:18:21.987 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 20.3138dB / 0.3720
+25-11-11 16:18:21.987 : ---9 --> BSRNet --> x4--> 108082.png
+25-11-11 16:18:22.141 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 19.9401dB / 0.4773
+25-11-11 16:18:22.141 : --10 --> BSRNet --> x4--> 109053.png
+25-11-11 16:18:22.287 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 24.9874dB / 0.6221
+25-11-11 16:18:22.287 : --11 --> BSRNet --> x4--> 119082.png
+25-11-11 16:18:22.442 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 15.8548dB / 0.3138
+25-11-11 16:18:22.442 : --12 --> BSRNet --> x4--> 12084.png
+25-11-11 16:18:22.599 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 22.2007dB / 0.4233
+25-11-11 16:18:22.599 : --13 --> BSRNet --> x4--> 123074.png
+25-11-11 16:18:22.733 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 24.3514dB / 0.5437
+25-11-11 16:18:22.734 : --14 --> BSRNet --> x4--> 126007.png
+25-11-11 16:18:22.908 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 22.4973dB / 0.6545
+25-11-11 16:18:22.908 : --15 --> BSRNet --> x4--> 130026.png
+25-11-11 16:18:23.080 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 21.4380dB / 0.4709
+25-11-11 16:18:23.081 : --16 --> BSRNet --> x4--> 134035.png
+25-11-11 16:18:23.215 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 17.4072dB / 0.3447
+25-11-11 16:18:23.215 : --17 --> BSRNet --> x4--> 14037.png
+25-11-11 16:18:23.380 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 27.2018dB / 0.7414
+25-11-11 16:18:23.381 : --18 --> BSRNet --> x4--> 143090.png
+25-11-11 16:18:23.551 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 24.9459dB / 0.7475
+25-11-11 16:18:23.551 : --19 --> BSRNet --> x4--> 145086.png
+25-11-11 16:18:23.717 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 21.7778dB / 0.5688
+25-11-11 16:18:23.718 : --20 --> BSRNet --> x4--> 147091.png
+25-11-11 16:18:23.894 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 19.4994dB / 0.6152
+25-11-11 16:18:23.894 : --21 --> BSRNet --> x4--> 148026.png
+25-11-11 16:18:24.070 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 16.7167dB / 0.3744
+25-11-11 16:18:24.070 : --22 --> BSRNet --> x4--> 148089.png
+25-11-11 16:18:24.235 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 18.3178dB / 0.2822
+25-11-11 16:18:24.235 : --23 --> BSRNet --> x4--> 156065.png
+25-11-11 16:18:24.385 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 21.9281dB / 0.3895
+25-11-11 16:18:24.385 : --24 --> BSRNet --> x4--> 157055.png
+25-11-11 16:18:24.579 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 22.5443dB / 0.5978
+25-11-11 16:18:24.579 : --25 --> BSRNet --> x4--> 159008.png
+25-11-11 16:18:24.716 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 18.4699dB / 0.4440
+25-11-11 16:18:24.717 : --26 --> BSRNet --> x4--> 160068.png
+25-11-11 16:18:24.858 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 21.8355dB / 0.6740
+25-11-11 16:18:24.858 : --27 --> BSRNet --> x4--> 16077.png
+25-11-11 16:18:25.044 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 21.8808dB / 0.4934
+25-11-11 16:18:25.044 : --28 --> BSRNet --> x4--> 163085.png
+25-11-11 16:18:25.163 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 22.3989dB / 0.5378
+25-11-11 16:18:25.164 : --29 --> BSRNet --> x4--> 167062.png
+25-11-11 16:18:25.338 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 23.7981dB / 0.7780
+25-11-11 16:18:25.338 : --30 --> BSRNet --> x4--> 167083.png
+25-11-11 16:18:25.492 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 17.2342dB / 0.3320
+25-11-11 16:18:25.492 : --31 --> BSRNet --> x4--> 170057.png
+25-11-11 16:18:25.620 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 25.0191dB / 0.5969
+25-11-11 16:18:25.620 : --32 --> BSRNet --> x4--> 175032.png
+25-11-11 16:18:25.817 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 17.2414dB / 0.1226
+25-11-11 16:18:25.817 : --33 --> BSRNet --> x4--> 175043.png
+25-11-11 16:18:25.981 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 19.2313dB / 0.2746
+25-11-11 16:18:25.981 : --34 --> BSRNet --> x4--> 182053.png
+25-11-11 16:18:26.102 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 19.4080dB / 0.5356
+25-11-11 16:18:26.103 : --35 --> BSRNet --> x4--> 189080.png
+25-11-11 16:18:26.302 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 23.7303dB / 0.7326
+25-11-11 16:18:26.302 : --36 --> BSRNet --> x4--> 19021.png
+25-11-11 16:18:26.461 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 21.3661dB / 0.5074
+25-11-11 16:18:26.461 : --37 --> BSRNet --> x4--> 196073.png
+25-11-11 16:18:26.592 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 25.1640dB / 0.3700
+25-11-11 16:18:26.592 : --38 --> BSRNet --> x4--> 197017.png
+25-11-11 16:18:26.755 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 20.0819dB / 0.4735
+25-11-11 16:18:26.756 : --39 --> BSRNet --> x4--> 208001.png
+25-11-11 16:18:26.915 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 21.1632dB / 0.4340
+25-11-11 16:18:26.915 : --40 --> BSRNet --> x4--> 210088.png
+25-11-11 16:18:27.062 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 21.5823dB / 0.6198
+25-11-11 16:18:27.063 : --41 --> BSRNet --> x4--> 21077.png
+25-11-11 16:18:27.247 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 18.8068dB / 0.4490
+25-11-11 16:18:27.247 : --42 --> BSRNet --> x4--> 216081.png
+25-11-11 16:18:27.424 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 19.2860dB / 0.4351
+25-11-11 16:18:27.425 : --43 --> BSRNet --> x4--> 219090.png
+25-11-11 16:18:27.592 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 20.7625dB / 0.5566
+25-11-11 16:18:27.593 : --44 --> BSRNet --> x4--> 220075.png
+25-11-11 16:18:27.763 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 18.7056dB / 0.5292
+25-11-11 16:18:27.763 : --45 --> BSRNet --> x4--> 223061.png
+25-11-11 16:18:27.922 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 20.9196dB / 0.4325
+25-11-11 16:18:27.922 : --46 --> BSRNet --> x4--> 227092.png
+25-11-11 16:18:28.077 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 29.2693dB / 0.7580
+25-11-11 16:18:28.077 : --47 --> BSRNet --> x4--> 229036.png
+25-11-11 16:18:28.238 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 16.0198dB / 0.2441
+25-11-11 16:18:28.238 : --48 --> BSRNet --> x4--> 236037.png
+25-11-11 16:18:28.399 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 18.9401dB / 0.2516
+25-11-11 16:18:28.399 : --49 --> BSRNet --> x4--> 24077.png
+25-11-11 16:18:28.545 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 16.5764dB / 0.4698
+25-11-11 16:18:28.545 : --50 --> BSRNet --> x4--> 241004.png
+25-11-11 16:18:28.712 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 26.1679dB / 0.7025
+25-11-11 16:18:28.712 : --51 --> BSRNet --> x4--> 241048.png
+25-11-11 16:18:28.925 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 20.3482dB / 0.3751
+25-11-11 16:18:28.925 : --52 --> BSRNet --> x4--> 253027.png
+25-11-11 16:18:29.056 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 17.7892dB / 0.4268
+25-11-11 16:18:29.056 : --53 --> BSRNet --> x4--> 253055.png
+25-11-11 16:18:29.273 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 26.6733dB / 0.7009
+25-11-11 16:18:29.273 : --54 --> BSRNet --> x4--> 260058.png
+25-11-11 16:18:29.442 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 27.5463dB / 0.6407
+25-11-11 16:18:29.442 : --55 --> BSRNet --> x4--> 271035.png
+25-11-11 16:18:29.644 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 19.4135dB / 0.4148
+25-11-11 16:18:29.645 : --56 --> BSRNet --> x4--> 285079.png
+25-11-11 16:18:29.802 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 19.0767dB / 0.3738
+25-11-11 16:18:29.803 : --57 --> BSRNet --> x4--> 291000.png
+25-11-11 16:18:29.928 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 17.7322dB / 0.1617
+25-11-11 16:18:29.928 : --58 --> BSRNet --> x4--> 295087.png
+25-11-11 16:18:30.107 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 24.3818dB / 0.5900
+25-11-11 16:18:30.108 : --59 --> BSRNet --> x4--> 296007.png
+25-11-11 16:18:30.271 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 27.4988dB / 0.6655
+25-11-11 16:18:30.271 : --60 --> BSRNet --> x4--> 296059.png
+25-11-11 16:18:30.547 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 26.3576dB / 0.6476
+25-11-11 16:18:30.548 : --61 --> BSRNet --> x4--> 299086.png
+25-11-11 16:18:30.686 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 27.5972dB / 0.6838
+25-11-11 16:18:30.686 : --62 --> BSRNet --> x4--> 300091.png
+25-11-11 16:18:30.862 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 24.3864dB / 0.6521
+25-11-11 16:18:30.862 : --63 --> BSRNet --> x4--> 302008.png
+25-11-11 16:18:31.019 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 22.0686dB / 0.7591
+25-11-11 16:18:31.019 : --64 --> BSRNet --> x4--> 304034.png
+25-11-11 16:18:31.187 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 19.7162dB / 0.3514
+25-11-11 16:18:31.187 : --65 --> BSRNet --> x4--> 304074.png
+25-11-11 16:18:31.384 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 21.6258dB / 0.3736
+25-11-11 16:18:31.385 : --66 --> BSRNet --> x4--> 306005.png
+25-11-11 16:18:31.539 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 24.6371dB / 0.6503
+25-11-11 16:18:31.539 : --67 --> BSRNet --> x4--> 3096.png
+25-11-11 16:18:31.753 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 28.1990dB / 0.9145
+25-11-11 16:18:31.753 : --68 --> BSRNet --> x4--> 33039.png
+25-11-11 16:18:31.931 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 14.3054dB / 0.1292
+25-11-11 16:18:31.932 : --69 --> BSRNet --> x4--> 351093.png
+25-11-11 16:18:32.147 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 18.1758dB / 0.4293
+25-11-11 16:18:32.148 : --70 --> BSRNet --> x4--> 361010.png
+25-11-11 16:18:32.296 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 21.9506dB / 0.5660
+25-11-11 16:18:32.297 : --71 --> BSRNet --> x4--> 37073.png
+25-11-11 16:18:32.511 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 23.7648dB / 0.6170
+25-11-11 16:18:32.511 : --72 --> BSRNet --> x4--> 376043.png
+25-11-11 16:18:32.636 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 20.5545dB / 0.2959
+25-11-11 16:18:32.636 : --73 --> BSRNet --> x4--> 38082.png
+25-11-11 16:18:32.824 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 24.2600dB / 0.4195
+25-11-11 16:18:32.824 : --74 --> BSRNet --> x4--> 38092.png
+25-11-11 16:18:32.999 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 22.4819dB / 0.5390
+25-11-11 16:18:32.999 : --75 --> BSRNet --> x4--> 385039.png
+25-11-11 16:18:33.147 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 19.2993dB / 0.4748
+25-11-11 16:18:33.148 : --76 --> BSRNet --> x4--> 41033.png
+25-11-11 16:18:33.354 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 23.8406dB / 0.5690
+25-11-11 16:18:33.355 : --77 --> BSRNet --> x4--> 41069.png
+25-11-11 16:18:33.512 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 19.8018dB / 0.2255
+25-11-11 16:18:33.513 : --78 --> BSRNet --> x4--> 42012.png
+25-11-11 16:18:33.667 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 22.9974dB / 0.5562
+25-11-11 16:18:33.667 : --79 --> BSRNet --> x4--> 42049.png
+25-11-11 16:18:33.832 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 20.7885dB / 0.7988
+25-11-11 16:18:33.832 : --80 --> BSRNet --> x4--> 43074.png
+25-11-11 16:18:34.002 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 26.7487dB / 0.7015
+25-11-11 16:18:34.003 : --81 --> BSRNet --> x4--> 45096.png
+25-11-11 16:18:34.153 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 29.9039dB / 0.8549
+25-11-11 16:18:34.153 : --82 --> BSRNet --> x4--> 54082.png
+25-11-11 16:18:34.309 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 23.1424dB / 0.5295
+25-11-11 16:18:34.309 : --83 --> BSRNet --> x4--> 55073.png
+25-11-11 16:18:34.465 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 18.7011dB / 0.2634
+25-11-11 16:18:34.465 : --84 --> BSRNet --> x4--> 58060.png
+25-11-11 16:18:34.609 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 17.0270dB / 0.3453
+25-11-11 16:18:34.609 : --85 --> BSRNet --> x4--> 62096.png
+25-11-11 16:18:34.785 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 20.0299dB / 0.5791
+25-11-11 16:18:34.785 : --86 --> BSRNet --> x4--> 65033.png
+25-11-11 16:18:34.948 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 18.9762dB / 0.2629
+25-11-11 16:18:34.948 : --87 --> BSRNet --> x4--> 66053.png
+25-11-11 16:18:35.120 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 22.8040dB / 0.4595
+25-11-11 16:18:35.120 : --88 --> BSRNet --> x4--> 69015.png
+25-11-11 16:18:35.304 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 26.0092dB / 0.6070
+25-11-11 16:18:35.305 : --89 --> BSRNet --> x4--> 69020.png
+25-11-11 16:18:35.480 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 23.2943dB / 0.3280
+25-11-11 16:18:35.481 : --90 --> BSRNet --> x4--> 69040.png
+25-11-11 16:18:35.645 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 20.0887dB / 0.2714
+25-11-11 16:18:35.645 : --91 --> BSRNet --> x4--> 76053.png
+25-11-11 16:18:35.820 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 22.7042dB / 0.4340
+25-11-11 16:18:35.821 : --92 --> BSRNet --> x4--> 78004.png
+25-11-11 16:18:36.002 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 22.9468dB / 0.5903
+25-11-11 16:18:36.002 : --93 --> BSRNet --> x4--> 8023.png
+25-11-11 16:18:36.145 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 24.2007dB / 0.6241
+25-11-11 16:18:36.145 : --94 --> BSRNet --> x4--> 85048.png
+25-11-11 16:18:36.324 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 20.6373dB / 0.4342
+25-11-11 16:18:36.324 : --95 --> BSRNet --> x4--> 86000.png
+25-11-11 16:18:36.458 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 19.6922dB / 0.5006
+25-11-11 16:18:36.458 : --96 --> BSRNet --> x4--> 86016.png
+25-11-11 16:18:36.651 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 19.6628dB / 0.1412
+25-11-11 16:18:36.651 : --97 --> BSRNet --> x4--> 86068.png
+25-11-11 16:18:36.807 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 23.1313dB / 0.3455
+25-11-11 16:18:36.807 : --98 --> BSRNet --> x4--> 87046.png
+25-11-11 16:18:36.934 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 19.3379dB / 0.4186
+25-11-11 16:18:36.934 : --99 --> BSRNet --> x4--> 89072.png
+25-11-11 16:18:37.144 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 21.3465dB / 0.4886
+25-11-11 16:18:37.145 : -100 --> BSRNet --> x4--> 97033.png
+25-11-11 16:18:37.293 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 18.9656dB / 0.4224
+25-11-11 16:18:37.293 : ----Average PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/BSD100/, x4)---- : 21.6563dB / 0.4965
+25-11-11 16:18:37.293 :  
+25-11-11 16:18:49.787 :       Model Name : BSRNet
+25-11-11 16:19:04.571 :       Input Path : /root/media/quoc-huy/bsrgan-dataset/Urban100/
+25-11-11 16:19:04.572 :      Output Path : /root/quoc-huy/BSRGAN/testsets/experimental-results/Urban100
+25-11-11 16:19:04.573 : ---1 --> BSRNet --> x4--> img_001.png
+25-11-11 16:19:06.050 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 19.8439dB / 0.4576
+25-11-11 16:19:06.050 : ---2 --> BSRNet --> x4--> img_002.png
+25-11-11 16:19:07.038 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 17.9959dB / 0.4208
+25-11-11 16:19:07.038 : ---3 --> BSRNet --> x4--> img_003.png
+25-11-11 16:19:07.869 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 20.6430dB / 0.4997
+25-11-11 16:19:07.870 : ---4 --> BSRNet --> x4--> img_004.png
+25-11-11 16:19:08.684 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 14.9046dB / 0.2566
+25-11-11 16:19:08.684 : ---5 --> BSRNet --> x4--> img_005.png
+25-11-11 16:19:09.500 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 17.0377dB / 0.6574
+25-11-11 16:19:09.500 : ---6 --> BSRNet --> x4--> img_006.png
+25-11-11 16:19:10.531 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 16.7833dB / 0.2504
+25-11-11 16:19:10.531 : ---7 --> BSRNet --> x4--> img_007.png
+25-11-11 16:19:11.313 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 22.3760dB / 0.6247
+25-11-11 16:19:11.313 : ---8 --> BSRNet --> x4--> img_008.png
+25-11-11 16:19:12.076 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 15.3411dB / 0.2023
+25-11-11 16:19:12.077 : ---9 --> BSRNet --> x4--> img_009.png
+25-11-11 16:19:13.367 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 27.0294dB / 0.7810
+25-11-11 16:19:13.367 : --10 --> BSRNet --> x4--> img_010.png
+25-11-11 16:19:14.502 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 19.8763dB / 0.6859
+25-11-11 16:19:14.503 : --11 --> BSRNet --> x4--> img_011.png
+25-11-11 16:19:15.209 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 12.2866dB / 0.3976
+25-11-11 16:19:15.209 : --12 --> BSRNet --> x4--> img_012.png
+25-11-11 16:19:16.048 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 17.9681dB / 0.3961
+25-11-11 16:19:16.048 : --13 --> BSRNet --> x4--> img_013.png
+25-11-11 16:19:16.820 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 20.1501dB / 0.4957
+25-11-11 16:19:16.821 : --14 --> BSRNet --> x4--> img_014.png
+25-11-11 16:19:18.058 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 17.9718dB / 0.4325
+25-11-11 16:19:18.058 : --15 --> BSRNet --> x4--> img_015.png
+25-11-11 16:19:18.911 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 19.6115dB / 0.4662
+25-11-11 16:19:18.911 : --16 --> BSRNet --> x4--> img_016.png
+25-11-11 16:19:19.975 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 22.6128dB / 0.6485
+25-11-11 16:19:19.975 : --17 --> BSRNet --> x4--> img_017.png
+25-11-11 16:19:20.615 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 18.5450dB / 0.5187
+25-11-11 16:19:20.615 : --18 --> BSRNet --> x4--> img_018.png
+25-11-11 16:19:21.475 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 18.1343dB / 0.2980
+25-11-11 16:19:21.476 : --19 --> BSRNet --> x4--> img_019.png
+25-11-11 16:19:22.176 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 16.0900dB / 0.5317
+25-11-11 16:19:22.176 : --20 --> BSRNet --> x4--> img_020.png
+25-11-11 16:19:23.716 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 17.8649dB / 0.4686
+25-11-11 16:19:23.716 : --21 --> BSRNet --> x4--> img_021.png
+25-11-11 16:19:25.632 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 24.4747dB / 0.6153
+25-11-11 16:19:25.632 : --22 --> BSRNet --> x4--> img_022.png
+25-11-11 16:19:26.489 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 20.9956dB / 0.5548
+25-11-11 16:19:26.489 : --23 --> BSRNet --> x4--> img_023.png
+25-11-11 16:19:27.662 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 18.7402dB / 0.4024
+25-11-11 16:19:27.662 : --24 --> BSRNet --> x4--> img_024.png
+25-11-11 16:19:28.415 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 15.5332dB / 0.3236
+25-11-11 16:19:28.415 : --25 --> BSRNet --> x4--> img_025.png
+25-11-11 16:19:29.136 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 21.9682dB / 0.6520
+25-11-11 16:19:29.136 : --26 --> BSRNet --> x4--> img_026.png
+25-11-11 16:19:29.964 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 21.5437dB / 0.4919
+25-11-11 16:19:29.964 : --27 --> BSRNet --> x4--> img_027.png
+25-11-11 16:19:30.782 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 24.2288dB / 0.6374
+25-11-11 16:19:30.782 : --28 --> BSRNet --> x4--> img_028.png
+25-11-11 16:19:31.544 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 21.6649dB / 0.6377
+25-11-11 16:19:31.544 : --29 --> BSRNet --> x4--> img_029.png
+25-11-11 16:19:32.373 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 20.5896dB / 0.6356
+25-11-11 16:19:32.373 : --30 --> BSRNet --> x4--> img_030.png
+25-11-11 16:19:33.131 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 17.9591dB / 0.4331
+25-11-11 16:19:33.131 : --31 --> BSRNet --> x4--> img_031.png
+25-11-11 16:19:33.886 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 19.9130dB / 0.5507
+25-11-11 16:19:33.886 : --32 --> BSRNet --> x4--> img_032.png
+25-11-11 16:19:34.578 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 23.6020dB / 0.6753
+25-11-11 16:19:34.578 : --33 --> BSRNet --> x4--> img_033.png
+25-11-11 16:19:35.593 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 21.4278dB / 0.5689
+25-11-11 16:19:35.594 : --34 --> BSRNet --> x4--> img_034.png
+25-11-11 16:19:37.205 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 16.6940dB / 0.2731
+25-11-11 16:19:37.205 : --35 --> BSRNet --> x4--> img_035.png
+25-11-11 16:19:38.014 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 20.5103dB / 0.6427
+25-11-11 16:19:38.014 : --36 --> BSRNet --> x4--> img_036.png
+25-11-11 16:19:38.868 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 22.9575dB / 0.7098
+25-11-11 16:19:38.868 : --37 --> BSRNet --> x4--> img_037.png
+25-11-11 16:19:39.715 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 17.7715dB / 0.4121
+25-11-11 16:19:39.715 : --38 --> BSRNet --> x4--> img_038.png
+25-11-11 16:19:40.577 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 21.1813dB / 0.3516
+25-11-11 16:19:40.578 : --39 --> BSRNet --> x4--> img_039.png
+25-11-11 16:19:41.428 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 15.8698dB / 0.3878
+25-11-11 16:19:41.429 : --40 --> BSRNet --> x4--> img_040.png
+25-11-11 16:19:42.072 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 12.1131dB / 0.4137
+25-11-11 16:19:42.072 : --41 --> BSRNet --> x4--> img_041.png
+25-11-11 16:19:42.659 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 14.6256dB / 0.3708
+25-11-11 16:19:42.660 : --42 --> BSRNet --> x4--> img_042.png
+25-11-11 16:19:43.458 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 18.0027dB / 0.5212
+25-11-11 16:19:43.458 : --43 --> BSRNet --> x4--> img_043.png
+25-11-11 16:19:44.238 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 17.5584dB / 0.6373
+25-11-11 16:19:44.239 : --44 --> BSRNet --> x4--> img_044.png
+25-11-11 16:19:45.025 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 20.3555dB / 0.4120
+25-11-11 16:19:45.025 : --45 --> BSRNet --> x4--> img_045.png
+25-11-11 16:19:45.858 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 18.9481dB / 0.4402
+25-11-11 16:19:45.858 : --46 --> BSRNet --> x4--> img_046.png
+25-11-11 16:19:46.625 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 19.8266dB / 0.5646
+25-11-11 16:19:46.625 : --47 --> BSRNet --> x4--> img_047.png
+25-11-11 16:19:47.673 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 16.7513dB / 0.4765
+25-11-11 16:19:47.673 : --48 --> BSRNet --> x4--> img_048.png
+25-11-11 16:19:49.261 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 15.5957dB / 0.5887
+25-11-11 16:19:49.262 : --49 --> BSRNet --> x4--> img_049.png
+25-11-11 16:19:50.158 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 13.6809dB / 0.2455
+25-11-11 16:19:50.158 : --50 --> BSRNet --> x4--> img_050.png
+25-11-11 16:19:51.079 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 19.0269dB / 0.4845
+25-11-11 16:19:51.080 : --51 --> BSRNet --> x4--> img_051.png
+25-11-11 16:19:51.842 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 20.1963dB / 0.5501
+25-11-11 16:19:51.842 : --52 --> BSRNet --> x4--> img_052.png
+25-11-11 16:19:52.562 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 16.1850dB / 0.4925
+25-11-11 16:19:52.562 : --53 --> BSRNet --> x4--> img_053.png
+25-11-11 16:19:53.326 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 16.4293dB / 0.3883
+25-11-11 16:19:53.326 : --54 --> BSRNet --> x4--> img_054.png
+25-11-11 16:19:54.061 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 14.8174dB / 0.3011
+25-11-11 16:19:54.061 : --55 --> BSRNet --> x4--> img_055.png
+25-11-11 16:19:54.912 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 26.2212dB / 0.8172
+25-11-11 16:19:54.912 : --56 --> BSRNet --> x4--> img_056.png
+25-11-11 16:19:55.741 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 17.8631dB / 0.4057
+25-11-11 16:19:55.742 : --57 --> BSRNet --> x4--> img_057.png
+25-11-11 16:19:56.558 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 23.4144dB / 0.6887
+25-11-11 16:19:56.558 : --58 --> BSRNet --> x4--> img_058.png
+25-11-11 16:19:57.348 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 20.5762dB / 0.6735
+25-11-11 16:19:57.348 : --59 --> BSRNet --> x4--> img_059.png
+25-11-11 16:19:58.036 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 17.9884dB / 0.5648
+25-11-11 16:19:58.037 : --60 --> BSRNet --> x4--> img_060.png
+25-11-11 16:19:58.858 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 16.6713dB / 0.2246
+25-11-11 16:19:58.858 : --61 --> BSRNet --> x4--> img_061.png
+25-11-11 16:19:59.806 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 17.3081dB / 0.3585
+25-11-11 16:19:59.807 : --62 --> BSRNet --> x4--> img_062.png
+25-11-11 16:20:01.212 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 16.4162dB / 0.4457
+25-11-11 16:20:01.213 : --63 --> BSRNet --> x4--> img_063.png
+25-11-11 16:20:02.526 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 18.5780dB / 0.4637
+25-11-11 16:20:02.527 : --64 --> BSRNet --> x4--> img_064.png
+25-11-11 16:20:03.425 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 19.3060dB / 0.4371
+25-11-11 16:20:03.425 : --65 --> BSRNet --> x4--> img_065.png
+25-11-11 16:20:04.195 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 18.7930dB / 0.3058
+25-11-11 16:20:04.195 : --66 --> BSRNet --> x4--> img_066.png
+25-11-11 16:20:05.147 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 17.6156dB / 0.3450
+25-11-11 16:20:05.148 : --67 --> BSRNet --> x4--> img_067.png
+25-11-11 16:20:05.921 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 14.1875dB / 0.6433
+25-11-11 16:20:05.921 : --68 --> BSRNet --> x4--> img_068.png
+25-11-11 16:20:07.323 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 22.7102dB / 0.5981
+25-11-11 16:20:07.324 : --69 --> BSRNet --> x4--> img_069.png
+25-11-11 16:20:08.284 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 18.3986dB / 0.4156
+25-11-11 16:20:08.284 : --70 --> BSRNet --> x4--> img_070.png
+25-11-11 16:20:09.155 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 17.8707dB / 0.3788
+25-11-11 16:20:09.156 : --71 --> BSRNet --> x4--> img_071.png
+25-11-11 16:20:09.949 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 22.0677dB / 0.3801
+25-11-11 16:20:09.949 : --72 --> BSRNet --> x4--> img_072.png
+25-11-11 16:20:10.752 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 12.6958dB / 0.3888
+25-11-11 16:20:10.753 : --73 --> BSRNet --> x4--> img_073.png
+25-11-11 16:20:12.729 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 15.7982dB / 0.1568
+25-11-11 16:20:12.729 : --74 --> BSRNet --> x4--> img_074.png
+25-11-11 16:20:13.658 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 19.0478dB / 0.4339
+25-11-11 16:20:13.658 : --75 --> BSRNet --> x4--> img_075.png
+25-11-11 16:20:14.598 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 23.8497dB / 0.7307
+25-11-11 16:20:14.598 : --76 --> BSRNet --> x4--> img_076.png
+25-11-11 16:20:15.493 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 17.7289dB / 0.4270
+25-11-11 16:20:15.494 : --77 --> BSRNet --> x4--> img_077.png
+25-11-11 16:20:16.249 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 18.4639dB / 0.4215
+25-11-11 16:20:16.250 : --78 --> BSRNet --> x4--> img_078.png
+25-11-11 16:20:17.074 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 21.4824dB / 0.4817
+25-11-11 16:20:17.074 : --79 --> BSRNet --> x4--> img_079.png
+25-11-11 16:20:17.904 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 20.4924dB / 0.4263
+25-11-11 16:20:17.904 : --80 --> BSRNet --> x4--> img_080.png
+25-11-11 16:20:18.712 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 27.9528dB / 0.8501
+25-11-11 16:20:18.712 : --81 --> BSRNet --> x4--> img_081.png
+25-11-11 16:20:19.836 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 26.8717dB / 0.8158
+25-11-11 16:20:19.836 : --82 --> BSRNet --> x4--> img_082.png
+25-11-11 16:20:20.987 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 21.1831dB / 0.7245
+25-11-11 16:20:20.987 : --83 --> BSRNet --> x4--> img_083.png
+25-11-11 16:20:22.020 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 18.0706dB / 0.4273
+25-11-11 16:20:22.020 : --84 --> BSRNet --> x4--> img_084.png
+25-11-11 16:20:23.250 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 22.0774dB / 0.5036
+25-11-11 16:20:23.250 : --85 --> BSRNet --> x4--> img_085.png
+25-11-11 16:20:24.978 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 20.9525dB / 0.7049
+25-11-11 16:20:24.978 : --86 --> BSRNet --> x4--> img_086.png
+25-11-11 16:20:26.302 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 21.8883dB / 0.7044
+25-11-11 16:20:26.302 : --87 --> BSRNet --> x4--> img_087.png
+25-11-11 16:20:27.602 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 18.2656dB / 0.6203
+25-11-11 16:20:27.602 : --88 --> BSRNet --> x4--> img_088.png
+25-11-11 16:20:28.312 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 14.6401dB / 0.1803
+25-11-11 16:20:28.312 : --89 --> BSRNet --> x4--> img_089.png
+25-11-11 16:20:28.996 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 20.6820dB / 0.4130
+25-11-11 16:20:28.996 : --90 --> BSRNet --> x4--> img_090.png
+25-11-11 16:20:29.773 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 24.1024dB / 0.7432
+25-11-11 16:20:29.773 : --91 --> BSRNet --> x4--> img_091.png
+25-11-11 16:20:30.571 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 17.0182dB / 0.2595
+25-11-11 16:20:30.571 : --92 --> BSRNet --> x4--> img_092.png
+25-11-11 16:20:31.389 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 13.7293dB / 0.3019
+25-11-11 16:20:31.389 : --93 --> BSRNet --> x4--> img_093.png
+25-11-11 16:20:32.236 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 15.2710dB / 0.4419
+25-11-11 16:20:32.236 : --94 --> BSRNet --> x4--> img_094.png
+25-11-11 16:20:33.076 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 21.9179dB / 0.5572
+25-11-11 16:20:33.077 : --95 --> BSRNet --> x4--> img_095.png
+25-11-11 16:20:33.859 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 15.9993dB / 0.1208
+25-11-11 16:20:33.859 : --96 --> BSRNet --> x4--> img_096.png
+25-11-11 16:20:34.783 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 17.1562dB / 0.4936
+25-11-11 16:20:34.783 : --97 --> BSRNet --> x4--> img_097.png
+25-11-11 16:20:35.838 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 19.4643dB / 0.4768
+25-11-11 16:20:35.839 : --98 --> BSRNet --> x4--> img_098.png
+25-11-11 16:20:36.785 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 17.6727dB / 0.2865
+25-11-11 16:20:36.786 : --99 --> BSRNet --> x4--> img_099.png
+25-11-11 16:20:38.003 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 21.3329dB / 0.5211
+25-11-11 16:20:38.003 : -100 --> BSRNet --> x4--> img_100.png
+25-11-11 16:20:39.282 : ----PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 19.2010dB / 0.4612
+25-11-11 16:20:39.282 : ----Average PSNR/SSIM for (/root/media/quoc-huy/bsrgan-dataset/Urban100/, x4)---- : 19.0580dB / 0.4855
+25-11-11 16:20:39.282 :  

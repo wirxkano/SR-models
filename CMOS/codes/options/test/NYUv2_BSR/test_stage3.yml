@@ -1,0 +1,64 @@
+name: BlindSR_NYUv2_BSR
+suffix: ~
+scale: 4
+gpu_ids: [0]
+kernel_size: 21
+code_length: 64
+n_classes: 40
+val_blur: true
+val_seg: false
+val_sr: true
+
+sig_min: 0
+sig_max: 0
+sig: 3.0
+sig1: 6
+sig2: 1
+theta: 0.7853981633974483
+rate_iso: 0 # 1 for iso, 0 for aniso
+sv_mode: 0 # 0 for spatially invariant kernel, 1-5 for spatially variant kernel types as in Table 2
+test_noise: False
+noise: 15
+test_jpeg: False
+jpeg: 50
+
+
+datasets:
+  # test_1:
+  #   name: Set5
+  #   dataroot_GT: /root/media/quoc-huy/eval-set/Set5
+  #   dataroot_LR: ~
+  #   dataroot_blur: ~
+  #   dataroot_seg: ~
+  # test_2:
+  #   name: Set14
+  #   dataroot_GT: /root/media/quoc-huy/eval-set/Set14
+  #   dataroot_LR: ~
+  #   dataroot_blur: ~
+  #   dataroot_seg: ~
+  # test_3:
+  #   name: BSD100
+  #   dataroot_GT: /root/media/quoc-huy/eval-set/bsd100
+  #   dataroot_LR: ~
+  #   dataroot_blur: ~
+  #   dataroot_seg: ~
+  test_4:
+    name: Urban100
+    dataroot_GT: /root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/HR
+    dataroot_LR: /root/quoc-huy/materials/Urban100/imgs
+    dataroot_blur: ~
+    dataroot_seg: ~
+
+
+network_G:
+  which_model_G: BlindSR
+  in_nc: 3
+  out_nc: 3
+  nf: 64
+  nb: 10
+  gc: 32
+
+
+path:
+  strict_load: true
+  pretrain_model_G: /root/quoc-huy/CMOS/experiments/BlindSR_NYUv2_BSR/models/latest_G.pth
