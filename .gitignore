@@ -5,13 +5,13 @@ all-tested-results
 BSRGAN/model_zoo
 BSRGAN/testsets
 
-arbitrary_scale_blind_SR/checkpoints
+# arbitrary_scale_blind_SR/checkpoints
 
-DASR/experiment
+# DASR/experiment
 
-DAN/checkpoints
+# DAN/checkpoints
 
-MANet/experiments
+# MANet/experiments
 
 Real-ESRGAN/weights
 Real-ESRGAN/experiments/pretrained_models
@@ -20,9 +20,9 @@ KOALAnet
 KOALAnet_tfv2/pretrained
 KOALAnet_tfv2/ckpt
 
-DCLS-SR/codes/config/DCLS/pretrained
+# DCLS-SR/codes/config/DCLS/pretrained
 
-CMOS/experiments
+# CMOS/experiments
 CMOS/tb_logger
 CMOS/results
 
