@@ -9,7 +9,7 @@ from realesrgan import RealESRGANer
 from realesrgan.archs.srvgg_arch import SRVGGNetCompact
 from logger import Logger
 from calc_psnr_ssim import calculate_psnr_ssim_y
-import pyiqa
+# import pyiqa
 from skimage.metrics import peak_signal_noise_ratio, structural_similarity
 from skimage.color import rgb2ycbcr
 import torch
@@ -166,8 +166,8 @@ def main():
         half=not args.fp32,
         gpu_id=args.gpu_id)
     
-    # measure_gflops(upsampler)
-    # return
+    measure_gflops(upsampler)
+    return
 
     if args.face_enhance:  # Use GFPGAN for face enhancement
         from gfpgan import GFPGANer
