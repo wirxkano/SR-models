@@ -201,7 +201,7 @@ for test_loader in test_loaders:
             
     fid_metric = pyiqa.create_metric('fid', device=device)
     hr_dir = opt["datasets"]["test4"]["dataroot_GT"]
-    fid_val = fid_metric(dataset_dir, hr_dir).item()
+    fid_val = fid_metric(dataset_dir + "/imgs", hr_dir).item()
 
     ave_psnr = sum(test_results["psnr"]) / len(test_results["psnr"])
     ave_ssim = sum(test_results["ssim"]) / len(test_results["ssim"])

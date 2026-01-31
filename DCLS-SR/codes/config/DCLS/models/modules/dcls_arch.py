@@ -1,4 +1,5 @@
 import numpy as np
+import time
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -6,6 +7,27 @@ import functools
 from codes.utils import get_uperleft_denominator
 from .module_util import *
 
+def cuda_step_time(tag, fn):
+    if not torch.cuda.is_available():
+        start = time.perf_counter()
+        out = fn()
+        end = time.perf_counter()
+        print(f"{tag}: {(end-start)*1000:.2f} ms (CPU)")
+        return out
+
+    starter = torch.cuda.Event(enable_timing=True)
+    ender = torch.cuda.Event(enable_timing=True)
+
+    torch.cuda.synchronize()
+    starter.record()
+
+    out = fn()
+
+    ender.record()
+    torch.cuda.synchronize()
+
+    print(f"{tag}: {starter.elapsed_time(ender):.2f} ms")
+    return out
 
 class DPCAB(nn.Module):
     def __init__(self, nf1, nf2, ksize1=3, ksize2=3, reduction=4):
@@ -50,6 +72,7 @@ class DPCAG(nn.Module):
         self.body = nn.Sequential(*[DPCAB(nf1, nf2, ksize1, ksize2) for _ in range(nb)])
 
     def forward(self, x):
+        # y = cuda_step_time("DPCAG body", lambda: self.body(x))
         y = self.body(x)
         y[0] = x[0] + y[0]
         y[1] = x[1] + y[1]
@@ -81,10 +104,14 @@ class CLS(nn.Module):
         ks = kernel.shape[-1]
         dim = (ks, ks, ks, ks)
         feature_pad = F.pad(cls_feats, dim, "replicate")
-        for i in range(feature_pad.shape[1]):
-            feature_ch = feature_pad[:, i:i+1, :, :]
-            clear_feature_ch = get_uperleft_denominator(feature_ch, kernel, kernel_P[:, i:i+1, :, :])
-            clear_features[:, i:i+1, :, :] = clear_feature_ch[:, :, ks:-ks, ks:-ks]
+        def get_clear_features(feature_pad):
+            for i in range(feature_pad.shape[1]):
+                feature_ch = feature_pad[:, i:i+1, :, :]
+                clear_feature_ch = get_uperleft_denominator(feature_ch, kernel, kernel_P[:, i:i+1, :, :])
+                clear_features[:, i:i+1, :, :] = clear_feature_ch[:, :, ks:-ks, ks:-ks]
+            return clear_features
+                
+        clear_features = cuda_step_time("clear features", lambda: get_clear_features(feature_pad))
 
         x = self.expand_feature(clear_features)
 
@@ -226,15 +253,15 @@ class Restorer(nn.Module):
     def forward(self, input, kernel):
         # B, C, H, W = input.size()  # I_LR batch
 
-        f = self.conv_first(input)
-        feature = self.feature_block(f)
-        f1 = self.head1(feature)
-        f2 = self.head2(feature, kernel)
+        f = cuda_step_time("conv_first", lambda: self.conv_first(input))
+        feature = cuda_step_time("feat_block", lambda: self.feature_block(f))
+        f1 = cuda_step_time("head1", lambda: self.head1(feature))
+        f2 = cuda_step_time("head2", lambda: self.head2(feature, kernel))
 
         inputs = [f2, f1]
-        f2, f1 = self.body(inputs)
-        f = self.fusion(torch.cat([f1, f2], dim=1)) + f
-        out = self.upscale(f)
+        f2, f1 = cuda_step_time("body", lambda: self.body(inputs))
+        f = cuda_step_time("fushion", lambda: self.fusion(torch.cat([f1, f2], dim=1))) + f
+        out = cuda_step_time("upscale", lambda: self.upscale(f))
 
         return torch.clamp(out, min=self.min, max=self.max)
 
@@ -274,8 +301,9 @@ class DCLS(nn.Module):
         )
 
     def forward(self, lr):
-
-        kernel = self.Estimator(lr)
-        sr = self.Restorer(lr, kernel.detach())
+        kernel = cuda_step_time("estimator", lambda: self.Estimator(lr))
+        sr = cuda_step_time("restorer", lambda: self.Restorer(lr, kernel.detach()))
+        
+        print("========")
 
         return sr, kernel

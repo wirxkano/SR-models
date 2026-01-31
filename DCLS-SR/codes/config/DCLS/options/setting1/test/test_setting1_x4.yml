@@ -46,10 +46,10 @@ datasets:
   #   dataroot_GT: /root/media/quoc-huy/B100
   #   dataroot_LQ: /root/media/quoc-huy/eval/bicubic/BSD100
   test4:
-    name: Set14
+    name: Urban100-bic-opencv
     mode: LQGT
-    dataroot_GT: /root/media/quoc-huy/eval-wir/srbenchmarks/Set14/HR
-    dataroot_LQ: /root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab
+    dataroot_GT: /root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/HR
+    dataroot_LQ: /root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LRbic_opencv_x4_v2
 
 
 #### network structures
