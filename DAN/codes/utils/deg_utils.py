@@ -123,6 +123,8 @@ def stable_batch_kernel(batch, l=21, sig=2.6, tensor=True):
     xx, yy = np.meshgrid(ax, ax)
     xx = xx[None].repeat(batch, 0)
     yy = yy[None].repeat(batch, 0)
+    if sigma == 0:
+        sigma = 1e-8
     kernel = np.exp(-(xx ** 2 + yy ** 2) / (2.0 * sigma ** 2))
     kernel = kernel / np.sum(kernel, (1, 2), keepdims=True)
     return torch.FloatTensor(kernel) if tensor else kernel

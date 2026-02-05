@@ -1,3 +1,4 @@
+import time
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -11,6 +12,29 @@ from models.modules.resnet import BasicBlock
 from models.modules.layers import SEBlock
 from mmcv.cnn import ConvModule
 import torchvision
+
+
+def cuda_step_time(tag, fn):
+    if not torch.cuda.is_available():
+        start = time.perf_counter()
+        out = fn()
+        end = time.perf_counter()
+        print(f"{tag}: {(end-start)*1000:.2f} ms (CPU)")
+        return out
+
+    starter = torch.cuda.Event(enable_timing=True)
+    ender = torch.cuda.Event(enable_timing=True)
+
+    torch.cuda.synchronize()
+    starter.record()
+
+    out = fn()
+
+    ender.record()
+    torch.cuda.synchronize()
+
+    print(f"{tag}: {starter.elapsed_time(ender):.2f} ms")
+    return out
 
 
 def sequential(*args):
@@ -280,6 +304,7 @@ class AlignedModule(nn.Module):
         out_h, out_w = size
         n, c, h, w = input.size()
 
+        # norm = cuda_step_time("create tensor", lambda: torch.tensor([[[[out_w, out_h]]]]).type_as(input).to(input.device))
         norm = torch.tensor([[[[out_w, out_h]]]]).type_as(input).to(input.device)
         h = torch.linspace(-1.0, 1.0, out_h).view(-1, 1).repeat(1, out_w)
         w = torch.linspace(-1.0, 1.0, out_w).repeat(out_h, 1)
@@ -305,10 +330,15 @@ class GIA(nn.Module):
                        act_cfg=None) for _ in range(2)]
 
     def forward(self, x1, x2, num):
+        # x1 = cuda_step_time("aligned module", lambda: self.upsample_layer(x1, x2, self.upsample))
         x1 = self.upsample_layer(x1, x2, self.upsample)
+        # ch_feat1, ch_feat2 = cuda_step_time("gia channel", lambda: self.channel(x1, x2))
         ch_feat1, ch_feat2 = self.channel(x1, x2)
+        # sp_feat1, sp_feat2 = cuda_step_time("gia spatial", lambda: self.spatial(x1, x2))
         sp_feat1, sp_feat2 = self.spatial(x1, x2)
+        # final_x1 = cuda_step_time("smooth1", lambda: self.smooth2(torch.cat([ch_feat1, sp_feat1], 1)))
         final_x1 = self.smooth2(torch.cat([ch_feat1, sp_feat1], 1))
+        # final_x2 = cuda_step_time("smooth2", lambda: self.smooth1(torch.cat([ch_feat2, sp_feat2], 1)))
         final_x2 = self.smooth1(torch.cat([ch_feat2, sp_feat2], 1))
 
         if num == 2:
@@ -356,6 +386,16 @@ class CMOS(nn.Module):
 
         # stage 2
         x_scale, x_bs, x_hat_seg, x_hat_blur = {}, {}, {}, {}
+        # def stage_2():
+        #     for i in range(3, 0, -1):  # 3,2,1
+        #         x_scale[i] = self.heads[i](i, x_bs[i + 1]) if i != 3 else self.heads[i](i, x[i])  # task-specific heads
+        #         x_hat_blur[i], x_hat_seg[i] = self.GIA_m[i - 1](x_scale[i]['features_blur'], x_scale[i]['features_seg'], 2)
+        #         x_bs[i] = {}
+        #         x_bs[i]['seg'] = self.GIA_s[i - 1](x_hat_seg[i], x[i - 1], 1)
+        #         x_bs[i]['blur'] = self.GIA_b[i - 1](x_hat_blur[i], x[i - 1], 1)
+        #     return x_scale, x_bs, x_hat_seg, x_hat_blur
+        
+        # cuda_step_time("stage 2", stage_2)
         for i in range(3, 0, -1):  # 3,2,1
             x_scale[i] = self.heads[i](i, x_bs[i + 1]) if i != 3 else self.heads[i](i, x[i])  # task-specific heads
             x_hat_blur[i], x_hat_seg[i] = self.GIA_m[i - 1](x_scale[i]['features_blur'], x_scale[i]['features_seg'], 2)
@@ -367,10 +407,19 @@ class CMOS(nn.Module):
 
         # stage 3
         features = {}
+        # def stage_3():
+        #     for i in range(4):
+        #         features[i] = {}
+        #         features[i]['blur'], features[i]['seg'] = \
+        #             self.GIA_l[i](x_scale[i]['features_blur'], x_scale[i]['features_seg'], 2)
+        #     return features
+        
+        # cuda_step_time("stage 3", stage_3)
         for i in range(4):
             features[i] = {}
             features[i]['blur'], features[i]['seg'] = \
                 self.GIA_l[i](x_scale[i]['features_blur'], x_scale[i]['features_seg'], 2)
+                
         multi_scale_features = {t: [features[0][t], features[1][t], features[2][t], features[3][t]] for t in self.tasks}
         out = {}
         for t in self.tasks:
@@ -453,19 +502,23 @@ class BlindSR(nn.Module):
         # cmos
         self.cmos.eval()
         with torch.no_grad():
+            # blur_est, seg_est, _ = cuda_step_time("cmos", lambda: self.cmos(self.normalize(x)))
             blur_est, seg_est, _ = self.cmos(self.normalize(x))
             _, seg = torch.max(seg_est, dim=1, keepdim=True)
 
         blur = self.blur_conv(blur_est)
         seg = self.seg_conv(seg.float())
+        # prior_information = cuda_step_time("fuse", lambda: self.fuse(blur, seg, 1))
         prior_information = self.fuse(blur, seg, 1)
         prior_information = F.interpolate(prior_information, scale_factor=1. / self.scale, mode='nearest')
 
         # nonblind sr
         lr_fea = self.conv_first(x)
+        # fea = cuda_step_time("RRDB", lambda: self.RRDB_trunk([lr_fea, prior_information]))
         fea = self.RRDB_trunk([lr_fea, prior_information])
         fea = lr_fea + self.trunk_conv(fea[0])
         out = self.upsampler(fea)
+        # print("=========")
         return out, blur_est, seg_est, blur_est, seg_est
 
 

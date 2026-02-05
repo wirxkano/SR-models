@@ -1,6 +1,29 @@
 import os
+import time
 import torch
 import torch.fft
+
+def cuda_step_time(tag, fn):
+    if not torch.cuda.is_available():
+        start = time.perf_counter()
+        out = fn()
+        end = time.perf_counter()
+        print(f"{tag}: {(end-start)*1000:.2f} ms (CPU)")
+        return out
+
+    starter = torch.cuda.Event(enable_timing=True)
+    ender = torch.cuda.Event(enable_timing=True)
+
+    torch.cuda.synchronize()
+    starter.record()
+
+    out = fn()
+
+    ender.record()
+    torch.cuda.synchronize()
+
+    print(f"{tag}: {starter.elapsed_time(ender):.2f} ms")
+    return out
 
 
 # ------------------------------------------------------
@@ -34,11 +57,13 @@ def normkernel_to_downkernel(rescaled_blur_hr, rescaled_hr, ksize, eps=1e-10):
 # ------------------------------------------------------
 # -----------Constraint Least Square Filter-------------
 def get_uperleft_denominator(img, kernel, grad_kernel):
-    ker_f = convert_psf2otf(kernel, img.size()) # discrete fourier transform of kernel
-    ker_p = convert_psf2otf(grad_kernel, img.size()) # discrete fourier transform of kernel
-
+    # ker_f = cuda_step_time("kernel_dcls", lambda: convert_psf2otf(kernel, img.size())) # discrete fourier transform of kernel
+    # ker_p = cuda_step_time("grad kernel_dcls", lambda: convert_psf2otf(grad_kernel, img.size())) # discrete fourier transform of kernel
+    ker_f = convert_psf2otf(kernel, img.size())
+    ker_p = convert_psf2otf(grad_kernel, img.size())
     denominator = inv_fft_kernel_est(ker_f, ker_p)
     numerator = torch.view_as_real(torch.fft.fftn(img, dim=(-3, -2, -1)))
+    # deblur = cuda_step_time("deconv", lambda: deconv(denominator, numerator))
     deblur = deconv(denominator, numerator)
     return deblur
 
@@ -73,6 +98,8 @@ def deconv(inv_ker_f, fft_input_blur):
 # --------------------------------
 # --------------------------------
 def convert_psf2otf(ker, size):
+    # print("size", size)
+    # psf = cuda_step_time("tocuda", lambda: torch.zeros(size).cuda())
     psf = torch.zeros(size).cuda()
     # circularly shift
     centre = ker.shape[2]//2 + 1
@@ -80,6 +107,14 @@ def convert_psf2otf(ker, size):
     psf[:, :, :centre, -(centre-1):] = ker[:, :, (centre-1):, :(centre-1)]
     psf[:, :, -(centre-1):, :centre] = ker[:, :, : (centre-1), (centre-1):]
     psf[:, :, -(centre-1):, -(centre-1):] = ker[:, :, :(centre-1), :(centre-1)]
+    # def circularly_shift(ker):
+    #     centre = ker.shape[2]//2 + 1
+    #     psf[:, :, :centre, :centre] = ker[:, :, (centre-1):, (centre-1):]
+    #     psf[:, :, :centre, -(centre-1):] = ker[:, :, (centre-1):, :(centre-1)]
+    #     psf[:, :, -(centre-1):, :centre] = ker[:, :, : (centre-1), (centre-1):]
+    #     psf[:, :, -(centre-1):, -(centre-1):] = ker[:, :, :(centre-1), :(centre-1)]
+    #     return psf
+    # psf = cuda_step_time("circularly shift", lambda: circularly_shift(ker))
     # compute the otf
     otf = torch.fft.fftn(psf, dim=(-3, -2, -1))
     otf = torch.view_as_real(otf)

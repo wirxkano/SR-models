@@ -27,8 +27,8 @@
 #   --model_path /root/quoc-huy/BSRGAN/model_zoo
 
 python main_test_bsrgan.py \
-  --input_lq /root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR_bsrgan \
-  --output_path /root/quoc-huy/all-tested-results/BSRGAN/Set5-LR_bsrgan \
+  --input_lq /root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR-bicubic-matlab-v2 \
+  --output_path /root/quoc-huy/all-tested-results/BSRGAN/Set5-LR-bicubic-matlab-v2 \
   --input_hq /root/media/quoc-huy/eval-wir/srbenchmarks/Set5/HR \
   --model_name BSRGAN \
   --model_path /root/quoc-huy/BSRGAN/model_zoo

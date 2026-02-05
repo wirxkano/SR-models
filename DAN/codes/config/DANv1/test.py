@@ -321,7 +321,7 @@ for test_loader in test_loaders:
     fid_metric = pyiqa.create_metric('fid', device=device)
     hr_dir = opt["datasets"]["test_2"]["dataroot_GT"]
     # print(opt)
-    fid_val = fid_metric(dataset_dir, hr_dir).item()
+    fid_val = fid_metric(dataset_dir + "/imgs", hr_dir).item()
 
     # Calculate and log averages
     if test_results["psnr_y"] and test_results["ssim_y"]:

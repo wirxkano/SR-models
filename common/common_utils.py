@@ -227,8 +227,8 @@ def visualize_images(lr_path: str, methods: dict, bbox: tuple, scale=4, figsize=
     
     fig = plt.figure(figsize=figsize)
     gs = fig.add_gridspec(n_rows, n_cols, 
-                          width_ratios=[4] + [1] * n_methods, height_ratios=[1, 1],
-                          hspace=-0.66, wspace=0.1)
+                          width_ratios=[3.0] + [1] * n_methods, height_ratios=[1, 1],
+                          hspace=-0.5, wspace=0.1)
     
     ax_lr = fig.add_subplot(gs[:, 0])
     lr_img = Image.open(lr_path)
@@ -241,15 +241,15 @@ def visualize_images(lr_path: str, methods: dict, bbox: tuple, scale=4, figsize=
     )
     ax_lr.add_patch(rect)
     
-    # lr_patch = lr_img.crop((x, y, x + w, y + h))
+    lr_patch = lr_img.crop((x, y, x + w, y + h))
     
-    # ax_ins = inset_axes(ax_lr, width="30%", height="30%", loc='lower left', borderpad=0)
-    # ax_ins.imshow(lr_patch)
-    # ax_ins.set_xticks([])
-    # ax_ins.set_yticks([])
-    # for spine in ax_ins.spines.values():
-    #     spine.set_edgecolor('red')
-    #     spine.set_linewidth(2)
+    ax_ins = inset_axes(ax_lr, width="40%", height="40%", loc='lower left', borderpad=0)
+    ax_ins.imshow(lr_patch)
+    ax_ins.set_xticks([])
+    ax_ins.set_yticks([])
+    for spine in ax_ins.spines.values():
+        spine.set_edgecolor('red')
+        spine.set_linewidth(2)
     
     # Row 1-2: SR patches and Predicted Kernels for each method
     for idx, (method_name, img_list) in enumerate(methods.items()):        
@@ -277,69 +277,69 @@ def visualize_images(lr_path: str, methods: dict, bbox: tuple, scale=4, figsize=
     
     plt.show()
 
+def show_list_sr_hr(sr_path: list[str], hr_path: list[str] | None, figsize=(12, 4)):
+    row, col = 2, len(sr_path) if hr_path else 1
+    fig, axs = plt.subplots(nrows=row, ncols=col, figsize=figsize)
+    if hr_path:
+        for r in range(row):
+            for c in range(col):
+                img = Image.open(hr_path[c]) if r == 0 else Image.open(sr_path[c])
+                axs[r, c].imshow(img, aspect="auto")
+                axs[r, c].axis("off")
+                if c == 0:
+                    title = "HR Image" if r == 0 else "Output"
+                    axs[r, c].text(-0.3, 0.5, title, 
+                                transform=axs[r, c].transAxes,
+                                fontsize=12, 
+                                va='center', 
+                                ha='center',
+                                rotation=0)
+    else:
+        sr_images = [Image.open(path) for path in sr_path]
+        
+        max_width = max(img.size[0] for img in sr_images)
+        max_height = max(img.size[1] for img in sr_images)
+        sr_images = [img.resize((max_width, max_height), Image.LANCZOS) for img in sr_images]
+        for r in range(row):
+            img = sr_images[r]
+            axs[r].imshow(img)
+            axs[r].axis("off")
+            axs[r].set_aspect('equal')
+    
+    plt.subplots_adjust(hspace=0.05)            
+    plt.tight_layout()
+    plt.show()
+    return fig
+
 if __name__ == "__main__":
-    # img = Image.open("/root/user-wir/degradation_model/benchmarks/Set14/LR/baboon.png")
-    # # x1, y1, x2, y2; x1 < x2; y1 < y2
-    # crop_and_show_images(img, [(150, 10, 350, 200), (80, 300, 260, 450)])
+    # sr_path = [
+    #     # "/root/quoc-huy/all-tested-results/combined/img_013.png",
+    #     "/root/quoc-huy/all-tested-results/combined/img_027.png",
+    #     "/root/quoc-huy/all-tested-results/combined/img_090.png",
+    # ]
+    # hr_path = [
+    #     "/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/HR/img_001.png",
+    #     "/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/HR/img_004.png",
+    #     "/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/HR/img_018.png",
+    #     "/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/HR/img_019.png",
+    #     "/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/HR/img_067.png"
+    # ]
+    # hr_path = None
+    # img = show_list_sr_hr(sr_path, hr_path)
+    # plt.savefig('/root/quoc-huy/all-tested-results/combined/manet_results.png', dpi=300, bbox_inches='tight')
+    bounding_box = (140, 30, 25, 25)
 
-    # combined = combine_images_horizontal(
-    #     "/root/user-wir/degradation_model/images/blur-3.png",
-    #     "/root/user-wir/degradation_model/images/blur-1.png",
-    #     "/root/user-wir/degradation_model/images/blur-2.png",
-    #     spacing=0,
-    # )
-    # combined.save("/root/latex/Specialized_Project/Images/img-applied-blur.png")
-
-    # original_image = "/root/quoc-huy/BSRGAN/testsets/RealSRSet/oldphoto2.png"
-
-    # sr_results = {
-    #     # "Bicubic": "/root/user-wir/utils/images/Bicubic/BSD100-type3/img_003.png",
-    #     # "DASR (1)": "/root/user-wir/utils/images/DASR_iso/Urban100-type2/img_001.png",
-    #     # "DASR (2)": "/root/user-wir/utils/images/DASR_aniso/BSD100-type3/img_003.png",
-    #     # "DAN": "/root/user-wir/utils/images/DAN/Urban100-type2/img_001.png",
-    #     # "DCLS": "/root/user-wir/utils/images/DCLS/Urban100-type2/img_001.png",
-    #     # "ASBSR": "/root/user-wir/utils/images/ASBSR/BSD100-type3/img_003.png",
-    #     # "MANet": "/root/user-wir/utils/images/MANet/BSD100-type3/img_003.png",
-    #     # "KOALAnet": "/root/user-wir/utils/images/KOALAnet/BSD100-type3/img_003.png",
-    #     "BSRNet": "/root/quoc-huy/all-tested-results/BSRNet/RealSRSet/oldphoto2.png",
-    #     "BSRGAN": "/root/quoc-huy/all-tested-results/BSRGAN/RealSRSet/oldphoto2.png",
-    #     "Real-ESRNet": "/root/quoc-huy/all-tested-results/Real-ESRNet/RealSRSet/oldphoto2.png",
-    #     "Real-ESRGAN": "/root/quoc-huy/all-tested-results/Real-ESRGAN/RealSRSet/oldphoto2.png",
-    #     # "Ground Truth": "/root/user-wir/utils/images/GT/BSD100/img_003.png",
-    # }
-
-    bounding_box = (120, 60, 20, 20)
-
-    # fig = visualize_sr_comparison(original_image, sr_results, bounding_box)
-    lr_path = "/root/quoc-huy/materials/Urban100/imgs/img_073.png"
+    lr_path = "/root/quoc-huy/materials/Urban100/imgs/img_090.png"
     img_dicts = {
-        "DAN": [
-            {"path": "/root/quoc-huy/all-tested-results/DAN/Urban100/imgs/img_073.png", "type": "image"}, 
-            {"path": "/root/quoc-huy/all-tested-results/DAN/Urban100/kernels/img_073.png", "type": "kernel"}
-        ],
-        "DCLS": [
-            {"path": "/root/quoc-huy/all-tested-results/DCLS/Urban100/imgs/img_073.png", "type": "image"}, 
-            {"path": "/root/quoc-huy/all-tested-results/DCLS/Urban100/kernels/img_073.png", "type": "kernel"}
-        ],
-        "ASBSR": [
-            {"path": "/root/quoc-huy/all-tested-results/ASBSR/Urban100/imgs/img_073.png", "type": "image"}, 
-            {"path": "/root/quoc-huy/all-tested-results/ASBSR/Urban100/kernels/img_073.png", "type": "kernel"}
-        ],
-        "MANet": [
-            {"path": "/root/quoc-huy/all-tested-results/MANet/Urban100/imgs/img_073.png", "type": "image"}, 
-            {"path": "/root/quoc-huy/all-tested-results/MANet/Urban100/kernels/img_073.png", "type": "kernel"}
-        ],
-        "KOALAnet": [
-            {"path": "/root/quoc-huy/all-tested-results/KOALAnet/Urban100/imgs/img_073.png", "type": "image"}, 
-            {"path": "/root/quoc-huy/all-tested-results/KOALAnet/Urban100/kernels/img_073.png", "type": "kernel"}
+        "SR": [
+            {"path": "/root/quoc-huy/all-tested-results/DAN/Urban100/imgs/img_090.png", "type": "image"}, 
+            {"path": "/root/quoc-huy/all-tested-results/DAN/Urban100/kernels/img_090.png", "type": "kernel"}
         ],
         "Ground truth": [
-            {"path": "/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/HR/img_073.png", "type": "image"}, 
-            {"path": "/root/quoc-huy/materials/Urban100/kernels/img_073.png", "type": "kernel"}
+            {"path": "/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/HR/img_090.png", "type": "image"}, 
+            {"path": "/root/quoc-huy/materials/Urban100/kernels/img_090.png", "type": "kernel"}
         ],
     }
-    fig = visualize_images(lr_path, img_dicts, bbox=bounding_box)
+    fig = visualize_images(lr_path, img_dicts, bbox=bounding_box, figsize=(20, 12))
 
-    plt.savefig('/root/quoc-huy/all-tested-results/combined/img_073.png', dpi=300, bbox_inches='tight')
-    # plt.show()
-
+    plt.savefig('/root/quoc-huy/all-tested-results/combined/img_090.png', dpi=300, bbox_inches='tight')

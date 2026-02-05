@@ -9352,3 +9352,747 @@
 26-01-18 04:28:33.892 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR_bsrgan, x4)---- : 18.7417dB / 0.5555
 26-01-18 04:28:33.927 : Computing FID...
 26-01-18 04:28:38.979 :  
+26-01-29 06:19:36.234 :       Model Name : BSRNet
+26-01-29 06:19:37.426 :       Input Path : /root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR-bicubic-matlab-v2
+26-01-29 06:19:37.426 :      Output Path : /root/quoc-huy/all-tested-results/BSRGAN/Set5-LR-bicubic-matlab-v2
+26-01-29 06:19:37.426 : ---1 --> BSRNet --> x4--> baby.png
+26-01-29 06:19:37.644 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR-bicubic-matlab-v2, x4)---- : 30.7897dB / 0.8597
+26-01-29 06:19:37.821 : ---2 --> BSRNet --> x4--> bird.png
+26-01-29 06:19:37.869 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR-bicubic-matlab-v2, x4)---- : 30.0788dB / 0.8560
+26-01-29 06:19:37.908 : ---3 --> BSRNet --> x4--> butterfly.png
+26-01-29 06:19:37.954 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR-bicubic-matlab-v2, x4)---- : 24.4673dB / 0.8705
+26-01-29 06:19:37.988 : ---4 --> BSRNet --> x4--> head.png
+26-01-29 06:19:38.034 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR-bicubic-matlab-v2, x4)---- : 30.5221dB / 0.6948
+26-01-29 06:19:38.068 : ---5 --> BSRNet --> x4--> woman.png
+26-01-29 06:19:38.109 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR-bicubic-matlab-v2, x4)---- : 27.6913dB / 0.8701
+26-01-29 06:19:38.144 : Computing FID...
+26-01-29 06:19:42.684 :  
+26-01-29 06:20:41.991 :       Model Name : BSRNet
+26-01-29 06:20:43.111 :       Input Path : /root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2
+26-01-29 06:20:43.111 :      Output Path : /root/quoc-huy/all-tested-results/BSRGAN/Set14-LR-bicubic-matlab-v2
+26-01-29 06:20:43.111 : ---1 --> BSRNet --> x4--> baboon.png
+26-01-29 06:20:43.316 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 21.1091dB / 0.4443
+26-01-29 06:20:43.508 : ---2 --> BSRNet --> x4--> barbara.png
+26-01-29 06:20:43.700 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 23.8967dB / 0.7155
+26-01-29 06:20:43.756 : ---3 --> BSRNet --> x4--> bridge.png
+26-01-29 06:20:43.871 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 23.6891dB / 0.5753
+26-01-29 06:20:43.916 : ---4 --> BSRNet --> x4--> coastguard.png
+26-01-29 06:20:43.971 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 24.6454dB / 0.4974
+26-01-29 06:20:44.010 : ---5 --> BSRNet --> x4--> comic.png
+26-01-29 06:20:44.064 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 21.2194dB / 0.6353
+26-01-29 06:20:44.099 : ---6 --> BSRNet --> x4--> face.png
+26-01-29 06:20:44.144 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 30.4840dB / 0.6922
+26-01-29 06:20:44.179 : ---7 --> BSRNet --> x4--> flowers.png
+26-01-29 06:20:44.267 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 25.4365dB / 0.7299
+26-01-29 06:20:44.308 : ---8 --> BSRNet --> x4--> foreman.png
+26-01-29 06:20:44.360 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 28.2624dB / 0.8912
+26-01-29 06:20:44.392 : ---9 --> BSRNet --> x4--> lenna.png
+26-01-29 06:20:44.504 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 29.9867dB / 0.8141
+26-01-29 06:20:44.545 : --10 --> BSRNet --> x4--> man.png
+26-01-29 06:20:44.657 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 25.5103dB / 0.6705
+26-01-29 06:20:44.699 : --11 --> BSRNet --> x4--> monarch.png
+26-01-29 06:20:44.871 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 28.9732dB / 0.9095
+26-01-29 06:20:44.923 : --12 --> BSRNet --> x4--> pepper.png
+26-01-29 06:20:45.037 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 29.5629dB / 0.8281
+26-01-29 06:20:45.079 : --13 --> BSRNet --> x4--> ppt3.png
+26-01-29 06:20:45.234 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 23.8246dB / 0.9076
+26-01-29 06:20:45.280 : --14 --> BSRNet --> x4--> zebra.png
+26-01-29 06:20:45.384 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 24.6847dB / 0.6921
+26-01-29 06:20:45.428 : Computing FID...
+26-01-29 06:20:50.249 :  
+26-01-29 06:23:00.105 :       Model Name : BSRNet
+26-01-29 06:23:01.224 :       Input Path : /root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2
+26-01-29 06:23:01.225 :      Output Path : /root/quoc-huy/all-tested-results/BSRGAN/Set14-LR-bicubic-matlab-v2
+26-01-29 06:23:01.225 : ---1 --> BSRNet --> x4--> baboon.png
+26-01-29 06:23:01.429 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 21.1091dB / 0.4443
+26-01-29 06:23:01.633 : ---2 --> BSRNet --> x4--> barbara.png
+26-01-29 06:23:01.810 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 23.8967dB / 0.7155
+26-01-29 06:23:01.866 : ---3 --> BSRNet --> x4--> bridge.png
+26-01-29 06:23:01.982 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 23.6891dB / 0.5753
+26-01-29 06:23:02.027 : ---4 --> BSRNet --> x4--> coastguard.png
+26-01-29 06:23:02.083 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 24.6454dB / 0.4974
+26-01-29 06:23:02.122 : ---5 --> BSRNet --> x4--> comic.png
+26-01-29 06:23:02.175 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 21.2194dB / 0.6353
+26-01-29 06:23:02.210 : ---6 --> BSRNet --> x4--> face.png
+26-01-29 06:23:02.256 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 30.4840dB / 0.6922
+26-01-29 06:23:02.290 : ---7 --> BSRNet --> x4--> flowers.png
+26-01-29 06:23:02.378 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 25.4365dB / 0.7299
+26-01-29 06:23:02.419 : ---8 --> BSRNet --> x4--> foreman.png
+26-01-29 06:23:02.471 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 28.2624dB / 0.8912
+26-01-29 06:23:02.502 : ---9 --> BSRNet --> x4--> lenna.png
+26-01-29 06:23:02.614 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 29.9867dB / 0.8141
+26-01-29 06:23:02.656 : --10 --> BSRNet --> x4--> man.png
+26-01-29 06:23:02.767 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 25.5103dB / 0.6705
+26-01-29 06:23:02.810 : --11 --> BSRNet --> x4--> monarch.png
+26-01-29 06:23:02.981 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 28.9732dB / 0.9095
+26-01-29 06:23:03.042 : --12 --> BSRNet --> x4--> pepper.png
+26-01-29 06:23:03.156 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 29.5629dB / 0.8281
+26-01-29 06:23:03.198 : --13 --> BSRNet --> x4--> ppt3.png
+26-01-29 06:23:03.351 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 23.8246dB / 0.9076
+26-01-29 06:23:03.398 : --14 --> BSRNet --> x4--> zebra.png
+26-01-29 06:23:03.502 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 24.6847dB / 0.6921
+26-01-29 06:23:03.546 : Computing FID...
+26-01-29 06:23:08.265 :  
+26-01-29 06:24:06.267 :       Model Name : BSRNet
+26-01-29 06:24:07.397 :       Input Path : /root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2
+26-01-29 06:24:07.397 :      Output Path : /root/quoc-huy/all-tested-results/BSRGAN/Urban100-LR-bicubic-matlab-v2
+26-01-29 06:24:07.398 : ---1 --> BSRNet --> x4--> img_001.png
+26-01-29 06:24:07.777 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 25.5018dB / 0.6898
+26-01-29 06:24:07.986 : ---2 --> BSRNet --> x4--> img_002.png
+26-01-29 06:24:08.318 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 23.7229dB / 0.7603
+26-01-29 06:24:08.400 : ---3 --> BSRNet --> x4--> img_003.png
+26-01-29 06:24:08.690 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 21.8881dB / 0.6105
+26-01-29 06:24:08.763 : ---4 --> BSRNet --> x4--> img_004.png
+26-01-29 06:24:09.055 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 20.9976dB / 0.7551
+26-01-29 06:24:09.126 : ---5 --> BSRNet --> x4--> img_005.png
+26-01-29 06:24:09.454 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 24.4669dB / 0.9135
+26-01-29 06:24:09.526 : ---6 --> BSRNet --> x4--> img_006.png
+26-01-29 06:24:09.960 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 20.3120dB / 0.5338
+26-01-29 06:24:10.064 : ---7 --> BSRNet --> x4--> img_007.png
+26-01-29 06:24:10.354 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 26.7489dB / 0.8134
+26-01-29 06:24:10.429 : ---8 --> BSRNet --> x4--> img_008.png
+26-01-29 06:24:10.678 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 19.5696dB / 0.5908
+26-01-29 06:24:10.746 : ---9 --> BSRNet --> x4--> img_009.png
+26-01-29 06:24:11.088 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 30.9254dB / 0.8781
+26-01-29 06:24:11.163 : --10 --> BSRNet --> x4--> img_010.png
+26-01-29 06:24:11.510 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 24.4311dB / 0.8337
+26-01-29 06:24:11.592 : --11 --> BSRNet --> x4--> img_011.png
+26-01-29 06:24:11.836 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 15.6157dB / 0.6852
+26-01-29 06:24:11.901 : --12 --> BSRNet --> x4--> img_012.png
+26-01-29 06:24:12.226 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 21.8698dB / 0.6565
+26-01-29 06:24:12.305 : --13 --> BSRNet --> x4--> img_013.png
+26-01-29 06:24:12.632 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 26.1603dB / 0.7636
+26-01-29 06:24:12.713 : --14 --> BSRNet --> x4--> img_014.png
+26-01-29 06:24:13.148 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 20.7525dB / 0.6414
+26-01-29 06:24:13.243 : --15 --> BSRNet --> x4--> img_015.png
+26-01-29 06:24:13.575 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 23.2636dB / 0.6465
+26-01-29 06:24:13.653 : --16 --> BSRNet --> x4--> img_016.png
+26-01-29 06:24:14.081 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 26.7240dB / 0.8713
+26-01-29 06:24:14.172 : --17 --> BSRNet --> x4--> img_017.png
+26-01-29 06:24:14.463 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 23.4185dB / 0.7798
+26-01-29 06:24:14.539 : --18 --> BSRNet --> x4--> img_018.png
+26-01-29 06:24:14.870 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 24.2900dB / 0.6329
+26-01-29 06:24:14.952 : --19 --> BSRNet --> x4--> img_019.png
+26-01-29 06:24:15.237 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 19.3532dB / 0.7098
+26-01-29 06:24:15.311 : --20 --> BSRNet --> x4--> img_020.png
+26-01-29 06:24:15.815 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 20.2439dB / 0.6542
+26-01-29 06:24:15.935 : --21 --> BSRNet --> x4--> img_021.png
+26-01-29 06:24:16.331 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 27.3838dB / 0.7205
+26-01-29 06:24:16.421 : --22 --> BSRNet --> x4--> img_022.png
+26-01-29 06:24:16.710 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 24.3051dB / 0.7141
+26-01-29 06:24:16.778 : --23 --> BSRNet --> x4--> img_023.png
+26-01-29 06:24:17.214 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 26.0394dB / 0.8411
+26-01-29 06:24:17.305 : --24 --> BSRNet --> x4--> img_024.png
+26-01-29 06:24:17.588 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 18.2145dB / 0.5781
+26-01-29 06:24:17.662 : --25 --> BSRNet --> x4--> img_025.png
+26-01-29 06:24:17.963 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 28.7135dB / 0.8512
+26-01-29 06:24:18.042 : --26 --> BSRNet --> x4--> img_026.png
+26-01-29 06:24:18.371 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 25.7150dB / 0.6418
+26-01-29 06:24:18.448 : --27 --> BSRNet --> x4--> img_027.png
+26-01-29 06:24:18.803 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 26.5240dB / 0.7531
+26-01-29 06:24:18.888 : --28 --> BSRNet --> x4--> img_028.png
+26-01-29 06:24:19.172 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 29.1541dB / 0.8346
+26-01-29 06:24:19.238 : --29 --> BSRNet --> x4--> img_029.png
+26-01-29 06:24:19.527 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 24.2017dB / 0.7967
+26-01-29 06:24:19.603 : --30 --> BSRNet --> x4--> img_030.png
+26-01-29 06:24:19.895 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 21.8742dB / 0.7357
+26-01-29 06:24:19.970 : --31 --> BSRNet --> x4--> img_031.png
+26-01-29 06:24:20.255 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 22.0835dB / 0.7149
+26-01-29 06:24:20.327 : --32 --> BSRNet --> x4--> img_032.png
+26-01-29 06:24:20.615 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 26.5627dB / 0.7937
+26-01-29 06:24:20.685 : --33 --> BSRNet --> x4--> img_033.png
+26-01-29 06:24:20.971 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 24.6177dB / 0.7236
+26-01-29 06:24:21.043 : --34 --> BSRNet --> x4--> img_034.png
+26-01-29 06:24:21.332 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 20.9883dB / 0.4911
+26-01-29 06:24:21.406 : --35 --> BSRNet --> x4--> img_035.png
+26-01-29 06:24:21.695 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 24.1192dB / 0.8149
+26-01-29 06:24:21.769 : --36 --> BSRNet --> x4--> img_036.png
+26-01-29 06:24:22.061 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 26.8814dB / 0.8504
+26-01-29 06:24:22.137 : --37 --> BSRNet --> x4--> img_037.png
+26-01-29 06:24:22.468 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 23.7856dB / 0.7313
+26-01-29 06:24:22.548 : --38 --> BSRNet --> x4--> img_038.png
+26-01-29 06:24:22.880 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 24.4955dB / 0.5697
+26-01-29 06:24:22.962 : --39 --> BSRNet --> x4--> img_039.png
+26-01-29 06:24:23.296 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 21.0049dB / 0.6748
+26-01-29 06:24:23.375 : --40 --> BSRNet --> x4--> img_040.png
+26-01-29 06:24:23.622 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 21.9406dB / 0.8410
+26-01-29 06:24:23.687 : --41 --> BSRNet --> x4--> img_041.png
+26-01-29 06:24:23.973 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 22.7826dB / 0.8033
+26-01-29 06:24:24.052 : --42 --> BSRNet --> x4--> img_042.png
+26-01-29 06:24:24.336 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 26.1055dB / 0.8404
+26-01-29 06:24:24.410 : --43 --> BSRNet --> x4--> img_043.png
+26-01-29 06:24:24.694 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 28.5293dB / 0.8752
+26-01-29 06:24:24.769 : --44 --> BSRNet --> x4--> img_044.png
+26-01-29 06:24:25.061 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 28.1489dB / 0.8165
+26-01-29 06:24:25.134 : --45 --> BSRNet --> x4--> img_045.png
+26-01-29 06:24:25.457 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 20.3907dB / 0.5922
+26-01-29 06:24:25.544 : --46 --> BSRNet --> x4--> img_046.png
+26-01-29 06:24:25.839 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 22.0915dB / 0.7196
+26-01-29 06:24:25.910 : --47 --> BSRNet --> x4--> img_047.png
+26-01-29 06:24:26.173 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 19.8132dB / 0.7001
+26-01-29 06:24:26.242 : --48 --> BSRNet --> x4--> img_048.png
+26-01-29 06:24:26.530 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 17.7922dB / 0.7309
+26-01-29 06:24:26.600 : --49 --> BSRNet --> x4--> img_049.png
+26-01-29 06:24:26.894 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 20.7510dB / 0.6545
+26-01-29 06:24:26.970 : --50 --> BSRNet --> x4--> img_050.png
+26-01-29 06:24:27.258 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 23.0880dB / 0.6980
+26-01-29 06:24:27.330 : --51 --> BSRNet --> x4--> img_051.png
+26-01-29 06:24:27.619 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 24.8575dB / 0.7924
+26-01-29 06:24:27.694 : --52 --> BSRNet --> x4--> img_052.png
+26-01-29 06:24:27.985 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 26.4847dB / 0.8718
+26-01-29 06:24:28.059 : --53 --> BSRNet --> x4--> img_053.png
+26-01-29 06:24:28.345 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 20.3387dB / 0.6710
+26-01-29 06:24:28.419 : --54 --> BSRNet --> x4--> img_054.png
+26-01-29 06:24:28.712 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 19.5224dB / 0.6016
+26-01-29 06:24:28.786 : --55 --> BSRNet --> x4--> img_055.png
+26-01-29 06:24:29.124 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 30.3158dB / 0.9117
+26-01-29 06:24:29.201 : --56 --> BSRNet --> x4--> img_056.png
+26-01-29 06:24:29.534 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 22.5584dB / 0.7142
+26-01-29 06:24:29.617 : --57 --> BSRNet --> x4--> img_057.png
+26-01-29 06:24:29.919 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 27.3719dB / 0.8357
+26-01-29 06:24:29.995 : --58 --> BSRNet --> x4--> img_058.png
+26-01-29 06:24:30.285 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 22.8327dB / 0.7907
+26-01-29 06:24:30.358 : --59 --> BSRNet --> x4--> img_059.png
+26-01-29 06:24:30.641 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 20.0667dB / 0.6986
+26-01-29 06:24:30.709 : --60 --> BSRNet --> x4--> img_060.png
+26-01-29 06:24:31.000 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 20.5971dB / 0.4993
+26-01-29 06:24:31.075 : --61 --> BSRNet --> x4--> img_061.png
+26-01-29 06:24:31.360 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 22.6832dB / 0.6958
+26-01-29 06:24:31.435 : --62 --> BSRNet --> x4--> img_062.png
+26-01-29 06:24:31.720 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 19.1854dB / 0.6828
+26-01-29 06:24:31.790 : --63 --> BSRNet --> x4--> img_063.png
+26-01-29 06:24:32.197 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 19.6826dB / 0.5297
+26-01-29 06:24:32.293 : --64 --> BSRNet --> x4--> img_064.png
+26-01-29 06:24:32.585 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 24.5040dB / 0.7334
+26-01-29 06:24:32.662 : --65 --> BSRNet --> x4--> img_065.png
+26-01-29 06:24:32.953 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 23.6253dB / 0.6771
+26-01-29 06:24:33.028 : --66 --> BSRNet --> x4--> img_066.png
+26-01-29 06:24:33.392 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 20.6685dB / 0.5893
+26-01-29 06:24:33.483 : --67 --> BSRNet --> x4--> img_067.png
+26-01-29 06:24:33.767 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 17.3551dB / 0.8146
+26-01-29 06:24:33.838 : --68 --> BSRNet --> x4--> img_068.png
+26-01-29 06:24:34.271 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 27.1773dB / 0.8354
+26-01-29 06:24:34.372 : --69 --> BSRNet --> x4--> img_069.png
+26-01-29 06:24:34.778 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 22.8340dB / 0.6976
+26-01-29 06:24:34.876 : --70 --> BSRNet --> x4--> img_070.png
+26-01-29 06:24:35.208 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 20.6233dB / 0.5458
+26-01-29 06:24:35.285 : --71 --> BSRNet --> x4--> img_071.png
+26-01-29 06:24:35.613 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 26.0321dB / 0.5815
+26-01-29 06:24:35.692 : --72 --> BSRNet --> x4--> img_072.png
+26-01-29 06:24:35.978 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 17.6424dB / 0.7571
+26-01-29 06:24:36.055 : --73 --> BSRNet --> x4--> img_073.png
+26-01-29 06:24:36.390 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 18.4791dB / 0.4764
+26-01-29 06:24:36.474 : --74 --> BSRNet --> x4--> img_074.png
+26-01-29 06:24:36.761 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 21.8764dB / 0.6382
+26-01-29 06:24:36.834 : --75 --> BSRNet --> x4--> img_075.png
+26-01-29 06:24:37.125 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 28.6588dB / 0.8387
+26-01-29 06:24:37.197 : --76 --> BSRNet --> x4--> img_076.png
+26-01-29 06:24:37.488 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 20.4571dB / 0.6171
+26-01-29 06:24:37.563 : --77 --> BSRNet --> x4--> img_077.png
+26-01-29 06:24:37.856 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 21.0234dB / 0.6223
+26-01-29 06:24:37.929 : --78 --> BSRNet --> x4--> img_078.png
+26-01-29 06:24:38.235 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 25.2367dB / 0.6940
+26-01-29 06:24:38.312 : --79 --> BSRNet --> x4--> img_079.png
+26-01-29 06:24:38.644 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 23.5002dB / 0.6384
+26-01-29 06:24:38.726 : --80 --> BSRNet --> x4--> img_080.png
+26-01-29 06:24:39.082 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 32.5271dB / 0.9234
+26-01-29 06:24:39.155 : --81 --> BSRNet --> x4--> img_081.png
+26-01-29 06:24:39.588 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 30.7365dB / 0.9052
+26-01-29 06:24:39.687 : --82 --> BSRNet --> x4--> img_082.png
+26-01-29 06:24:40.127 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 27.9344dB / 0.8805
+26-01-29 06:24:40.219 : --83 --> BSRNet --> x4--> img_083.png
+26-01-29 06:24:40.655 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 20.3794dB / 0.6237
+26-01-29 06:24:40.759 : --84 --> BSRNet --> x4--> img_084.png
+26-01-29 06:24:41.198 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 26.3429dB / 0.7602
+26-01-29 06:24:41.299 : --85 --> BSRNet --> x4--> img_085.png
+26-01-29 06:24:41.590 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 25.8447dB / 0.8646
+26-01-29 06:24:41.658 : --86 --> BSRNet --> x4--> img_086.png
+26-01-29 06:24:41.989 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 27.8639dB / 0.8454
+26-01-29 06:24:42.062 : --87 --> BSRNet --> x4--> img_087.png
+26-01-29 06:24:42.506 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 24.4954dB / 0.8259
+26-01-29 06:24:42.604 : --88 --> BSRNet --> x4--> img_088.png
+26-01-29 06:24:42.890 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 17.9436dB / 0.4682
+26-01-29 06:24:42.966 : --89 --> BSRNet --> x4--> img_089.png
+26-01-29 06:24:43.300 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 24.7905dB / 0.6609
+26-01-29 06:24:43.381 : --90 --> BSRNet --> x4--> img_090.png
+26-01-29 06:24:43.672 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 33.0340dB / 0.9458
+26-01-29 06:24:43.742 : --91 --> BSRNet --> x4--> img_091.png
+26-01-29 06:24:44.034 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 21.6501dB / 0.5681
+26-01-29 06:24:44.108 : --92 --> BSRNet --> x4--> img_092.png
+26-01-29 06:24:44.398 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 16.6272dB / 0.5560
+26-01-29 06:24:44.473 : --93 --> BSRNet --> x4--> img_093.png
+26-01-29 06:24:44.804 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 24.3160dB / 0.8555
+26-01-29 06:24:44.885 : --94 --> BSRNet --> x4--> img_094.png
+26-01-29 06:24:45.217 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 25.2598dB / 0.7323
+26-01-29 06:24:45.294 : --95 --> BSRNet --> x4--> img_095.png
+26-01-29 06:24:45.623 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 18.3205dB / 0.3376
+26-01-29 06:24:45.704 : --96 --> BSRNet --> x4--> img_096.png
+26-01-29 06:24:46.039 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 22.2904dB / 0.8130
+26-01-29 06:24:46.114 : --97 --> BSRNet --> x4--> img_097.png
+26-01-29 06:24:46.409 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 22.7953dB / 0.7082
+26-01-29 06:24:46.483 : --98 --> BSRNet --> x4--> img_098.png
+26-01-29 06:24:46.773 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 18.8836dB / 0.4397
+26-01-29 06:24:46.849 : --99 --> BSRNet --> x4--> img_099.png
+26-01-29 06:24:47.200 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 23.0603dB / 0.7038
+26-01-29 06:24:47.281 : -100 --> BSRNet --> x4--> img_100.png
+26-01-29 06:24:47.718 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 23.9156dB / 0.6910
+26-01-29 06:24:47.819 : Computing FID...
+26-01-29 06:24:54.617 :  
+26-01-29 06:25:55.202 :       Model Name : BSRGAN
+26-01-29 06:25:56.388 :       Input Path : /root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2
+26-01-29 06:25:56.388 :      Output Path : /root/quoc-huy/all-tested-results/BSRGAN/Urban100-LR-bicubic-matlab-v2
+26-01-29 06:25:56.389 : ---1 --> BSRGAN --> x4--> img_001.png
+26-01-29 06:25:56.779 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 24.4992dB / 0.6468
+26-01-29 06:25:56.984 : ---2 --> BSRGAN --> x4--> img_002.png
+26-01-29 06:25:57.316 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 21.8632dB / 0.6810
+26-01-29 06:25:57.399 : ---3 --> BSRGAN --> x4--> img_003.png
+26-01-29 06:25:57.689 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 20.9724dB / 0.5640
+26-01-29 06:25:57.765 : ---4 --> BSRGAN --> x4--> img_004.png
+26-01-29 06:25:58.055 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 19.4616dB / 0.6760
+26-01-29 06:25:58.130 : ---5 --> BSRGAN --> x4--> img_005.png
+26-01-29 06:25:58.458 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 22.5554dB / 0.8702
+26-01-29 06:25:58.543 : ---6 --> BSRGAN --> x4--> img_006.png
+26-01-29 06:25:58.974 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 19.2147dB / 0.4695
+26-01-29 06:25:59.079 : ---7 --> BSRGAN --> x4--> img_007.png
+26-01-29 06:25:59.368 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 24.4829dB / 0.7348
+26-01-29 06:25:59.444 : ---8 --> BSRGAN --> x4--> img_008.png
+26-01-29 06:25:59.694 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 18.0336dB / 0.5026
+26-01-29 06:25:59.764 : ---9 --> BSRGAN --> x4--> img_009.png
+26-01-29 06:26:00.105 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 29.5475dB / 0.8644
+26-01-29 06:26:00.188 : --10 --> BSRGAN --> x4--> img_010.png
+26-01-29 06:26:00.535 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 23.6230dB / 0.8033
+26-01-29 06:26:00.631 : --11 --> BSRGAN --> x4--> img_011.png
+26-01-29 06:26:00.874 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 15.4099dB / 0.6751
+26-01-29 06:26:00.941 : --12 --> BSRGAN --> x4--> img_012.png
+26-01-29 06:26:01.269 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 20.6644dB / 0.5998
+26-01-29 06:26:01.361 : --13 --> BSRGAN --> x4--> img_013.png
+26-01-29 06:26:01.690 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 24.2806dB / 0.7056
+26-01-29 06:26:01.775 : --14 --> BSRGAN --> x4--> img_014.png
+26-01-29 06:26:02.210 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 19.8864dB / 0.6002
+26-01-29 06:26:02.310 : --15 --> BSRGAN --> x4--> img_015.png
+26-01-29 06:26:02.644 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 22.2430dB / 0.6108
+26-01-29 06:26:02.727 : --16 --> BSRGAN --> x4--> img_016.png
+26-01-29 06:26:03.155 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 24.4537dB / 0.8379
+26-01-29 06:26:03.246 : --17 --> BSRGAN --> x4--> img_017.png
+26-01-29 06:26:03.537 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 21.4791dB / 0.7129
+26-01-29 06:26:03.624 : --18 --> BSRGAN --> x4--> img_018.png
+26-01-29 06:26:03.955 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 22.9637dB / 0.5719
+26-01-29 06:26:04.037 : --19 --> BSRGAN --> x4--> img_019.png
+26-01-29 06:26:04.324 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 18.2570dB / 0.6696
+26-01-29 06:26:04.399 : --20 --> BSRGAN --> x4--> img_020.png
+26-01-29 06:26:04.904 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 19.0944dB / 0.5998
+26-01-29 06:26:05.026 : --21 --> BSRGAN --> x4--> img_021.png
+26-01-29 06:26:05.425 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 25.6125dB / 0.6786
+26-01-29 06:26:05.521 : --22 --> BSRGAN --> x4--> img_022.png
+26-01-29 06:26:05.810 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 23.3587dB / 0.6820
+26-01-29 06:26:05.893 : --23 --> BSRGAN --> x4--> img_023.png
+26-01-29 06:26:06.334 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 23.0252dB / 0.7619
+26-01-29 06:26:06.426 : --24 --> BSRGAN --> x4--> img_024.png
+26-01-29 06:26:06.709 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 17.5028dB / 0.5332
+26-01-29 06:26:06.785 : --25 --> BSRGAN --> x4--> img_025.png
+26-01-29 06:26:07.087 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 26.9376dB / 0.8019
+26-01-29 06:26:07.177 : --26 --> BSRGAN --> x4--> img_026.png
+26-01-29 06:26:07.508 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 25.3622dB / 0.6227
+26-01-29 06:26:07.599 : --27 --> BSRGAN --> x4--> img_027.png
+26-01-29 06:26:07.956 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 25.4744dB / 0.7154
+26-01-29 06:26:08.045 : --28 --> BSRGAN --> x4--> img_028.png
+26-01-29 06:26:08.331 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 27.9475dB / 0.8156
+26-01-29 06:26:08.403 : --29 --> BSRGAN --> x4--> img_029.png
+26-01-29 06:26:08.700 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 23.3445dB / 0.7712
+26-01-29 06:26:08.778 : --30 --> BSRGAN --> x4--> img_030.png
+26-01-29 06:26:09.069 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 19.9117dB / 0.6632
+26-01-29 06:26:09.146 : --31 --> BSRGAN --> x4--> img_031.png
+26-01-29 06:26:09.433 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 21.0693dB / 0.6757
+26-01-29 06:26:09.504 : --32 --> BSRGAN --> x4--> img_032.png
+26-01-29 06:26:09.791 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 25.1270dB / 0.7481
+26-01-29 06:26:09.866 : --33 --> BSRGAN --> x4--> img_033.png
+26-01-29 06:26:10.152 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 23.4688dB / 0.6765
+26-01-29 06:26:10.229 : --34 --> BSRGAN --> x4--> img_034.png
+26-01-29 06:26:10.517 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 20.1123dB / 0.4617
+26-01-29 06:26:10.592 : --35 --> BSRGAN --> x4--> img_035.png
+26-01-29 06:26:10.880 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 22.2051dB / 0.7623
+26-01-29 06:26:10.959 : --36 --> BSRGAN --> x4--> img_036.png
+26-01-29 06:26:11.249 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 25.4628dB / 0.8076
+26-01-29 06:26:11.329 : --37 --> BSRGAN --> x4--> img_037.png
+26-01-29 06:26:11.658 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 22.0214dB / 0.6454
+26-01-29 06:26:11.739 : --38 --> BSRGAN --> x4--> img_038.png
+26-01-29 06:26:12.068 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 23.7756dB / 0.5265
+26-01-29 06:26:12.151 : --39 --> BSRGAN --> x4--> img_039.png
+26-01-29 06:26:12.485 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 19.9594dB / 0.6386
+26-01-29 06:26:12.565 : --40 --> BSRGAN --> x4--> img_040.png
+26-01-29 06:26:12.812 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 20.5482dB / 0.7813
+26-01-29 06:26:12.880 : --41 --> BSRGAN --> x4--> img_041.png
+26-01-29 06:26:13.165 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 21.2814dB / 0.7635
+26-01-29 06:26:13.240 : --42 --> BSRGAN --> x4--> img_042.png
+26-01-29 06:26:13.523 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 23.8047dB / 0.7846
+26-01-29 06:26:13.599 : --43 --> BSRGAN --> x4--> img_043.png
+26-01-29 06:26:13.882 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 26.9339dB / 0.8526
+26-01-29 06:26:13.959 : --44 --> BSRGAN --> x4--> img_044.png
+26-01-29 06:26:14.248 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 24.1795dB / 0.7263
+26-01-29 06:26:14.323 : --45 --> BSRGAN --> x4--> img_045.png
+26-01-29 06:26:14.645 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 18.3457dB / 0.4609
+26-01-29 06:26:14.729 : --46 --> BSRGAN --> x4--> img_046.png
+26-01-29 06:26:15.022 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 21.3239dB / 0.6866
+26-01-29 06:26:15.099 : --47 --> BSRGAN --> x4--> img_047.png
+26-01-29 06:26:15.360 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 18.3929dB / 0.6386
+26-01-29 06:26:15.431 : --48 --> BSRGAN --> x4--> img_048.png
+26-01-29 06:26:15.716 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 16.8450dB / 0.6910
+26-01-29 06:26:15.793 : --49 --> BSRGAN --> x4--> img_049.png
+26-01-29 06:26:16.084 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 19.9431dB / 0.6184
+26-01-29 06:26:16.161 : --50 --> BSRGAN --> x4--> img_050.png
+26-01-29 06:26:16.449 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 22.0159dB / 0.6523
+26-01-29 06:26:16.525 : --51 --> BSRGAN --> x4--> img_051.png
+26-01-29 06:26:16.811 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 23.0237dB / 0.7246
+26-01-29 06:26:16.889 : --52 --> BSRGAN --> x4--> img_052.png
+26-01-29 06:26:17.178 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 24.6955dB / 0.8352
+26-01-29 06:26:17.254 : --53 --> BSRGAN --> x4--> img_053.png
+26-01-29 06:26:17.538 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 19.1902dB / 0.6079
+26-01-29 06:26:17.612 : --54 --> BSRGAN --> x4--> img_054.png
+26-01-29 06:26:17.903 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 18.6058dB / 0.5553
+26-01-29 06:26:17.987 : --55 --> BSRGAN --> x4--> img_055.png
+26-01-29 06:26:18.319 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 27.0908dB / 0.8791
+26-01-29 06:26:18.409 : --56 --> BSRGAN --> x4--> img_056.png
+26-01-29 06:26:18.740 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 20.8705dB / 0.6415
+26-01-29 06:26:18.824 : --57 --> BSRGAN --> x4--> img_057.png
+26-01-29 06:26:19.124 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 26.4021dB / 0.7962
+26-01-29 06:26:19.210 : --58 --> BSRGAN --> x4--> img_058.png
+26-01-29 06:26:19.498 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 20.1637dB / 0.6895
+26-01-29 06:26:19.582 : --59 --> BSRGAN --> x4--> img_059.png
+26-01-29 06:26:19.865 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 19.6380dB / 0.6784
+26-01-29 06:26:19.939 : --60 --> BSRGAN --> x4--> img_060.png
+26-01-29 06:26:20.230 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 19.6446dB / 0.4512
+26-01-29 06:26:20.314 : --61 --> BSRGAN --> x4--> img_061.png
+26-01-29 06:26:20.598 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 20.6217dB / 0.6134
+26-01-29 06:26:20.682 : --62 --> BSRGAN --> x4--> img_062.png
+26-01-29 06:26:20.968 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 18.3217dB / 0.6418
+26-01-29 06:26:21.039 : --63 --> BSRGAN --> x4--> img_063.png
+26-01-29 06:26:21.453 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 19.1119dB / 0.5122
+26-01-29 06:26:21.561 : --64 --> BSRGAN --> x4--> img_064.png
+26-01-29 06:26:21.855 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 22.3962dB / 0.6232
+26-01-29 06:26:21.939 : --65 --> BSRGAN --> x4--> img_065.png
+26-01-29 06:26:22.230 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 22.1431dB / 0.6034
+26-01-29 06:26:22.303 : --66 --> BSRGAN --> x4--> img_066.png
+26-01-29 06:26:22.668 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 19.8937dB / 0.5395
+26-01-29 06:26:22.767 : --67 --> BSRGAN --> x4--> img_067.png
+26-01-29 06:26:23.053 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 16.5432dB / 0.7772
+26-01-29 06:26:23.127 : --68 --> BSRGAN --> x4--> img_068.png
+26-01-29 06:26:23.561 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 25.3692dB / 0.7620
+26-01-29 06:26:23.672 : --69 --> BSRGAN --> x4--> img_069.png
+26-01-29 06:26:24.077 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 21.6880dB / 0.6533
+26-01-29 06:26:24.177 : --70 --> BSRGAN --> x4--> img_070.png
+26-01-29 06:26:24.520 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 20.0896dB / 0.5161
+26-01-29 06:26:24.601 : --71 --> BSRGAN --> x4--> img_071.png
+26-01-29 06:26:24.930 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 25.4862dB / 0.5516
+26-01-29 06:26:25.014 : --72 --> BSRGAN --> x4--> img_072.png
+26-01-29 06:26:25.307 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 16.4858dB / 0.7076
+26-01-29 06:26:25.382 : --73 --> BSRGAN --> x4--> img_073.png
+26-01-29 06:26:25.719 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 17.4600dB / 0.4122
+26-01-29 06:26:25.798 : --74 --> BSRGAN --> x4--> img_074.png
+26-01-29 06:26:26.086 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 20.8564dB / 0.5986
+26-01-29 06:26:26.159 : --75 --> BSRGAN --> x4--> img_075.png
+26-01-29 06:26:26.452 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 27.4385dB / 0.8131
+26-01-29 06:26:26.528 : --76 --> BSRGAN --> x4--> img_076.png
+26-01-29 06:26:26.821 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 19.7324dB / 0.5803
+26-01-29 06:26:26.905 : --77 --> BSRGAN --> x4--> img_077.png
+26-01-29 06:26:27.195 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 19.9859dB / 0.5696
+26-01-29 06:26:27.270 : --78 --> BSRGAN --> x4--> img_078.png
+26-01-29 06:26:27.574 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 23.8384dB / 0.6353
+26-01-29 06:26:27.655 : --79 --> BSRGAN --> x4--> img_079.png
+26-01-29 06:26:27.991 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 22.2677dB / 0.5819
+26-01-29 06:26:28.075 : --80 --> BSRGAN --> x4--> img_080.png
+26-01-29 06:26:28.427 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 29.9906dB / 0.8829
+26-01-29 06:26:28.511 : --81 --> BSRGAN --> x4--> img_081.png
+26-01-29 06:26:28.944 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 27.4028dB / 0.8649
+26-01-29 06:26:29.044 : --82 --> BSRGAN --> x4--> img_082.png
+26-01-29 06:26:29.483 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 25.3182dB / 0.8354
+26-01-29 06:26:29.593 : --83 --> BSRGAN --> x4--> img_083.png
+26-01-29 06:26:30.032 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 19.6535dB / 0.5780
+26-01-29 06:26:30.143 : --84 --> BSRGAN --> x4--> img_084.png
+26-01-29 06:26:30.584 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 24.0793dB / 0.6669
+26-01-29 06:26:30.693 : --85 --> BSRGAN --> x4--> img_085.png
+26-01-29 06:26:30.984 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 24.1654dB / 0.8341
+26-01-29 06:26:31.057 : --86 --> BSRGAN --> x4--> img_086.png
+26-01-29 06:26:31.391 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 25.9351dB / 0.8035
+26-01-29 06:26:31.482 : --87 --> BSRGAN --> x4--> img_087.png
+26-01-29 06:26:31.926 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 23.5614dB / 0.7932
+26-01-29 06:26:32.031 : --88 --> BSRGAN --> x4--> img_088.png
+26-01-29 06:26:32.319 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 17.2616dB / 0.4300
+26-01-29 06:26:32.396 : --89 --> BSRGAN --> x4--> img_089.png
+26-01-29 06:26:32.731 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 23.3701dB / 0.5967
+26-01-29 06:26:32.820 : --90 --> BSRGAN --> x4--> img_090.png
+26-01-29 06:26:33.112 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 29.5738dB / 0.8929
+26-01-29 06:26:33.188 : --91 --> BSRGAN --> x4--> img_091.png
+26-01-29 06:26:33.475 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 20.3805dB / 0.5076
+26-01-29 06:26:33.558 : --92 --> BSRGAN --> x4--> img_092.png
+26-01-29 06:26:33.847 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 16.3725dB / 0.5425
+26-01-29 06:26:33.934 : --93 --> BSRGAN --> x4--> img_093.png
+26-01-29 06:26:34.264 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 22.8630dB / 0.8198
+26-01-29 06:26:34.347 : --94 --> BSRGAN --> x4--> img_094.png
+26-01-29 06:26:34.679 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 24.2513dB / 0.6927
+26-01-29 06:26:34.768 : --95 --> BSRGAN --> x4--> img_095.png
+26-01-29 06:26:35.095 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 18.0560dB / 0.3176
+26-01-29 06:26:35.187 : --96 --> BSRGAN --> x4--> img_096.png
+26-01-29 06:26:35.520 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 20.2450dB / 0.7436
+26-01-29 06:26:35.602 : --97 --> BSRGAN --> x4--> img_097.png
+26-01-29 06:26:35.894 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 21.5210dB / 0.6491
+26-01-29 06:26:35.970 : --98 --> BSRGAN --> x4--> img_098.png
+26-01-29 06:26:36.257 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 18.3272dB / 0.4092
+26-01-29 06:26:36.342 : --99 --> BSRGAN --> x4--> img_099.png
+26-01-29 06:26:36.693 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 21.6169dB / 0.6587
+26-01-29 06:26:36.775 : -100 --> BSRGAN --> x4--> img_100.png
+26-01-29 06:26:37.217 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2, x4)---- : 23.0729dB / 0.6714
+26-01-29 06:26:37.318 : Computing FID...
+26-01-29 06:26:44.120 :  
+26-01-29 06:27:34.207 :       Model Name : BSRGAN
+26-01-29 06:27:35.329 :       Input Path : /root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2
+26-01-29 06:27:35.329 :      Output Path : /root/quoc-huy/all-tested-results/BSRGAN/BSD100-LR-bicubic-matlab-v2
+26-01-29 06:27:35.329 : ---1 --> BSRGAN --> x4--> 101085.png
+26-01-29 06:27:35.493 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 21.6102dB / 0.4699
+26-01-29 06:27:35.704 : ---2 --> BSRGAN --> x4--> 101087.png
+26-01-29 06:27:35.780 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 25.2280dB / 0.7381
+26-01-29 06:27:35.817 : ---3 --> BSRGAN --> x4--> 102061.png
+26-01-29 06:27:35.891 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 23.6458dB / 0.7310
+26-01-29 06:27:35.929 : ---4 --> BSRGAN --> x4--> 103070.png
+26-01-29 06:27:36.005 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 26.8717dB / 0.7349
+26-01-29 06:27:36.043 : ---5 --> BSRGAN --> x4--> 105025.png
+26-01-29 06:27:36.108 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 23.6344dB / 0.6062
+26-01-29 06:27:36.142 : ---6 --> BSRGAN --> x4--> 106024.png
+26-01-29 06:27:36.207 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 29.6976dB / 0.8415
+26-01-29 06:27:36.241 : ---7 --> BSRGAN --> x4--> 108005.png
+26-01-29 06:27:36.307 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 23.2305dB / 0.6097
+26-01-29 06:27:36.341 : ---8 --> BSRGAN --> x4--> 108070.png
+26-01-29 06:27:36.406 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 20.6154dB / 0.4247
+26-01-29 06:27:36.440 : ---9 --> BSRGAN --> x4--> 108082.png
+26-01-29 06:27:36.505 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 24.0630dB / 0.6738
+26-01-29 06:27:36.540 : --10 --> BSRGAN --> x4--> 109053.png
+26-01-29 06:27:36.606 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 26.0758dB / 0.6962
+26-01-29 06:27:36.640 : --11 --> BSRGAN --> x4--> 119082.png
+26-01-29 06:27:36.705 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 21.2437dB / 0.5960
+26-01-29 06:27:36.740 : --12 --> BSRGAN --> x4--> 12084.png
+26-01-29 06:27:36.805 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 23.6188dB / 0.5431
+26-01-29 06:27:36.839 : --13 --> BSRGAN --> x4--> 123074.png
+26-01-29 06:27:36.905 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 25.7408dB / 0.6451
+26-01-29 06:27:36.941 : --14 --> BSRGAN --> x4--> 126007.png
+26-01-29 06:27:37.007 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 26.1286dB / 0.7426
+26-01-29 06:27:37.042 : --15 --> BSRGAN --> x4--> 130026.png
+26-01-29 06:27:37.106 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 22.4106dB / 0.5482
+26-01-29 06:27:37.140 : --16 --> BSRGAN --> x4--> 134035.png
+26-01-29 06:27:37.206 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 21.3087dB / 0.6213
+26-01-29 06:27:37.241 : --17 --> BSRGAN --> x4--> 14037.png
+26-01-29 06:27:37.306 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 30.6900dB / 0.8279
+26-01-29 06:27:37.339 : --18 --> BSRGAN --> x4--> 143090.png
+26-01-29 06:27:37.405 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 29.0748dB / 0.8304
+26-01-29 06:27:37.439 : --19 --> BSRGAN --> x4--> 145086.png
+26-01-29 06:27:37.505 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 23.5027dB / 0.6499
+26-01-29 06:27:37.540 : --20 --> BSRGAN --> x4--> 147091.png
+26-01-29 06:27:37.605 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 23.0386dB / 0.7229
+26-01-29 06:27:37.640 : --21 --> BSRGAN --> x4--> 148026.png
+26-01-29 06:27:37.707 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 19.0729dB / 0.5495
+26-01-29 06:27:37.743 : --22 --> BSRGAN --> x4--> 148089.png
+26-01-29 06:27:37.809 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 20.8991dB / 0.4863
+26-01-29 06:27:37.843 : --23 --> BSRGAN --> x4--> 156065.png
+26-01-29 06:27:37.908 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 22.5288dB / 0.4503
+26-01-29 06:27:37.944 : --24 --> BSRGAN --> x4--> 157055.png
+26-01-29 06:27:38.009 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 23.5917dB / 0.6856
+26-01-29 06:27:38.044 : --25 --> BSRGAN --> x4--> 159008.png
+26-01-29 06:27:38.110 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 23.3938dB / 0.6969
+26-01-29 06:27:38.145 : --26 --> BSRGAN --> x4--> 160068.png
+26-01-29 06:27:38.210 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 24.1264dB / 0.7808
+26-01-29 06:27:38.244 : --27 --> BSRGAN --> x4--> 16077.png
+26-01-29 06:27:38.310 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 24.2941dB / 0.6272
+26-01-29 06:27:38.344 : --28 --> BSRGAN --> x4--> 163085.png
+26-01-29 06:27:38.410 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 26.3353dB / 0.7118
+26-01-29 06:27:38.444 : --29 --> BSRGAN --> x4--> 167062.png
+26-01-29 06:27:38.509 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 28.1154dB / 0.8266
+26-01-29 06:27:38.543 : --30 --> BSRGAN --> x4--> 167083.png
+26-01-29 06:27:38.609 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 17.7614dB / 0.4066
+26-01-29 06:27:38.645 : --31 --> BSRGAN --> x4--> 170057.png
+26-01-29 06:27:38.710 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 25.5705dB / 0.6253
+26-01-29 06:27:38.744 : --32 --> BSRGAN --> x4--> 175032.png
+26-01-29 06:27:38.811 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 18.7533dB / 0.3083
+26-01-29 06:27:38.846 : --33 --> BSRGAN --> x4--> 175043.png
+26-01-29 06:27:38.911 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 21.8147dB / 0.4899
+26-01-29 06:27:38.945 : --34 --> BSRGAN --> x4--> 182053.png
+26-01-29 06:27:39.010 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 21.6712dB / 0.6961
+26-01-29 06:27:39.044 : --35 --> BSRGAN --> x4--> 189080.png
+26-01-29 06:27:39.110 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 30.5904dB / 0.8303
+26-01-29 06:27:39.145 : --36 --> BSRGAN --> x4--> 19021.png
+26-01-29 06:27:39.211 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 23.6217dB / 0.6337
+26-01-29 06:27:39.246 : --37 --> BSRGAN --> x4--> 196073.png
+26-01-29 06:27:39.311 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 26.0699dB / 0.3968
+26-01-29 06:27:39.346 : --38 --> BSRGAN --> x4--> 197017.png
+26-01-29 06:27:39.411 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 25.4286dB / 0.6292
+26-01-29 06:27:39.445 : --39 --> BSRGAN --> x4--> 208001.png
+26-01-29 06:27:39.512 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 25.1086dB / 0.6001
+26-01-29 06:27:39.547 : --40 --> BSRGAN --> x4--> 210088.png
+26-01-29 06:27:39.614 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 29.1000dB / 0.8725
+26-01-29 06:27:39.649 : --41 --> BSRGAN --> x4--> 21077.png
+26-01-29 06:27:39.714 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 23.7872dB / 0.6377
+26-01-29 06:27:39.748 : --42 --> BSRGAN --> x4--> 216081.png
+26-01-29 06:27:39.814 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 22.9027dB / 0.6130
+26-01-29 06:27:39.849 : --43 --> BSRGAN --> x4--> 219090.png
+26-01-29 06:27:39.914 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 23.9114dB / 0.6747
+26-01-29 06:27:39.949 : --44 --> BSRGAN --> x4--> 220075.png
+26-01-29 06:27:40.015 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 24.2384dB / 0.7821
+26-01-29 06:27:40.050 : --45 --> BSRGAN --> x4--> 223061.png
+26-01-29 06:27:40.115 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 21.4628dB / 0.5800
+26-01-29 06:27:40.150 : --46 --> BSRGAN --> x4--> 227092.png
+26-01-29 06:27:40.216 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 30.6204dB / 0.7931
+26-01-29 06:27:40.252 : --47 --> BSRGAN --> x4--> 229036.png
+26-01-29 06:27:40.317 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 20.3464dB / 0.4878
+26-01-29 06:27:40.353 : --48 --> BSRGAN --> x4--> 236037.png
+26-01-29 06:27:40.418 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 22.0796dB / 0.4728
+26-01-29 06:27:40.453 : --49 --> BSRGAN --> x4--> 24077.png
+26-01-29 06:27:40.520 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 22.4486dB / 0.7553
+26-01-29 06:27:40.556 : --50 --> BSRGAN --> x4--> 241004.png
+26-01-29 06:27:40.621 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 28.4349dB / 0.7521
+26-01-29 06:27:40.656 : --51 --> BSRGAN --> x4--> 241048.png
+26-01-29 06:27:40.721 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 22.4233dB / 0.5134
+26-01-29 06:27:40.755 : --52 --> BSRGAN --> x4--> 253027.png
+26-01-29 06:27:40.820 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 20.2483dB / 0.5926
+26-01-29 06:27:40.856 : --53 --> BSRGAN --> x4--> 253055.png
+26-01-29 06:27:40.921 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 29.0805dB / 0.7695
+26-01-29 06:27:40.956 : --54 --> BSRGAN --> x4--> 260058.png
+26-01-29 06:27:41.021 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 28.3886dB / 0.6779
+26-01-29 06:27:41.055 : --55 --> BSRGAN --> x4--> 271035.png
+26-01-29 06:27:41.122 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 24.2991dB / 0.6607
+26-01-29 06:27:41.157 : --56 --> BSRGAN --> x4--> 285079.png
+26-01-29 06:27:41.224 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 22.7798dB / 0.5756
+26-01-29 06:27:41.260 : --57 --> BSRGAN --> x4--> 291000.png
+26-01-29 06:27:41.325 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 19.0652dB / 0.2872
+26-01-29 06:27:41.358 : --58 --> BSRGAN --> x4--> 295087.png
+26-01-29 06:27:41.424 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 24.7053dB / 0.6328
+26-01-29 06:27:41.458 : --59 --> BSRGAN --> x4--> 296007.png
+26-01-29 06:27:41.523 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 28.8855dB / 0.6986
+26-01-29 06:27:41.557 : --60 --> BSRGAN --> x4--> 296059.png
+26-01-29 06:27:41.622 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 28.2719dB / 0.7084
+26-01-29 06:27:41.657 : --61 --> BSRGAN --> x4--> 299086.png
+26-01-29 06:27:41.722 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 28.6213dB / 0.7335
+26-01-29 06:27:41.756 : --62 --> BSRGAN --> x4--> 300091.png
+26-01-29 06:27:41.821 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 25.9255dB / 0.6956
+26-01-29 06:27:41.856 : --63 --> BSRGAN --> x4--> 302008.png
+26-01-29 06:27:41.923 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 25.0707dB / 0.8241
+26-01-29 06:27:41.959 : --64 --> BSRGAN --> x4--> 304034.png
+26-01-29 06:27:42.025 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 21.0784dB / 0.4903
+26-01-29 06:27:42.060 : --65 --> BSRGAN --> x4--> 304074.png
+26-01-29 06:27:42.126 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 23.2041dB / 0.4860
+26-01-29 06:27:42.161 : --66 --> BSRGAN --> x4--> 306005.png
+26-01-29 06:27:42.226 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 24.6272dB / 0.6499
+26-01-29 06:27:42.261 : --67 --> BSRGAN --> x4--> 3096.png
+26-01-29 06:27:42.326 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 33.8971dB / 0.9557
+26-01-29 06:27:42.360 : --68 --> BSRGAN --> x4--> 33039.png
+26-01-29 06:27:42.427 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 18.3776dB / 0.4574
+26-01-29 06:27:42.461 : --69 --> BSRGAN --> x4--> 351093.png
+26-01-29 06:27:42.526 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 20.1372dB / 0.5476
+26-01-29 06:27:42.560 : --70 --> BSRGAN --> x4--> 361010.png
+26-01-29 06:27:42.626 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 25.0960dB / 0.6774
+26-01-29 06:27:42.662 : --71 --> BSRGAN --> x4--> 37073.png
+26-01-29 06:27:42.726 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 27.1494dB / 0.7243
+26-01-29 06:27:42.760 : --72 --> BSRGAN --> x4--> 376043.png
+26-01-29 06:27:42.827 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 22.6615dB / 0.4472
+26-01-29 06:27:42.862 : --73 --> BSRGAN --> x4--> 38082.png
+26-01-29 06:27:42.928 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 24.2302dB / 0.4548
+26-01-29 06:27:42.962 : --74 --> BSRGAN --> x4--> 38092.png
+26-01-29 06:27:43.027 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 23.2802dB / 0.5959
+26-01-29 06:27:43.062 : --75 --> BSRGAN --> x4--> 385039.png
+26-01-29 06:27:43.127 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 21.4993dB / 0.6001
+26-01-29 06:27:43.163 : --76 --> BSRGAN --> x4--> 41033.png
+26-01-29 06:27:43.228 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 27.1387dB / 0.6649
+26-01-29 06:27:43.262 : --77 --> BSRGAN --> x4--> 41069.png
+26-01-29 06:27:43.328 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 21.2911dB / 0.3387
+26-01-29 06:27:43.363 : --78 --> BSRGAN --> x4--> 42012.png
+26-01-29 06:27:43.429 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 26.2285dB / 0.7083
+26-01-29 06:27:43.464 : --79 --> BSRGAN --> x4--> 42049.png
+26-01-29 06:27:43.530 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 27.4933dB / 0.9121
+26-01-29 06:27:43.565 : --80 --> BSRGAN --> x4--> 43074.png
+26-01-29 06:27:43.630 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 27.2098dB / 0.7397
+26-01-29 06:27:43.665 : --81 --> BSRGAN --> x4--> 45096.png
+26-01-29 06:27:43.730 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 31.0344dB / 0.8809
+26-01-29 06:27:43.765 : --82 --> BSRGAN --> x4--> 54082.png
+26-01-29 06:27:43.832 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 25.9431dB / 0.6347
+26-01-29 06:27:43.867 : --83 --> BSRGAN --> x4--> 55073.png
+26-01-29 06:27:43.933 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 19.7934dB / 0.3967
+26-01-29 06:27:43.975 : --84 --> BSRGAN --> x4--> 58060.png
+26-01-29 06:27:44.041 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 18.9194dB / 0.4960
+26-01-29 06:27:44.075 : --85 --> BSRGAN --> x4--> 62096.png
+26-01-29 06:27:44.141 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 22.7922dB / 0.7023
+26-01-29 06:27:44.175 : --86 --> BSRGAN --> x4--> 65033.png
+26-01-29 06:27:44.240 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 22.0965dB / 0.4399
+26-01-29 06:27:44.274 : --87 --> BSRGAN --> x4--> 66053.png
+26-01-29 06:27:44.340 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 24.4268dB / 0.5755
+26-01-29 06:27:44.375 : --88 --> BSRGAN --> x4--> 69015.png
+26-01-29 06:27:44.442 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 26.9152dB / 0.6725
+26-01-29 06:27:44.477 : --89 --> BSRGAN --> x4--> 69020.png
+26-01-29 06:27:44.542 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 24.4474dB / 0.4236
+26-01-29 06:27:44.577 : --90 --> BSRGAN --> x4--> 69040.png
+26-01-29 06:27:44.644 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 22.3339dB / 0.4975
+26-01-29 06:27:44.678 : --91 --> BSRGAN --> x4--> 76053.png
+26-01-29 06:27:44.744 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 26.1306dB / 0.5840
+26-01-29 06:27:44.779 : --92 --> BSRGAN --> x4--> 78004.png
+26-01-29 06:27:44.846 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 23.9111dB / 0.6577
+26-01-29 06:27:44.881 : --93 --> BSRGAN --> x4--> 8023.png
+26-01-29 06:27:44.947 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 26.4079dB / 0.7401
+26-01-29 06:27:44.982 : --94 --> BSRGAN --> x4--> 85048.png
+26-01-29 06:27:45.048 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 22.8296dB / 0.5876
+26-01-29 06:27:45.082 : --95 --> BSRGAN --> x4--> 86000.png
+26-01-29 06:27:45.149 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 22.7995dB / 0.6918
+26-01-29 06:27:45.183 : --96 --> BSRGAN --> x4--> 86016.png
+26-01-29 06:27:45.248 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 19.7975dB / 0.2011
+26-01-29 06:27:45.282 : --97 --> BSRGAN --> x4--> 86068.png
+26-01-29 06:27:45.347 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 24.6578dB / 0.4374
+26-01-29 06:27:45.381 : --98 --> BSRGAN --> x4--> 87046.png
+26-01-29 06:27:45.447 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 23.3915dB / 0.6674
+26-01-29 06:27:45.482 : --99 --> BSRGAN --> x4--> 89072.png
+26-01-29 06:27:45.550 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 24.0802dB / 0.6288
+26-01-29 06:27:45.585 : -100 --> BSRGAN --> x4--> 97033.png
+26-01-29 06:27:45.651 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/BSD100/LR-bicubic-matlab-v2, x4)---- : 22.0456dB / 0.6014
+26-01-29 06:27:45.686 : Computing FID...
+26-01-29 06:27:51.312 :  
+26-01-29 06:32:17.044 :       Model Name : BSRGAN
+26-01-29 06:32:18.163 :       Input Path : /root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2
+26-01-29 06:32:18.163 :      Output Path : /root/quoc-huy/all-tested-results/BSRGAN/Set14-LR-bicubic-matlab-v2
+26-01-29 06:32:18.164 : ---1 --> BSRGAN --> x4--> baboon.png
+26-01-29 06:32:18.367 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 20.1310dB / 0.3951
+26-01-29 06:32:18.545 : ---2 --> BSRGAN --> x4--> barbara.png
+26-01-29 06:32:18.722 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 23.1750dB / 0.6554
+26-01-29 06:32:18.781 : ---3 --> BSRGAN --> x4--> bridge.png
+26-01-29 06:32:18.898 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 22.4920dB / 0.4931
+26-01-29 06:32:18.944 : ---4 --> BSRGAN --> x4--> coastguard.png
+26-01-29 06:32:19.000 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 23.8491dB / 0.4527
+26-01-29 06:32:19.041 : ---5 --> BSRGAN --> x4--> comic.png
+26-01-29 06:32:19.094 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 19.9234dB / 0.5485
+26-01-29 06:32:19.130 : ---6 --> BSRGAN --> x4--> face.png
+26-01-29 06:32:19.176 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 29.0688dB / 0.6549
+26-01-29 06:32:19.211 : ---7 --> BSRGAN --> x4--> flowers.png
+26-01-29 06:32:19.299 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 24.2524dB / 0.6871
+26-01-29 06:32:19.339 : ---8 --> BSRGAN --> x4--> foreman.png
+26-01-29 06:32:19.391 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 26.0725dB / 0.8424
+26-01-29 06:32:19.424 : ---9 --> BSRGAN --> x4--> lenna.png
+26-01-29 06:32:19.536 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 28.2424dB / 0.7801
+26-01-29 06:32:19.578 : --10 --> BSRGAN --> x4--> man.png
+26-01-29 06:32:19.689 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 24.4553dB / 0.6352
+26-01-29 06:32:19.733 : --11 --> BSRGAN --> x4--> monarch.png
+26-01-29 06:32:19.905 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 26.9153dB / 0.8763
+26-01-29 06:32:19.959 : --12 --> BSRGAN --> x4--> pepper.png
+26-01-29 06:32:20.073 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 27.8149dB / 0.7964
+26-01-29 06:32:20.116 : --13 --> BSRGAN --> x4--> ppt3.png
+26-01-29 06:32:20.269 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 22.5369dB / 0.8819
+26-01-29 06:32:20.318 : --14 --> BSRGAN --> x4--> zebra.png
+26-01-29 06:32:20.422 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR-bicubic-matlab-v2, x4)---- : 22.4856dB / 0.5734
+26-01-29 06:32:20.465 : Computing FID...
+26-01-29 06:32:25.240 :  
+26-01-29 06:33:19.023 :       Model Name : BSRGAN
+26-01-29 06:33:20.143 :       Input Path : /root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR-bicubic-matlab-v2
+26-01-29 06:33:20.143 :      Output Path : /root/quoc-huy/all-tested-results/BSRGAN/Set5-LR-bicubic-matlab-v2
+26-01-29 06:33:20.144 : ---1 --> BSRGAN --> x4--> baby.png
+26-01-29 06:33:20.358 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR-bicubic-matlab-v2, x4)---- : 27.8238dB / 0.7711
+26-01-29 06:33:20.548 : ---2 --> BSRGAN --> x4--> bird.png
+26-01-29 06:33:20.597 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR-bicubic-matlab-v2, x4)---- : 26.9829dB / 0.7846
+26-01-29 06:33:20.637 : ---3 --> BSRGAN --> x4--> butterfly.png
+26-01-29 06:33:20.683 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR-bicubic-matlab-v2, x4)---- : 21.8608dB / 0.8087
+26-01-29 06:33:20.717 : ---4 --> BSRGAN --> x4--> head.png
+26-01-29 06:33:20.764 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR-bicubic-matlab-v2, x4)---- : 29.1927dB / 0.6630
+26-01-29 06:33:20.797 : ---5 --> BSRGAN --> x4--> woman.png
+26-01-29 06:33:20.838 : ----PSNR/SSIM for (/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR-bicubic-matlab-v2, x4)---- : 25.8073dB / 0.8249
+26-01-29 06:33:20.873 : Computing FID...
+26-01-29 06:33:25.337 :  

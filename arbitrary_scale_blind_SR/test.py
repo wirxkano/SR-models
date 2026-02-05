@@ -165,8 +165,8 @@ def evaluate(loader, model, device, hr_dir, save_dir, scale=None, data_norm=None
 	val_res_fid = utils.Averager()
 	val_res_niqe = utils.Averager()
 	
-	lpips_metric = pyiqa.create_metric('lpips', device=device)
-	niqe_metric = pyiqa.create_metric('niqe', device=device)
+	lpips_metric = pyiqa.create_metric('lpips', device='cpu')
+	niqe_metric = pyiqa.create_metric('niqe', device='cpu')
 	
 	pbar = tqdm(loader, leave=False, desc='test')
 	i = 1
@@ -195,69 +195,69 @@ def evaluate(loader, model, device, hr_dir, save_dir, scale=None, data_norm=None
 			except:
 				pdb.set_trace()
     
-		if pred_kernel:
-			blur_kernel = tensor2img(kernel, np.float32)
-			k_vis = np.clip(blur_kernel, 0, 1)
-			k_vis = k_vis / k_vis.max()
+		# if pred_kernel:
+		# 	blur_kernel = tensor2img(kernel, np.float32)
+		# 	k_vis = np.clip(blur_kernel, 0, 1)
+		# 	k_vis = k_vis / k_vis.max()
 			
-			fig, ax = plt.subplots(figsize=(4, 4))
-			ax.imshow(k_vis, cmap='gray', interpolation='nearest')
-			ax.axis('off')
+		# 	fig, ax = plt.subplots(figsize=(4, 4))
+		# 	ax.imshow(k_vis, cmap='gray', interpolation='nearest')
+		# 	ax.axis('off')
    
-			save_ker_path = os.path.join(save_dir, 'kernels', 'img_' + str(i).zfill(3) + '.png')
+		# 	save_ker_path = os.path.join(save_dir, 'kernels', 'img_' + str(i).zfill(3) + '.png')
 
-			fig.savefig(
-				save_ker_path,
-				dpi=350,
-				bbox_inches='tight',
-				pad_inches=0
-			)
-			plt.close(fig)
+		# 	fig.savefig(
+		# 		save_ker_path,
+		# 		dpi=350,
+		# 		bbox_inches='tight',
+		# 		pad_inches=0
+		# 	)
+		# 	plt.close(fig)
 
-		# with torch.no_grad():
-		# 	pred_np = pred.cpu().numpy()
-		# 	gt_np = batch['gt'].cpu().numpy()
+		with torch.no_grad():
+			pred_np = pred.cpu().numpy()
+			gt_np = batch['gt'].cpu().numpy()
 			
-		# 	batch_psnr = 0
-		# 	batch_ssim = 0
-		# 	batch_size = pred_np.shape[0]
+			batch_psnr = 0
+			batch_ssim = 0
+			batch_size = pred_np.shape[0]
 			
-		# 	for b in range(batch_size):
-		# 		pred_img = pred_np[b].transpose(1, 2, 0)
-		# 		gt_img = gt_np[b].transpose(1, 2, 0)
+			for b in range(batch_size):
+				pred_img = pred_np[b].transpose(1, 2, 0)
+				gt_img = gt_np[b].transpose(1, 2, 0)
 				
-		# 		pred_y = rgb2ycbcr(pred_img)[:, :, 0]
-		# 		gt_y = rgb2ycbcr(gt_img)[:, :, 0]
+				pred_y = rgb2ycbcr(pred_img)[:, :, 0]
+				gt_y = rgb2ycbcr(gt_img)[:, :, 0]
     
-		# 		psnr_val = peak_signal_noise_ratio(gt_y, pred_y, data_range=255.0)
-		# 		ssim_val = structural_similarity(gt_y, pred_y, data_range=255.0)
+				psnr_val = peak_signal_noise_ratio(gt_y, pred_y, data_range=255.0)
+				ssim_val = structural_similarity(gt_y, pred_y, data_range=255.0)
 				
-		# 		batch_psnr += psnr_val
-		# 		batch_ssim += ssim_val
+				batch_psnr += psnr_val
+				batch_ssim += ssim_val
 			
-		# 	batch_psnr /= batch_size
-		# 	batch_ssim /= batch_size
+			batch_psnr /= batch_size
+			batch_ssim /= batch_size
 			
-		# 	# Calculate LPIPS and NIQE using pyiqa (in RGB)
-		# 	lpips_val = lpips_metric(pred, batch['gt']).mean()
-		# 	niqe_val = niqe_metric(pred).mean()
+			# Calculate LPIPS and NIQE using pyiqa (in RGB)
+			lpips_val = lpips_metric(pred, batch['gt']).mean()
+			niqe_val = niqe_metric(pred).mean()
 			
 		saved_img = pred.squeeze(0)
 		saved_img = transforms.ToPILImage()(saved_img)
 		saved_img.save(os.path.join(save_dir, 'imgs', 'img_' + str(i).zfill(3) + '.png'))
 		i += 1
 
-		# val_res_psnr.add(batch_psnr, batch_size)
-		# val_res_ssim.add(batch_ssim, batch_size)
-		# val_res_lpips.add(lpips_val.item(), batch_size)
-		# val_res_niqe.add(niqe_val.item(), batch_size)
+		val_res_psnr.add(batch_psnr, batch_size)
+		val_res_ssim.add(batch_ssim, batch_size)
+		val_res_lpips.add(lpips_val.item(), batch_size)
+		val_res_niqe.add(niqe_val.item(), batch_size)
 		
 		if verbose:
 			pbar.set_description('psnr: {:.4f}, ssim: {:.4f}, lpips: {:.4f}, niqe: {:.4f}'\
 				.format(val_res_psnr.item(), val_res_ssim.item(), val_res_lpips.item(), val_res_niqe.item()))
    
-		# del pred_np, gt_np, pred_img, gt_img, pred_y, gt_y, saved_img
-		# del batch, pred, lpips_val, niqe_val
+		del pred_np, gt_np, pred_img, gt_img, pred_y, gt_y, saved_img
+		del batch, pred, lpips_val, niqe_val
   
 		torch.cuda.empty_cache()
 		print(f"Allocated: {torch.cuda.memory_allocated()/1024**3:.2f} GB")
@@ -265,10 +265,8 @@ def evaluate(loader, model, device, hr_dir, save_dir, scale=None, data_norm=None
   	
 	# Calculate FID on all collected images (in RGB)
 	with torch.no_grad():
-		# all_preds_tensor = torch.cat(all_preds, dim=0)
-		# all_gts_tensor = torch.cat(all_gts, dim=0)
-		fid_metric = pyiqa.create_metric('fid', device=device)
-		fid_val = fid_metric(save_dir, hr_dir)
+		fid_metric = pyiqa.create_metric('fid', device='cpu')
+		fid_val = fid_metric(save_dir + "/imgs", hr_dir)
 		val_res_fid.add(fid_val.item(), 1)
 
 	return {

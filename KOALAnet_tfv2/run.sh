@@ -3,10 +3,10 @@
 # python main.py --phase 'test' --test_data_path '/root/quoc-huy/KOALAnet/testset/Set5/LR/X4/imgs' --test_label_path '/root/quoc-huy/KOALAnet/testset/Set5/HR' --test_ckpt_path '/root/quoc-huy/KOALAnet/pretrained'
 # python main.py --phase 'test' --test_data_path '/root/quoc-huy/KOALAnet/testset/Set14/LR/X4/imgs' --test_label_path '/root/quoc-huy/KOALAnet/testset/Set14/HR' --test_ckpt_path '/root/quoc-huy/KOALAnet/pretrained'
 python main.py --phase 'test'\
- --test_data_path '/root/quoc-huy/materials/Urban100/imgs' \
- --test_label_path '/root/quoc-huy/KOALAnet/testset/Urban100/HR' \
+ --test_data_path '/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR-bicubic-matlab-v2' \
+ --test_label_path '/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/HR' \
  --test_ckpt_path '/root/quoc-huy/KOALAnet/pretrained' \
- --save_dir /root/quoc-huy/all-tested-results/KOALAnet/Urban100
+ --save_dir /root/quoc-huy/all-tested-results/KOALAnet/Set5-matlab-v2
 # python main.py --phase 'test' --test_data_path '/root/quoc-huy/KOALAnet/testset/Urban100/LR/X4/imgs' --test_label_path '/root/quoc-huy/KOALAnet/testset/Urban100/HR' --test_ckpt_path '/root/quoc-huy/KOALAnet/pretrained'
 
 

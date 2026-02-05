@@ -13,7 +13,7 @@ sig: 3.0
 sig1: 6
 sig2: 1
 theta: 0.7853981633974483
-rate_iso: 0 # 1 for iso, 0 for aniso
+rate_iso: 1 # 1 for iso, 0 for aniso
 sv_mode: 0 # 0 for spatially invariant kernel, 1-5 for spatially variant kernel types as in Table 2
 test_noise: False
 noise: 0
@@ -25,10 +25,10 @@ cal_lr_psnr: False # calculate lr pixel consumes huge memory
 
 datasets:
   # example1: HR input only (generating LR on-the-fly)
-  # test_1:
-  #   name: Set5
+  # test_3:
+  #   name: Urban100-on-the-fly
   #   mode: GT
-  #   dataroot_GT: /root/media/quoc-huy/eval-set/Set5
+  #   dataroot_GT: /root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/HR
     # dataroot_LQ: /root/media/quoc-huy/blur-DAN/Set5/LRbic
   # test_2:
   #   name: Set14
@@ -36,10 +36,10 @@ datasets:
   #   dataroot_GT: /root/media/quoc-huy/eval-set/Set14
   #   dataroot_LQ: /root/media/quoc-huy/blur-DAN/Set14/LRbic
   test_3:
-    name: Urban100
+    name: Set5-bic-matlab-v2
     mode: GTLQ
-    dataroot_GT: /root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/HR
-    dataroot_LQ: /root/quoc-huy/materials/Urban100/imgs
+    dataroot_GT: /root/media/quoc-huy/eval-wir/srbenchmarks/Set5/HR
+    dataroot_LQ: /root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR-bicubic-matlab-v2
   # test_4:
   #   name: Urban100
   #   mode: GTLQ

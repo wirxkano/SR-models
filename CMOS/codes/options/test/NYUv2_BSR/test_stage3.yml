@@ -5,7 +5,7 @@ gpu_ids: [0]
 kernel_size: 21
 code_length: 64
 n_classes: 40
-val_blur: true
+val_blur: false
 val_seg: false
 val_sr: true
 
@@ -43,9 +43,9 @@ datasets:
   #   dataroot_blur: ~
   #   dataroot_seg: ~
   test_4:
-    name: Urban100
+    name: Urban100-bicubic-matlab-v2
     dataroot_GT: /root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/HR
-    dataroot_LR: /root/quoc-huy/materials/Urban100/imgs
+    dataroot_LR: /root/media/quoc-huy/eval-wir/srbenchmarks/Urban100/LR-bicubic-matlab-v2
     dataroot_blur: ~
     dataroot_seg: ~
 

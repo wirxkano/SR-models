@@ -324,7 +324,7 @@ class Trainer():
                     
                     # inference
                     timer_test.tic()
-                    sr, degradation = self.model(lr)
+                    sr = self.model(lr)
                     timer_test.hold()
                     
                     _, _, sr_h, sr_w = sr.shape

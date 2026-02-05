@@ -29,11 +29,11 @@
 #   --model_path /root/quoc-huy/Real-ESRGAN/experiments/pretrained_models/net_g_95000_gan_custom.pth
 
 python inference_realesrgan.py \
-  -i /root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR_bsrgan \
-  -o /root/quoc-huy/all-tested-results/Real-ESRGAN/Set5-LR_bsrgan \
+  -i /root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR-bicubic-matlab-v2 \
+  -o /root/quoc-huy/all-tested-results/Real-ESRGAN/Set5-LR-bicubic-matlab-v2 \
   --ground_truth /root/media/quoc-huy/eval-wir/srbenchmarks/Set5/HR \
   --model_name RealESRGAN_x4plus \
-  --model_path /root/quoc-huy/Real-ESRGAN/experiments/pretrained_models/net_g_530000.pth
+  --model_path /root/quoc-huy/Real-ESRGAN/experiments/pretrained_models/net_g_400000_gan.pth
 
 # python inference_realesrgan.py \
 #   -i /root/media/quoc-huy/eval-wir/srbenchmarks/Set14/LR \

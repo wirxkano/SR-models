@@ -7,7 +7,29 @@ from models import register
 from utils import make_coord
 
 import numpy as np
-import pdb
+import time
+
+def cuda_step_time(tag, fn):
+    if not torch.cuda.is_available():
+        start = time.perf_counter()
+        out = fn()
+        end = time.perf_counter()
+        print(f"{tag}: {(end-start)*1000:.2f} ms (CPU)")
+        return out
+
+    starter = torch.cuda.Event(enable_timing=True)
+    ender = torch.cuda.Event(enable_timing=True)
+
+    torch.cuda.synchronize()
+    starter.record()
+
+    out = fn()
+
+    ender.record()
+    torch.cuda.synchronize()
+
+    print(f"{tag}: {starter.elapsed_time(ender):.2f} ms")
+    return out
 
 @register('lte')
 class LTE(nn.Module):
@@ -34,6 +56,88 @@ class LTE(nn.Module):
         self.freqq = self.freq(self.feat)
         return self.feat
 
+    # def query_rgb(self, coord, cell=None):
+    #     feat = self.feat
+    #     coef = self.coeff
+    #     freq = self.freqq
+
+    #     vx_lst = [-1, 1]
+    #     vy_lst = [-1, 1]
+    #     eps_shift = 1e-6 
+
+    #     # field radius (global: [-1, 1])
+    #     rx = 2 / feat.shape[-2] / 2
+    #     ry = 2 / feat.shape[-1] / 2
+
+    #     feat_coord = self.feat_coord
+
+    #     preds = []
+    #     areas = []
+    #     for vx in vx_lst:
+    #         for vy in vy_lst:
+    #             # prepare coefficient & frequency
+    #             def prepare_coef_freq():
+    #                 coord_ = coord.clone()
+    #                 coord_[:, :, 0] += vx * rx + eps_shift
+    #                 coord_[:, :, 1] += vy * ry + eps_shift
+    #                 coord_.clamp_(-1 + 1e-6, 1 - 1e-6)
+    #                 q_coef = F.grid_sample(
+    #                     coef, coord_.flip(-1).unsqueeze(1),
+    #                     mode='nearest', align_corners=False)[:, :, 0, :] \
+    #                     .permute(0, 2, 1)
+    #                 q_freq = F.grid_sample(
+    #                     freq, coord_.flip(-1).unsqueeze(1),
+    #                     mode='nearest', align_corners=False)[:, :, 0, :] \
+    #                     .permute(0, 2, 1)
+    #                 q_coord = F.grid_sample(
+    #                     feat_coord, coord_.flip(-1).unsqueeze(1),
+    #                     mode='nearest', align_corners=False)[:, :, 0, :] \
+    #                     .permute(0, 2, 1)
+    #                 rel_coord = coord - q_coord
+    #                 rel_coord[:, :, 0] *= feat.shape[-2]
+    #                 rel_coord[:, :, 1] *= feat.shape[-1]
+                    
+    #                 return rel_coord, q_coef, q_freq
+                
+    #             rel_coord, q_coef, q_freq = cuda_step_time("prepare coef & freq", prepare_coef_freq)
+                
+    #             # prepare cell
+    #             def prepare_cell():
+    #                 rel_cell = cell.clone()
+    #                 rel_cell[:, :, 0] *= feat.shape[-2]
+    #                 rel_cell[:, :, 1] *= feat.shape[-1]
+    #                 return rel_cell
+                
+    #             rel_cell = cuda_step_time("prepare cell", prepare_cell)
+                
+    #             # basis generation
+    #             bs, q = coord.shape[:2]
+    #             q_freq = torch.stack(torch.split(q_freq, 2, dim=-1), dim=-1)
+    #             q_freq = torch.mul(q_freq, rel_coord.unsqueeze(-1))
+    #             q_freq = torch.sum(q_freq, dim=-2)
+    #             q_freq += cuda_step_time("phase", lambda: self.phase(rel_cell.view((bs * q, -1))).view(bs, q, -1))
+
+    #             q_freq = torch.cat((torch.cos(np.pi*q_freq), torch.sin(np.pi*q_freq)), dim=-1)
+
+    #             inp = torch.mul(q_coef, q_freq)            
+    #             pred = cuda_step_time("imnet", lambda: self.imnet(inp.contiguous().view(bs * q, -1)).view(bs, q, -1))
+    #             preds.append(pred)
+
+    #             area = torch.abs(rel_coord[:, :, 0] * rel_coord[:, :, 1])
+    #             areas.append(area + 1e-9)
+
+    #     tot_area = torch.stack(areas).sum(dim=0)
+    #     t = areas[0]; areas[0] = areas[3]; areas[3] = t
+    #     t = areas[1]; areas[1] = areas[2]; areas[2] = t
+        
+    #     ret = 0
+    #     for pred, area in zip(preds, areas):
+    #         ret = ret + pred * (area / tot_area).unsqueeze(-1)
+    #     ret += cuda_step_time("final grid sample", lambda: F.grid_sample(self.inp, coord.flip(-1).unsqueeze(1), mode='bilinear',\
+    #                   padding_mode='border', align_corners=False)[:, :, 0, :] \
+    #                   .permute(0, 2, 1))
+    #     return ret
+
     def query_rgb(self, coord, cell=None):
         feat = self.feat
         coef = self.coeff
@@ -42,71 +146,72 @@ class LTE(nn.Module):
         vx_lst = [-1, 1]
         vy_lst = [-1, 1]
         eps_shift = 1e-6 
-
-        # field radius (global: [-1, 1])
         rx = 2 / feat.shape[-2] / 2
         ry = 2 / feat.shape[-1] / 2
-
         feat_coord = self.feat_coord
 
-        preds = []
-        areas = []
-        for vx in vx_lst:
-            for vy in vy_lst:
-                # prepare coefficient & frequency
-                coord_ = coord.clone()
-                coord_[:, :, 0] += vx * rx + eps_shift
-                coord_[:, :, 1] += vy * ry + eps_shift
-                coord_.clamp_(-1 + 1e-6, 1 - 1e-6)
-                q_coef = F.grid_sample(
-                    coef, coord_.flip(-1).unsqueeze(1),
-                    mode='nearest', align_corners=False)[:, :, 0, :] \
-                    .permute(0, 2, 1)
-                q_freq = F.grid_sample(
-                    freq, coord_.flip(-1).unsqueeze(1),
-                    mode='nearest', align_corners=False)[:, :, 0, :] \
-                    .permute(0, 2, 1)
-                q_coord = F.grid_sample(
-                    feat_coord, coord_.flip(-1).unsqueeze(1),
-                    mode='nearest', align_corners=False)[:, :, 0, :] \
-                    .permute(0, 2, 1)
-                rel_coord = coord - q_coord
-                rel_coord[:, :, 0] *= feat.shape[-2]
-                rel_coord[:, :, 1] *= feat.shape[-1]
-                
-                # prepare cell
-                rel_cell = cell.clone()
-                rel_cell[:, :, 0] *= feat.shape[-2]
-                rel_cell[:, :, 1] *= feat.shape[-1]
-                
-                # basis generation
-                bs, q = coord.shape[:2]
-                q_freq = torch.stack(torch.split(q_freq, 2, dim=-1), dim=-1)
-                q_freq = torch.mul(q_freq, rel_coord.unsqueeze(-1))
-                q_freq = torch.sum(q_freq, dim=-2)
-                q_freq += self.phase(rel_cell.view((bs * q, -1))).view(bs, q, -1)
-
-                q_freq = torch.cat((torch.cos(np.pi*q_freq), torch.sin(np.pi*q_freq)), dim=-1)
-
-                inp = torch.mul(q_coef, q_freq)            
-                pred = self.imnet(inp.contiguous().view(bs * q, -1)).view(bs, q, -1)
-                preds.append(pred)
-
-                area = torch.abs(rel_coord[:, :, 0] * rel_coord[:, :, 1])
-                areas.append(area + 1e-9)
-
-        tot_area = torch.stack(areas).sum(dim=0)
-        t = areas[0]; areas[0] = areas[3]; areas[3] = t
-        t = areas[1]; areas[1] = areas[2]; areas[2] = t
+        def process_all_neighbors():
+            preds = []
+            areas = []
+            for vx in vx_lst:
+                for vy in vy_lst:
+                    coord_ = coord.clone()
+                    coord_[:, :, 0] += vx * rx + eps_shift
+                    coord_[:, :, 1] += vy * ry + eps_shift
+                    coord_.clamp_(-1 + 1e-6, 1 - 1e-6)
+                    
+                    q_coef = F.grid_sample(coef, coord_.flip(-1).unsqueeze(1),
+                        mode='nearest', align_corners=False)[:, :, 0, :].permute(0, 2, 1)
+                    q_freq = F.grid_sample(freq, coord_.flip(-1).unsqueeze(1),
+                        mode='nearest', align_corners=False)[:, :, 0, :].permute(0, 2, 1)
+                    q_coord = F.grid_sample(feat_coord, coord_.flip(-1).unsqueeze(1),
+                        mode='nearest', align_corners=False)[:, :, 0, :].permute(0, 2, 1)
+                    
+                    rel_coord = coord - q_coord
+                    rel_coord[:, :, 0] *= feat.shape[-2]
+                    rel_coord[:, :, 1] *= feat.shape[-1]
+                    
+                    rel_cell = cell.clone()
+                    rel_cell[:, :, 0] *= feat.shape[-2]
+                    rel_cell[:, :, 1] *= feat.shape[-1]
+                    
+                    bs, q = coord.shape[:2]
+                    q_freq = torch.stack(torch.split(q_freq, 2, dim=-1), dim=-1)
+                    q_freq = torch.mul(q_freq, rel_coord.unsqueeze(-1))
+                    q_freq = torch.sum(q_freq, dim=-2)
+                    q_freq += self.phase(rel_cell.view((bs * q, -1))).view(bs, q, -1)
+                    q_freq = torch.cat((torch.cos(np.pi*q_freq), torch.sin(np.pi*q_freq)), dim=-1)
+                    
+                    inp = torch.mul(q_coef, q_freq)            
+                    pred = self.imnet(inp.contiguous().view(bs * q, -1)).view(bs, q, -1)
+                    preds.append(pred)
+                    
+                    area = torch.abs(rel_coord[:, :, 0] * rel_coord[:, :, 1])
+                    areas.append(area + 1e-9)
+            
+            return preds, areas
         
-        ret = 0
-        for pred, area in zip(preds, areas):
-            ret = ret + pred * (area / tot_area).unsqueeze(-1)
-        ret += F.grid_sample(self.inp, coord.flip(-1).unsqueeze(1), mode='bilinear',\
-                      padding_mode='border', align_corners=False)[:, :, 0, :] \
-                      .permute(0, 2, 1)
+        preds, areas = cuda_step_time("FULL 4-neighbor loop", process_all_neighbors)
+        
+        def post_process():
+            tot_area = torch.stack(areas).sum(dim=0)
+            t = areas[0]; areas[0] = areas[3]; areas[3] = t
+            t = areas[1]; areas[1] = areas[2]; areas[2] = t
+            
+            ret = 0
+            for pred, area in zip(preds, areas):
+                ret = ret + pred * (area / tot_area).unsqueeze(-1)
+            return ret
+        
+        ret = cuda_step_time("post-processing", post_process)
+        
+        ret += cuda_step_time("final grid sample", 
+            lambda: F.grid_sample(self.inp, coord.flip(-1).unsqueeze(1), 
+                mode='bilinear', padding_mode='border', align_corners=False)[:, :, 0, :].permute(0, 2, 1))
+        
         return ret
-
+    
     def forward(self, inp, coord, cell, degrade=None):
-        self.gen_feat(inp, degrade)
-        return self.query_rgb(coord, cell)
+        cuda_step_time("gen feat", lambda: self.gen_feat(inp, degrade))
+        query = cuda_step_time("query rgb", lambda: self.query_rgb(coord, cell))
+        return query

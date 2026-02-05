@@ -28,14 +28,14 @@
 python test.py --test_only \
                --custom_testset=True \
                --hr_folder='/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/HR' \
-               --lr_folder='/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LRblur_matlab_aniso' \
-               --save_folder='/root/quoc-huy/all-tested-results/DASR/Set5-LRblur_matlab_aniso' \
+               --lr_folder='/root/media/quoc-huy/eval-wir/srbenchmarks/Set5/LR-bicubic-matlab-v2' \
+               --save_folder='/root/quoc-huy/all-tested-results/DASR/Set5-LR-bicubic-matlab-v2' \
                --dir_data='/root/media/quoc-huy/eval-wir/srbenchmarks' \
                --data_test='Set5' \
                --model='blindsr' \
                --scale='4' \
                --resume=600 \
-               --blur_type='aniso_gaussian' \
+               --blur_type='iso_gaussian' \
                --noise=0 \
                --sig=0.0 \
                --calc_psnr=True

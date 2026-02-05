@@ -129,3 +129,40 @@ def draw_plot_across_datasets(path: str, sheet_name: str, datasets: list, metric
     plt.tight_layout()
     plt.show()
     
+def draw_bar_chart_flops():
+    methods = ["DAN", "DASR", "MANet", "Real-ESRGAN", "BSRGAN", "KOALAnet", "DCLS", "CMOS", "ASBSR"]
+    gflops = [2500.74, 421.82, 1198.40, 2350.48, 2350.48, 25.90, 993.58, 2513.86, 1864.59]
+    
+    plt.bar(methods, gflops)
+    plt.xlabel("Method")
+    plt.ylabel("GFLOPS")
+    plt.title("GFLOPS Comparison")
+    
+    plt.show()
+    
+def draw_line_chart_exetime():
+    methods = ["DAN", "DASR", "MANet", "Real-ESRGAN", "BSRGAN", "KOALAnet", "DCLS", "CMOS", "ASBSR"]
+    time_2080 = [366.16, 86.11, 176.64, 223.39, 288.05, 213.49, 176.80, 477.25, 1347.41]
+    time_p100 = [351.53, 85.20, 164.32, 334.98, 263.99, 205.35, 185.16, 552.31, 1344.22]
+    time_a100 = [146.79, 57.20, 63.03, 138.55, 126.79, 62.65, 433.26, 531.79, 518.65]
+    
+    time_dict = {
+        "2080 Super": time_2080,
+        "P100": time_p100,
+        "A100": time_a100
+    }
+    
+    markers = ['o', 's', '^']
+    
+    for i, (name, exetime) in enumerate(time_dict.items()):
+        plt.plot(methods, exetime, linewidth=2, marker=markers[i], label=name)
+        
+    plt.xlabel("Method")
+    plt.ylabel("Execution Time (ms)")
+    plt.title("Execution Time Comparison")
+    plt.xticks(rotation=45, ha="right")
+    
+    plt.legend(title="GPU")
+    
+    plt.show()
+    

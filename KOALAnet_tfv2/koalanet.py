@@ -549,10 +549,10 @@ class KOALAnet:
 
 			avg_inf_time += inf_time
    
-			# output_test = (output_test + 1) / 2
-			# test_hr  = (test_hr  + 1) / 2
-			# output_test = output_test.clip(0, 1)
-			# test_hr = test_hr.clip(0, 1)
+			output_test = (output_test + 1) / 2
+			test_hr  = (test_hr  + 1) / 2
+			output_test = output_test.clip(0, 1)
+			test_hr = test_hr.clip(0, 1)
    
 			print(output_test.min(), output_test.max())
    
@@ -616,7 +616,7 @@ class KOALAnet:
 			
 			# Calculate FID on RGB
 			fid_metric = pyiqa.create_metric('fid', device='cuda' if torch.cuda.is_available() else 'cpu')
-			avg_test_FID = fid_metric(self.save_dir, self.test_label_path).item()
+			avg_test_FID = fid_metric(self.save_dir + "/imgs", self.test_label_path).item()
 			
 			print("######### Average Test PSNR (Y): %.2f[dB]  #########" % avg_test_PSNR)
 			print("######### Average Test SSIM (Y): %.4f  #########" % avg_test_SSIM)

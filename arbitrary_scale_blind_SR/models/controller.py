@@ -1,4 +1,4 @@
-import pdb
+import time
 from pytorch_wavelets import DWTForward
 
 import torch
@@ -8,6 +8,29 @@ import models
 from models import register
 from utils import wave, make_coord
 from datasets import blur
+
+def cuda_step_time(tag, fn):
+    if not torch.cuda.is_available():
+        start = time.perf_counter()
+        out = fn()
+        end = time.perf_counter()
+        print(f"{tag}: {(end-start)*1000:.2f} ms (CPU)")
+        return out
+
+    starter = torch.cuda.Event(enable_timing=True)
+    ender = torch.cuda.Event(enable_timing=True)
+
+    torch.cuda.synchronize()
+    starter.record()
+
+    out = fn()
+
+    ender.record()
+    torch.cuda.synchronize()
+
+    print(f"{tag}: {starter.elapsed_time(ender):.2f} ms")
+    return out
+
 
 @register('models')
 class Model(nn.Module):
@@ -43,41 +66,64 @@ class Model(nn.Module):
 		self.gt_sub = torch.FloatTensor(t['sub']).view(1, 1, -1).to(self.device)
 		self.gt_div = torch.FloatTensor(t['div']).view(1, 1, -1).to(self.device)
 	
+	# def forward(self, lr, coord=None, cell=None, scale=None, kernel=None, state='test'):
+	# 	with torch.no_grad():
+	# 		# wavelet transform
+	# 		w = wave(lr, self.wav) 
+	# 		feature = self.encoder(w) # fix
+		
+	# 	if state == 'train':
+	# 		kernel = self.kernel(feature) # (B, k, k)
+	# 		lr_coord = make_coord((self.inp_size, self.inp_size))[None, ...]\
+	# 					.expand(self.bs, -1, -1).to(self.device)
+	# 		lr_cell = torch.ones_like(lr_coord).to(self.device)
+	# 		lr_cell[..., 0] *= 2 / self.inp_size
+	# 		lr_cell[..., 1] *= 2 / self.inp_size
+			
+	# 		coord = torch.cat((coord, lr_coord), dim=1)
+	# 		cell = torch.cat((cell, lr_cell), dim=1)
+   
+	# 	else:
+	# 		kernel = self.kernel(feature) # (B, k, k)
+		
+	# 	inp = (lr - self.inp_sub) / self.inp_div
+	# 	pred_rgb = self.SR(inp, coord, cell, feature)
+	# 	pred_rgb = pred_rgb*self.gt_div+self.gt_sub
+	# 	pred_rgb.clamp_(0, 1)
+		
+	# 	if state == 'train':
+	# 		pred_rgb, lr_clean = torch.split(pred_rgb, [self.qpt, self.inp_size**2], dim=1)
+	# 		lr_blur = self.blur(lr_clean.permute(0, 2, 1).\
+	# 				reshape(self.bs,  -1, self.inp_size, self.inp_size), kernel, 21)
+	# 		### if add noise, these have to uncomment
+	# 		#noise_level = torch.rand(self.bs, 1, 1, 1).to(self.device) * 10 
+	# 		#noise = torch.randn_like(lr_blur).mul_(noise_level)
+	# 		#lr_blur.add_(noise)
+	# 		return pred_rgb, lr_blur, kernel
+					  
+	# 	return pred_rgb, kernel
 
 	def forward(self, lr, coord=None, cell=None, scale=None, kernel=None, state='test'):
 		with torch.no_grad():
-			# wavelet transform
-			w = wave(lr, self.wav) 
-			feature = self.encoder(w) # fix
-		
-		if state == 'train':
-			kernel = self.kernel(feature) # (B, k, k)
-			lr_coord = make_coord((self.inp_size, self.inp_size))[None, ...]\
-						.expand(self.bs, -1, -1).to(self.device)
-			lr_cell = torch.ones_like(lr_coord).to(self.device)
-			lr_cell[..., 0] *= 2 / self.inp_size
-			lr_cell[..., 1] *= 2 / self.inp_size
-			
-			coord = torch.cat((coord, lr_coord), dim=1)
-			cell = torch.cat((cell, lr_cell), dim=1)
-		
-		inp = (lr - self.inp_sub) / self.inp_div
-		pred_rgb = self.SR(inp, coord, cell, feature)
-		pred_rgb = pred_rgb*self.gt_div+self.gt_sub
-		pred_rgb.clamp_(0, 1)
-  
-		kernel = self.kernel(feature) # (B, k, k)
-		
-		if state == 'train':
-			pred_rgb, lr_clean = torch.split(pred_rgb, [self.qpt, self.inp_size**2], dim=1)
-			lr_blur = self.blur(lr_clean.permute(0, 2, 1).\
-					reshape(self.bs,  -1, self.inp_size, self.inp_size), kernel, 21)
-			### if add noise, these have to uncomment
-			#noise_level = torch.rand(self.bs, 1, 1, 1).to(self.device) * 10 
-			#noise = torch.randn_like(lr_blur).mul_(noise_level)
-			#lr_blur.add_(noise)
-			return pred_rgb, lr_blur, kernel
-					  
-		return pred_rgb, kernel
 
-		
+			w = cuda_step_time("wavelet", lambda: wave(lr, self.wav))
+
+			feature = cuda_step_time("encoder", lambda: self.encoder(w))
+
+			kernel = cuda_step_time("kernel net", lambda: self.kernel(feature))
+
+			inp = cuda_step_time("normalize",
+								lambda: (lr - self.inp_sub) / self.inp_div)
+
+			def sr_block():
+				out = self.SR(inp, coord, cell, feature)
+				out = out * self.gt_div + self.gt_sub
+				out.clamp_(0, 1)
+				return out
+
+			pred_rgb = cuda_step_time("SR forward", sr_block)
+
+			print("==========")
+
+		return pred_rgb, kernel
+	

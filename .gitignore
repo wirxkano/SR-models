@@ -1,4 +1,5 @@
 __pycache__
+.env
 materials
 
 all-tested-results
@@ -29,4 +30,3 @@ CMOS/results
 FKP
 metakernelgan
 KAIR
-bicubic

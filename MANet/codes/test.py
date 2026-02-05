@@ -59,7 +59,8 @@ for test_loader in test_loaders:
     test_start_time = time.time()
     save_dir = "/root/quoc-huy/all-tested-results/MANet"
     dataset_dir = os.path.join(save_dir, test_set_name)
-    util.mkdir(dataset_dir)
+    util.mkdir(dataset_dir + "/imgs")
+    util.mkdir(dataset_dir + "/kernels")
 
     test_results = OrderedDict()
     test_results['psnr'] = []
@@ -266,7 +267,7 @@ for test_loader in test_loaders:
     
     fid_metric = pyiqa.create_metric('fid', device=device)
     hr_dir = opt["datasets"]["test_3"]["dataroot_GT"]
-    fid_val = fid_metric(dataset_dir, hr_dir).item()
+    fid_val = fid_metric(dataset_dir + "/imgs", hr_dir).item()
     if not real_image:  # metrics
         # Average PSNR/SSIM results
         ave_psnr = sum(test_results['psnr']) / len(test_results['psnr'])

@@ -51,6 +51,7 @@ with torch.no_grad():
         end = time.perf_counter_ns()
 
 # print(prof.key_averages().table(sort_by="flops", row_limit=10))
+# prof.export_chrome_trace("trace.json")
 
 total_flops = sum([event.flops for event in prof.key_averages()])
 print(f"\n#### Total FLOPs: {total_flops:,}")

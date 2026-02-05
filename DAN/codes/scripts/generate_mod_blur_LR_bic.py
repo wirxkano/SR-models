@@ -20,7 +20,7 @@ def generate_mod_LR_bic():
     up_scale = 4
     mod_scale = 4
     # set data dir
-    datasetname = "BSD100"
+    datasetname = "Urban100"
     sourcedir = f"/root/media/quoc-huy/eval-wir/srbenchmarks/{datasetname}/HR"
     savedir = f"/root/media/quoc-huy/eval-wir/srbenchmarks/{datasetname}"
     if not os.path.exists(savedir):
@@ -50,7 +50,7 @@ def generate_mod_LR_bic():
     # saveLRpath = os.path.join(savedir, "LR", "x" + str(up_scale))
     # saveBicpath = os.path.join(savedir, "Bic", "x" + str(up_scale))
     # saveLRblurpath = os.path.join(savedir, "LRblur", "x" + str(up_scale))
-    saveLRblurpath = os.path.join(savedir, "LRblur_matlab_sig1.6")
+    saveLRblurpath = os.path.join(savedir, "LRmatlab_without_sig")
 
     if not os.path.isdir(sourcedir):
         print("Error: No source data found")
@@ -112,7 +112,7 @@ def generate_mod_LR_bic():
         img_HR = util.img2tensor(image_HR)
         C, H, W = img_HR.size()
         
-        for sig in np.linspace(1.6, 1.6, 1):
+        for sig in np.linspace(2.0, 2.0, 1):
 
             prepro = util.SRMDPreprocessing(sig=sig, **degradation_setting)
 

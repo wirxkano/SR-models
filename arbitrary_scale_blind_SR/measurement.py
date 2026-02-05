@@ -8,6 +8,7 @@ from models.controller import *
 from utils import make_coord
 
 device = torch.device("cuda")
+print(device)
 
 yaml_path = "/root/quoc-huy/arbitrary_scale_blind_SR/configs/train-div2k/train_SR.yaml"
 with open(yaml_path, "r") as f:
@@ -41,18 +42,20 @@ with torch.no_grad():
 with torch.no_grad():
     with profile(
         activities=[ProfilerActivity.CPU, ProfilerActivity.CUDA],
-        with_flops=True
+        with_flops=True,
+        on_trace_ready=torch.profiler.tensorboard_trace_handler("./log/asbsr")
     ) as prof:
         if device.type == 'cuda':
                 torch.cuda.synchronize()
         start = time.perf_counter_ns()
         model(inputs, coord, cell)
-        
         if device.type == 'cuda':
                 torch.cuda.synchronize()
         end = time.perf_counter_ns()
 
 # print(prof.key_averages().table(sort_by="flops", row_limit=10))
+
+# prof.export_chrome_trace("trace_asbsr.json")
 
 total_flops = sum([event.flops for event in prof.key_averages()])
 print(f"\n#### Total FLOPs: {total_flops:,}")

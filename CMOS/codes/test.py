@@ -153,7 +153,7 @@ for test_loader in test_loaders:
 
         # deal with blur
         if opt['val_blur']:
-            continue
+            pass
             save_blur_path = os.path.join(dataset_dir, 'blur')
             util.mkdir(save_blur_path)
             save_blur_path = os.path.join(save_blur_path, '{:s}.png'.format(img_name))
@@ -165,7 +165,7 @@ for test_loader in test_loaders:
 
         # deal with seg
         if opt['val_seg']:
-            continue
+            pass
             save_seg_path = os.path.join(dataset_dir, 'seg')
             util.mkdir(save_seg_path)
             save_seg_path = os.path.join(save_seg_path, '{:s}.png'.format(img_name))
